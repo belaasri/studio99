@@ -4,7 +4,7 @@ import { useActionState } from "react";
 import { useFormStatus } from "react-dom";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import { Download, Link as LinkIcon, Loader2 } from "lucide-react";
+import { Download, Link as LinkIcon, Loader2, ImageDown } from "lucide-react";
 
 import { getVidSyncData, FormState } from "@/app/actions";
 import { Button } from "@/components/ui/button";
@@ -96,9 +96,17 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
             {!pending && data && (
               <div className="w-full space-y-4">
                 <div className="w-full space-y-2">
-                  <h3 className="text-lg font-semibold leading-none tracking-tight">
-                    Preview
-                  </h3>
+                  <div className="flex justify-between items-center">
+                    <h3 className="text-lg font-semibold leading-none tracking-tight">
+                      Preview
+                    </h3>
+                    <Button asChild variant="outline" size="sm">
+                      <a href={data.staticPreviewUrl} download={`preview.jpg`}>
+                        <ImageDown className="mr-2 h-4 w-4" />
+                        Download
+                      </a>
+                    </Button>
+                  </div>
                   <div className="relative aspect-video w-full overflow-hidden rounded-lg border-2 border-primary/20 shadow-lg">
                     <Image
                       src={data.staticPreviewUrl}
@@ -133,7 +141,7 @@ export function VidSyncPortal() {
     if (!state.message) return;
 
     if (state.message === "Success") {
-      formRef.current?.reset();
+      // formRef.current?.reset();
     } else {
       toast({
         variant: "destructive",
