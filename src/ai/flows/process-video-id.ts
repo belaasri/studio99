@@ -38,7 +38,10 @@ const fetchVideoTool = ai.defineTool({
   }),
 },
 async (input) => {
-    const videoDownloadUrl = `https://example.com/api/download?videoId=${input.videoId}`;
+    // This is a placeholder and will not work in production.
+    // In a real application, you would use a service like ytdl-core or a dedicated API 
+    // to fetch the video download URL.
+    const videoDownloadUrl = `https://example.com/download?v=${input.videoId}`;
     const staticPreviewUrl = `https://img.youtube.com/vi/${input.videoId}/0.jpg`;
 
     return {
