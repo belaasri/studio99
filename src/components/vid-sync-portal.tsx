@@ -65,8 +65,7 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
               <div className="w-full space-y-3">
                 <Skeleton className="h-8 w-1/3" />
                 <Skeleton className="aspect-video w-full" />
-                <div className="grid grid-cols-2 gap-4">
-                  <Skeleton className="h-12 w-full" />
+                <div className="grid grid-cols-1 gap-4">
                   <Skeleton className="h-12 w-full" />
                 </div>
               </div>
@@ -87,19 +86,13 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
                     />
                   </div>
                 </div>
-                <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2">
+                <div className="grid w-full grid-cols-1 gap-4">
                    <Button asChild variant="outline" size="lg" className="h-12 text-base border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700">
                       <a href={data.staticPreviewUrl} download={`preview.jpg`}>
                         <ImageDown className="mr-2 h-5 w-5" />
                         Download Thumbnail
                       </a>
                     </Button>
-                  <Button asChild size="lg" className="h-12 text-base font-bold bg-green-500 hover:bg-green-600 text-white">
-                    <a href={data.videoDownloadUrl} download>
-                      <Download className="mr-2 h-5 w-5" />
-                      Download Video
-                    </a>
-                  </Button>
                 </div>
               </div>
             )}
