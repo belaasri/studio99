@@ -1,6 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState } from "react";
+import { useFormStatus } from "react-dom";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { Download, Link as LinkIcon, Loader2 } from "lucide-react";
@@ -124,7 +125,7 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
 }
 
 export function VidSyncPortal() {
-  const [state, formAction] = useFormState(getVidSyncData, initialState);
+  const [state, formAction] = useActionState(getVidSyncData, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
