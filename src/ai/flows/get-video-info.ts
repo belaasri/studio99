@@ -10,6 +10,7 @@
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
+import ytdl from 'ytdl-core';
 
 const GetVideoInfoInputSchema = z.object({
   videoId: z.string().describe('The YouTube video ID.'),
@@ -39,17 +40,21 @@ const fetchVideoInfoTool = ai.defineTool({
   outputSchema: GetVideoInfoOutputSchema,
 },
 async (input) => {
-    // This is a placeholder and will not work in production.
-    // In a real application, you would use a service like ytdl-core or a dedicated API 
-    // to fetch video information.
+    const videoUrl = `https://www.youtube.com/watch?v=${input.videoId}`;
+    const info = await ytdl.getInfo(videoUrl);
+    
+    const formats = ytdl.filterFormats(info.formats, 'videoandaudio');
+    const uniqueFormats = Array.from(new Map(formats.map(item => [item.qualityLabel, item])).values())
+      .filter(f => f.qualityLabel)
+      .sort((a,b) => parseInt(b.qualityLabel) - parseInt(a.qualityLabel));
+
     return {
-      title: 'Placeholder Video Title',
-      thumbnailUrl: `https://img.youtube.com/vi/${input.videoId}/0.jpg`,
-      formats: [
-        { quality: '1080p', url: `https://example.com/download?v=${input.videoId}&q=1080p` },
-        { quality: '720p', url: `https://example.com/download?v=${input.videoId}&q=720p` },
-        { quality: '480p', url: `https://example.com/download?v=${input.videoId}&q=480p` },
-      ],
+      title: info.videoDetails.title,
+      thumbnailUrl: info.videoDetails.thumbnails[info.videoDetails.thumbnails.length - 1].url,
+      formats: uniqueFormats.map(f => ({
+        quality: f.qualityLabel,
+        url: f.url,
+      })),
     };
 });
 

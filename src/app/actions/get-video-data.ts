@@ -22,6 +22,31 @@ export type VideoFormState = {
   }
 };
 
+function extractVideoId(url: string): string | null {
+  try {
+    const urlObj = new URL(url);
+    if (urlObj.hostname === 'youtu.be') {
+      return urlObj.pathname.slice(1);
+    }
+    if (urlObj.hostname.includes('youtube.com')) {
+      const videoId = urlObj.searchParams.get('v');
+      if (videoId) {
+        return videoId;
+      }
+    }
+    // Handle short URLs or direct IDs
+    if (url.length === 11 && !url.includes('.')) {
+        return url;
+    }
+  } catch (e) {
+     // Handle cases where the input is not a full URL but just the ID
+    if (url.length === 11 && !url.includes('.')) {
+        return url;
+    }
+  }
+  return null;
+}
+
 export async function getVideoData(
   prevState: VideoFormState,
   formData: FormData
@@ -37,7 +62,15 @@ export async function getVideoData(
     };
   }
   
-  const videoId = validatedFields.data.videoId.trim();
+  const rawVideoId = validatedFields.data.videoId.trim();
+  const videoId = extractVideoId(rawVideoId);
+
+  if (!videoId) {
+    return {
+      message: 'Invalid YouTube URL or Video ID. Please check the input and try again.',
+      errors: { videoId: ['Invalid YouTube URL or Video ID.'] },
+    };
+  }
 
   try {
     const result = await getVideoInfo({ videoId });
