@@ -21,6 +21,25 @@ const initialState: FormState = {
 function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
   const { pending } = useFormStatus();
 
+  const handleDownload = async () => {
+    if (!data?.staticPreviewUrl) return;
+    try {
+      const response = await fetch(data.staticPreviewUrl);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'youtube-thumbnail.jpg';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Download failed:', error);
+      alert('Download failed. Please try again.');
+    }
+  };
+
   return (
     <div className="w-full max-w-2xl">
       <CardContent className="mt-8">
@@ -87,11 +106,9 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
                   </div>
                 </div>
                 <div className="grid w-full grid-cols-1 gap-4">
-                   <Button asChild variant="outline" size="lg" className="h-12 text-base border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700">
-                      <a href={data.staticPreviewUrl} download={`preview.jpg`}>
-                        <ImageDown className="mr-2 h-5 w-5" />
-                        Download Thumbnail
-                      </a>
+                   <Button variant="outline" size="lg" className="h-12 text-base border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700" onClick={handleDownload}>
+                      <ImageDown className="mr-2 h-5 w-5" />
+                      Download Thumbnail
                     </Button>
                 </div>
               </div>
@@ -119,8 +136,6 @@ export function VidSyncPortal() {
       });
     }
   }, [state, toast]);
-
-  const videoId = state.data?.staticPreviewUrl.split('/vi/')[1]?.split('/')[0];
 
   return (
     <Card className="w-full max-w-4xl overflow-hidden rounded-xl border-none bg-transparent shadow-none">
