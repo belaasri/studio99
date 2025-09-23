@@ -34,7 +34,6 @@ export default function AboutPage() {
                 <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
                 <NavLink href="/contact">Contact Us</NavLink>
             </nav>
-            <Button variant="outline">Thanks Me</Button>
         </header>
         <main className="flex flex-1 flex-col items-center p-4 md:p-6">
             <section className="w-full max-w-4xl py-12 md:py-20">

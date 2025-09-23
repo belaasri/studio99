@@ -36,7 +36,6 @@ export default function Home() {
           <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
           <NavLink href="/contact">Contact Us</NavLink>
         </nav>
-        <Button variant="outline">Thanks Me</Button>
       </header>
 
       <main className="flex flex-1 flex-col items-center p-4 text-center md:p-6">
