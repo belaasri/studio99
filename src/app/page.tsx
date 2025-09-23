@@ -25,10 +25,10 @@ export default function Home() {
   return (
     <div className="flex min-h-screen w-full flex-col bg-gray-50">
       <header className="flex h-16 w-full items-center justify-between border-b bg-white px-4 md:px-8">
-        <div className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2">
           <YoutubeIcon />
           <span className="text-xl font-bold">ThumbnailDown</span>
-        </div>
+        </a>
         <nav className="hidden items-center gap-6 md:flex">
           <NavLink href="/">Home</NavLink>
           <NavLink href="/about">About Us</NavLink>
