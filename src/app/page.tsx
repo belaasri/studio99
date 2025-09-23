@@ -63,6 +63,18 @@ export default function Home() {
               <DropdownMenuItem>French</DropdownMenuItem>
               <DropdownMenuItem>Spanish</DropdownMenuItem>
               <DropdownMenuItem>German</DropdownMenuItem>
+              <DropdownMenuItem>Italian</DropdownMenuItem>
+              <DropdownMenuItem>Portuguese</DropdownMenuItem>
+              <DropdownMenuItem>Russian</DropdownMenuItem>
+              <DropdownMenuItem>Arabic</DropdownMenuItem>
+              <DropdownMenuItem>Chinese (Simplified)</DropdownMenuItem>
+              <DropdownMenuItem>Japanese</DropdownMenuItem>
+              <DropdownMenuItem>Korean</DropdownMenuItem>
+              <DropdownMenuItem>Hindi</DropdownMenuItem>
+              <DropdownMenuItem>Turkish</DropdownMenuItem>
+              <DropdownMenuItem>Polish</DropdownMenuItem>
+              <DropdownMenuItem>Dutch</DropdownMenuItem>
+              <DropdownMenuItem>Swedish</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
@@ -477,5 +489,7 @@ export default function Home() {
     </div>
   );
 }
+
+    
 
     
