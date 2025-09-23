@@ -1,5 +1,13 @@
+
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { Globe } from 'lucide-react';
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuTrigger,
+  } from "@/components/ui/dropdown-menu"
 
 const YoutubeIcon = () => (
     <svg
@@ -27,13 +35,29 @@ export default function AboutPage() {
             <YoutubeIcon />
             <span className="text-xl font-bold">ThumbnailDown</span>
             </a>
-            <nav className="hidden items-center gap-6 md:flex">
-                <NavLink href="/">Home</NavLink>
-                <NavLink href="/about">About Us</NavLink>
-                <NavLink href="/privacy-policy">Privacy Policy</NavLink>
-                <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
-                <NavLink href="/contact">Contact Us</NavLink>
-            </nav>
+            <div className="flex items-center gap-4">
+                <nav className="hidden items-center gap-6 md:flex">
+                    <NavLink href="/">Home</NavLink>
+                    <NavLink href="/about">About Us</NavLink>
+                    <NavLink href="/privacy-policy">Privacy Policy</NavLink>
+                    <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
+                    <NavLink href="/contact">Contact Us</NavLink>
+                </nav>
+                <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                    <Button variant="outline" size="icon">
+                        <Globe className="h-[1.2rem] w-[1.2rem]" />
+                        <span className="sr-only">Change language</span>
+                    </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end">
+                    <DropdownMenuItem>English</DropdownMenuItem>
+                    <DropdownMenuItem>French</DropdownMenuItem>
+                    <DropdownMenuItem>Spanish</DropdownMenuItem>
+                    <DropdownMenuItem>German</DropdownMenuItem>
+                    </DropdownMenuContent>
+                </DropdownMenu>
+            </div>
         </header>
         <main className="flex flex-1 flex-col items-center p-4 md:p-6">
             <section className="w-full max-w-4xl py-12 md:py-20">
@@ -95,3 +119,5 @@ export default function AboutPage() {
         </div>
     );
 }
+
+    

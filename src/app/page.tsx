@@ -1,9 +1,16 @@
 
+
 import { ThumbnailDownloader } from '@/components/vid-sync-portal';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Copy, Link, Download, ClipboardPaste, Check, CheckSquare } from 'lucide-react';
+import { Copy, Link, Download, ClipboardPaste, Check, CheckSquare, Globe } from 'lucide-react';
 import type { Metadata } from 'next';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 export const metadata: Metadata = {
   title: 'YouTube Thumbnail Downloader - Download HD Video Thumbnails Free',
@@ -36,13 +43,29 @@ export default function Home() {
           <YoutubeIcon />
           <span className="text-xl font-bold">ThumbnailDown</span>
         </a>
-        <nav className="hidden items-center gap-6 md:flex">
-          <NavLink href="/">Home</NavLink>
-          <NavLink href="/about">About Us</NavLink>
-          <NavLink href="/privacy-policy">Privacy Policy</NavLink>
-          <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
-          <NavLink href="/contact">Contact Us</NavLink>
-        </nav>
+        <div className="flex items-center gap-4">
+          <nav className="hidden items-center gap-6 md:flex">
+            <NavLink href="/">Home</NavLink>
+            <NavLink href="/about">About Us</NavLink>
+            <NavLink href="/privacy-policy">Privacy Policy</NavLink>
+            <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
+            <NavLink href="/contact">Contact Us</NavLink>
+          </nav>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="outline" size="icon">
+                <Globe className="h-[1.2rem] w-[1.2rem]" />
+                <span className="sr-only">Change language</span>
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem>English</DropdownMenuItem>
+              <DropdownMenuItem>French</DropdownMenuItem>
+              <DropdownMenuItem>Spanish</DropdownMenuItem>
+              <DropdownMenuItem>German</DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
       </header>
 
       <main className="flex flex-1 flex-col items-center p-4 text-center md:p-6">
@@ -454,3 +477,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
