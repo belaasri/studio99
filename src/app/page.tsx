@@ -31,8 +31,7 @@ export default function Home() {
         </div>
         <nav className="hidden items-center gap-6 md:flex">
           <NavLink href="/">Home</NavLink>
-          <NavLink href="/download-video">Download Video</NavLink>
-          <NavLink href="#">About Us</NavLink>
+          <NavLink href="/about">About Us</NavLink>
           <NavLink href="#">Privacy Policy</NavLink>
           <NavLink href="#">Terms & Conditions</NavLink>
           <NavLink href="#">Contact Us</NavLink>
