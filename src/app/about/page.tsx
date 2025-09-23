@@ -32,7 +32,7 @@ export default function AboutPage() {
                 <NavLink href="/about">About Us</NavLink>
                 <NavLink href="/privacy-policy">Privacy Policy</NavLink>
                 <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
-                <NavLink href="#">Contact Us</NavLink>
+                <NavLink href="/contact">Contact Us</NavLink>
             </nav>
             <Button variant="outline">Thanks Me</Button>
         </header>
