@@ -1,5 +1,5 @@
 
-import { VidSyncPortal } from '@/components/vid-sync-portal';
+import { ThumbnailDownloader } from '@/components/vid-sync-portal';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Copy, Link, Download, ClipboardPaste, Check, CheckSquare } from 'lucide-react';
@@ -53,7 +53,7 @@ export default function Home() {
           <p className="mx-auto mt-4 max-w-2xl text-gray-600">
             Download <strong>YouTube thumbnails</strong> instantly with our powerful <strong>YouTube thumbnail downloader</strong>. Extract high-resolution thumbnail images from any YouTube video in HD, 4K, and Full HD quality. Our free online tool requires no software installation - simply paste your YouTube URL and get professional-quality thumbnails in seconds.
           </p>
-          <VidSyncPortal />
+          <ThumbnailDownloader />
         </section>
 
         <section className="w-full max-w-5xl py-6 text-left">

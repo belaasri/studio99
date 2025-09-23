@@ -44,7 +44,7 @@ function extractVideoId(url: string): string | null {
   return null;
 }
 
-export async function getVidSyncData(
+export async function getThumbnailData(
   prevState: FormState,
   formData: FormData
 ): Promise<FormState> {

@@ -6,7 +6,7 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { Link as LinkIcon, Loader2, ImageDown } from "lucide-react";
 
-import { getVidSyncData, FormState } from "@/app/actions";
+import { getThumbnailData, FormState } from "@/app/actions";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -18,7 +18,7 @@ const initialState: FormState = {
   message: "",
 };
 
-function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
+function ThumbnailDownloaderFormContent({ data }: { data?: FormState["data"] }) {
   const { pending } = useFormStatus();
 
   const handleDownload = async (url: string, resolution: string) => {
@@ -51,7 +51,7 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
   const thumbnails = data?.thumbnails ? thumbnailDetails.map(detail => {
     const thumbnailData = data.thumbnails.find(t => t.resolution === detail.key);
     return thumbnailData ? { ...detail, url: thumbnailData.url } : null;
-  }).filter(Boolean) as ({ label: string, resolution: string, key: string, url: string}[]) : [];
+  }).filter(Boolean) as ({ label: string, resolution: string, key: string, url: string }[]) : [];
 
 
   return (
@@ -59,7 +59,7 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
       <CardContent className="mt-8">
         <div className="flex w-full items-center space-x-2">
           <div className="relative flex-grow">
-             <LinkIcon
+            <LinkIcon
               className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground"
               aria-hidden="true"
             />
@@ -108,23 +108,23 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
             {!pending && thumbnails.length > 0 && (
               <div className="w-full flex flex-col items-center gap-8">
                 {thumbnails.map((thumbnail) => (
-                    <div key={thumbnail.key} className="w-full max-w-lg space-y-2 text-center">
-                        <h3 className="text-lg font-semibold">
-                            {thumbnail.label} ({thumbnail.resolution})
-                        </h3>
-                        <div className="relative aspect-video w-full overflow-hidden rounded-lg border shadow-md">
-                            <Image
-                                src={thumbnail.url}
-                                alt={`YouTube Thumbnail ${thumbnail.label} ${thumbnail.resolution}`}
-                                fill
-                                className="object-cover"
-                                sizes="(max-width: 768px) 100vw, 50vw"
-                            />
-                        </div>
-                        <Button variant="link" size="sm" className="text-blue-600 hover:text-blue-800" onClick={() => handleDownload(thumbnail.url, thumbnail.resolution)}>
-                            Download {thumbnail.label} Image
-                        </Button>
+                  <div key={thumbnail.key} className="w-full max-w-lg space-y-2 text-center">
+                    <h3 className="text-lg font-semibold">
+                      {thumbnail.label} ({thumbnail.resolution})
+                    </h3>
+                    <div className="relative aspect-video w-full overflow-hidden rounded-lg border shadow-md">
+                      <Image
+                        src={thumbnail.url}
+                        alt={`YouTube Thumbnail ${thumbnail.label} ${thumbnail.resolution}`}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                      />
                     </div>
+                    <Button variant="link" size="sm" className="text-blue-600 hover:text-blue-800" onClick={() => handleDownload(thumbnail.url, thumbnail.resolution)}>
+                      Download {thumbnail.label} Image
+                    </Button>
+                  </div>
                 ))}
               </div>
             )}
@@ -135,8 +135,8 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
   );
 }
 
-export function VidSyncPortal() {
-  const [state, formAction] = useActionState(getVidSyncData, initialState);
+export function ThumbnailDownloader() {
+  const [state, formAction] = useActionState(getThumbnailData, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
@@ -155,7 +155,7 @@ export function VidSyncPortal() {
   return (
     <Card className="w-full max-w-7xl overflow-hidden rounded-xl border-none bg-transparent shadow-none">
       <form ref={formRef} action={formAction}>
-        <VidSyncFormContent data={state.data} />
+        <ThumbnailDownloaderFormContent data={state.data} />
       </form>
     </Card>
   );
