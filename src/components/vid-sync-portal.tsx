@@ -21,7 +21,7 @@ const initialState: FormState = {
 function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
   const { pending } = useFormStatus();
 
-  const handleDownload = async (url: string) => {
+  const handleDownload = async (url: string, resolution: string) => {
     if (!url) return;
     try {
       const response = await fetch(url);
@@ -29,7 +29,7 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
       const objectUrl = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = objectUrl;
-      link.download = 'youtube-thumbnail.jpg';
+      link.download = `youtube-thumbnail-${resolution}.jpg`;
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -39,6 +39,20 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
       alert('Download failed. Please try again.');
     }
   };
+
+  const thumbnailDetails = [
+    { label: "HD Image", resolution: "1280x720", key: "Max Resolution" },
+    { label: "SD Image", resolution: "640x480", key: "Standard" },
+    { label: "Normal Image", resolution: "480x360", key: "High" },
+    { label: "Normal Image", resolution: "320x180", key: "Medium" },
+    { label: "Normal Image", resolution: "120x90", key: "Default" },
+  ]
+
+  const thumbnails = data?.thumbnails ? thumbnailDetails.map(detail => {
+    const thumbnailData = data.thumbnails.find(t => t.resolution === detail.key);
+    return thumbnailData ? { ...detail, url: thumbnailData.url } : null;
+  }).filter(Boolean) as ({ label: string, resolution: string, key: string, url: string}[]) : [];
+
 
   return (
     <div className="w-full max-w-4xl mx-auto">
@@ -67,7 +81,7 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
                 Getting...
               </>
             ) : (
-              "Get Thumbnails"
+              "Get Thumbnail Images"
             )}
           </Button>
         </div>
@@ -79,39 +93,36 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
           data-state={pending || data ? "open" : "closed"}
         >
           <Separator className="my-6" />
-          <CardFooter className="flex flex-col items-center gap-6 p-0">
+          <CardFooter className="flex flex-col items-center gap-8 p-0">
             {pending && (
-              <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {[...Array(3)].map((_, i) => (
-                  <div key={i} className="w-full space-y-3">
-                    <Skeleton className="h-8 w-1/3" />
+              <div className="w-full flex flex-col items-center gap-8">
+                {[...Array(5)].map((_, i) => (
+                  <div key={i} className="w-full max-w-lg space-y-2 flex flex-col items-center">
+                    <Skeleton className="h-6 w-1/3" />
                     <Skeleton className="aspect-video w-full" />
-                    <Skeleton className="h-12 w-full" />
+                    <Skeleton className="h-6 w-1/2" />
                   </div>
                 ))}
               </div>
             )}
-            {!pending && data?.thumbnails && (
-              <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {data.thumbnails.map((thumbnail) => (
-                    <div key={thumbnail.resolution} className="w-full space-y-4">
-                        <div className="w-full space-y-2">
-                        <h3 className="text-left text-xl font-semibold leading-none tracking-tight">
-                            {thumbnail.resolution}
+            {!pending && thumbnails.length > 0 && (
+              <div className="w-full flex flex-col items-center gap-8">
+                {thumbnails.map((thumbnail) => (
+                    <div key={thumbnail.key} className="w-full max-w-lg space-y-2 text-center">
+                        <h3 className="text-lg font-semibold">
+                            {thumbnail.label} ({thumbnail.resolution})
                         </h3>
-                        <div className="relative aspect-video w-full overflow-hidden rounded-lg border shadow-lg">
+                        <div className="relative aspect-video w-full overflow-hidden rounded-lg border shadow-md">
                             <Image
-                            src={thumbnail.url}
-                            alt={`YouTube Thumbnail ${thumbnail.resolution}`}
-                            fill
-                            className="object-cover"
-                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                src={thumbnail.url}
+                                alt={`YouTube Thumbnail ${thumbnail.label} ${thumbnail.resolution}`}
+                                fill
+                                className="object-cover"
+                                sizes="(max-width: 768px) 100vw, 50vw"
                             />
                         </div>
-                        </div>
-                        <Button variant="outline" size="lg" className="h-12 w-full text-base border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700" onClick={() => handleDownload(thumbnail.url)}>
-                            <ImageDown className="mr-2 h-5 w-5" />
-                            Download
+                        <Button variant="link" size="sm" className="text-blue-600 hover:text-blue-800" onClick={() => handleDownload(thumbnail.url, thumbnail.resolution)}>
+                            Download {thumbnail.label} Image
                         </Button>
                     </div>
                 ))}

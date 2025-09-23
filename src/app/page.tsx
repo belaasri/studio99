@@ -74,7 +74,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg font-semibold">Paste the URL and Fetch Thumbnails</h3>
                 <p className="text-sm text-gray-600">
-                  Paste the copied URL into the input box on this page and click &quot;Get Thumbnails&quot; to retrieve all available thumbnail images.
+                  Paste the copied URL into the input box on this page and click &quot;Get Thumbnail Images&quot; to retrieve all available thumbnail images.
                 </p>
               </CardContent>
             </Card>
