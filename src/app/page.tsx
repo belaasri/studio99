@@ -46,7 +46,7 @@ export default function Home() {
       </header>
 
       <main className="flex flex-1 flex-col items-center p-4 text-center md:p-6">
-        <section className="w-full max-w-4xl py-12 md:py-20">
+        <section className="w-full max-w-4xl pt-12 pb-6 md:pt-20 md:pb-10">
           <h1 className="text-4xl font-bold tracking-tighter md:text-5xl">
             Free YouTube Thumbnail Downloader
           </h1>
@@ -56,7 +56,7 @@ export default function Home() {
           <VidSyncPortal />
         </section>
 
-        <section className="w-full max-w-5xl py-12 md:py-16 text-left">
+        <section className="w-full max-w-5xl pt-8 pb-6 md:pb-10 text-left">
           <h2 className="text-3xl font-bold tracking-tight text-center">
             🚀 Why Choose Our YouTube Thumbnail Grabber?
           </h2>
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full max-w-4xl py-12 md:py-20 text-left">
+        <section className="w-full max-w-4xl pt-8 pb-6 md:pb-10 text-left">
           <h2 className="text-3xl font-bold tracking-tight text-center">How to Download YouTube Thumbnails - Complete Guide</h2>
           <div className="mt-8 space-y-6">
             <div>
@@ -120,7 +120,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full max-w-4xl py-12 md:py-20 text-left">
+        <section className="w-full max-w-4xl pt-8 pb-6 md:pb-10 text-left">
           <h2 className="text-3xl font-bold tracking-tight text-center">Available Thumbnail Download Formats & Sizes</h2>
           <div className="mt-8 space-y-6">
             <div>
@@ -157,7 +157,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full max-w-4xl py-12 md:py-20 text-left">
+        <section className="w-full max-w-4xl pt-8 pb-6 md:pb-10 text-left">
           <h2 className="text-3xl font-bold tracking-tight text-center">Advanced Features of Our YouTube Thumbnail Downloader</h2>
           <div className="mt-8 space-y-6">
             <div>
@@ -195,7 +195,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full max-w-4xl py-12 md:py-20 text-left">
+        <section className="w-full max-w-4xl pt-8 pb-6 md:pb-10 text-left">
           <h2 className="text-3xl font-bold tracking-tight text-center">SEO Benefits and Use Cases</h2>
           <div className="mt-8 space-y-6">
             <h3 className="text-2xl font-semibold">Legitimate Uses for Downloaded YouTube Thumbnails</h3>
@@ -231,7 +231,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full max-w-5xl py-12 md:py-16 text-left">
+        <section className="w-full max-w-5xl pt-8 pb-6 md:pb-10 text-left">
           <h2 className="text-3xl font-bold tracking-tight text-center">Technical Specifications and Browser Compatibility</h2>
           <div className="mt-8 space-y-6">
             <div>
@@ -279,7 +279,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full max-w-4xl py-12 md:py-20 text-left">
+        <section className="w-full max-w-4xl pt-8 pb-6 md:pb-10 text-left">
           <h2 className="text-3xl font-bold tracking-tight text-center">Frequently Asked Questions About YouTube Thumbnail Downloads</h2>
           <div className="mt-8 space-y-6">
             <div>
@@ -336,7 +336,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full max-w-4xl py-12 md:py-20 text-left">
+        <section className="w-full max-w-4xl pt-8 pb-6 md:pb-10 text-left">
           <h2 className="text-3xl font-bold tracking-tight text-center">Tips for Using Downloaded YouTube Thumbnails Effectively</h2>
           <div className="mt-8 space-y-6">
             <div>
@@ -377,7 +377,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full max-w-4xl py-12 md:py-20 text-left">
+        <section className="w-full max-w-4xl pt-8 pb-6 md:pb-10 text-left">
           <h2 className="text-3xl font-bold tracking-tight text-center">Related Tools and Resources</h2>
           <div className="mt-8 space-y-6">
             <div>
@@ -402,7 +402,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full max-w-4xl py-12 md:py-20 text-left">
+        <section className="w-full max-w-4xl pt-8 pb-6 md:pb-10 text-left">
           <h2 className="text-3xl font-bold tracking-tight text-center">Get Started with Free YouTube Thumbnail Downloads</h2>
           <div className="mt-8 space-y-6">
             <div>
@@ -428,11 +428,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full max-w-4xl py-12 md:py-20 text-center">
+        <section className="w-full max-w-4xl pt-8 pb-12 md:pb-20 text-center">
             <p className="font-semibold">Start downloading high-quality YouTube thumbnails now! Use our trusted <strong>YouTube thumbnail grabber</strong> to extract professional-grade thumbnail images from any YouTube video. Join thousands of content creators, designers, and marketers who rely on our free tool for their thumbnail download needs.</p>
         </section>
 
-        <footer className="w-full max-w-4xl py-6 text-center text-xs text-gray-500">
+        <footer className="w-full max-w-4xl pb-6 text-center text-xs text-gray-500">
           <p>
             *This YouTube Thumbnail Downloader tool is provided for educational and research purposes. Users are responsible for ensuring their use of downloaded content complies with applicable copyright laws and platform terms of service.*
           </p>
