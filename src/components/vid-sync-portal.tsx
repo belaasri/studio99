@@ -4,7 +4,7 @@ import { useActionState } from "react";
 import { useFormStatus } from "react-dom";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import { Download, Link as LinkIcon, Loader2, ImageDown } from "lucide-react";
+import { Link as LinkIcon, Loader2, ImageDown } from "lucide-react";
 
 import { getVidSyncData, FormState } from "@/app/actions";
 import { Button } from "@/components/ui/button";
@@ -21,19 +21,19 @@ const initialState: FormState = {
 function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
   const { pending } = useFormStatus();
 
-  const handleDownload = async () => {
-    if (!data?.staticPreviewUrl) return;
+  const handleDownload = async (url: string) => {
+    if (!url) return;
     try {
-      const response = await fetch(data.staticPreviewUrl);
+      const response = await fetch(url);
       const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
+      const objectUrl = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.href = url;
+      link.href = objectUrl;
       link.download = 'youtube-thumbnail.jpg';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      window.URL.revokeObjectURL(url);
+      window.URL.revokeObjectURL(objectUrl);
     } catch (error) {
       console.error('Download failed:', error);
       alert('Download failed. Please try again.');
@@ -41,7 +41,7 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
   };
 
   return (
-    <div className="w-full max-w-2xl">
+    <div className="w-full max-w-4xl mx-auto">
       <CardContent className="mt-8">
         <div className="flex w-full items-center space-x-2">
           <div className="relative flex-grow">
@@ -67,7 +67,7 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
                 Getting...
               </>
             ) : (
-              "Get Thumbnail"
+              "Get Thumbnails"
             )}
           </Button>
         </div>
@@ -81,36 +81,40 @@ function VidSyncFormContent({ data }: { data?: FormState["data"] }) {
           <Separator className="my-6" />
           <CardFooter className="flex flex-col items-center gap-6 p-0">
             {pending && (
-              <div className="w-full space-y-3">
-                <Skeleton className="h-8 w-1/3" />
-                <Skeleton className="aspect-video w-full" />
-                <div className="grid grid-cols-1 gap-4">
-                  <Skeleton className="h-12 w-full" />
-                </div>
+              <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {[...Array(3)].map((_, i) => (
+                  <div key={i} className="w-full space-y-3">
+                    <Skeleton className="h-8 w-1/3" />
+                    <Skeleton className="aspect-video w-full" />
+                    <Skeleton className="h-12 w-full" />
+                  </div>
+                ))}
               </div>
             )}
-            {!pending && data && (
-              <div className="w-full space-y-4">
-                <div className="w-full space-y-2">
-                  <h3 className="text-left text-xl font-semibold leading-none tracking-tight">
-                    Thumbnail Preview
-                  </h3>
-                  <div className="relative aspect-video w-full overflow-hidden rounded-lg border shadow-lg">
-                    <Image
-                      src={data.staticPreviewUrl}
-                      alt="Video Preview"
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    />
-                  </div>
-                </div>
-                <div className="grid w-full grid-cols-1 gap-4">
-                   <Button variant="outline" size="lg" className="h-12 text-base border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700" onClick={handleDownload}>
-                      <ImageDown className="mr-2 h-5 w-5" />
-                      Download Thumbnail
-                    </Button>
-                </div>
+            {!pending && data?.thumbnails && (
+              <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {data.thumbnails.map((thumbnail) => (
+                    <div key={thumbnail.resolution} className="w-full space-y-4">
+                        <div className="w-full space-y-2">
+                        <h3 className="text-left text-xl font-semibold leading-none tracking-tight">
+                            {thumbnail.resolution}
+                        </h3>
+                        <div className="relative aspect-video w-full overflow-hidden rounded-lg border shadow-lg">
+                            <Image
+                            src={thumbnail.url}
+                            alt={`YouTube Thumbnail ${thumbnail.resolution}`}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            />
+                        </div>
+                        </div>
+                        <Button variant="outline" size="lg" className="h-12 w-full text-base border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700" onClick={() => handleDownload(thumbnail.url)}>
+                            <ImageDown className="mr-2 h-5 w-5" />
+                            Download
+                        </Button>
+                    </div>
+                ))}
               </div>
             )}
           </CardFooter>
@@ -138,7 +142,7 @@ export function VidSyncPortal() {
   }, [state, toast]);
 
   return (
-    <Card className="w-full max-w-4xl overflow-hidden rounded-xl border-none bg-transparent shadow-none">
+    <Card className="w-full max-w-7xl overflow-hidden rounded-xl border-none bg-transparent shadow-none">
       <form ref={formRef} action={formAction}>
         <VidSyncFormContent data={state.data} />
       </form>

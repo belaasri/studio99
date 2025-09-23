@@ -1,7 +1,6 @@
 'use server';
 
 import { z } from 'zod';
-import { processVideoId } from '@/ai/flows/process-video-id';
 
 const formSchema = z.object({
   videoId: z.string().min(1, 'Video ID cannot be empty.'),
@@ -10,13 +9,40 @@ const formSchema = z.object({
 export type FormState = {
   message: string;
   data?: {
-    staticPreviewUrl: string;
-    videoDownloadUrl:string;
+    thumbnails: {
+        resolution: string;
+        url: string;
+    }[];
   };
   errors?: {
     videoId?: string[];
   }
 };
+
+function extractVideoId(url: string): string | null {
+  try {
+    const urlObj = new URL(url);
+    if (urlObj.hostname === 'youtu.be') {
+      return urlObj.pathname.slice(1);
+    }
+    if (urlObj.hostname.includes('youtube.com')) {
+      const videoId = urlObj.searchParams.get('v');
+      if (videoId) {
+        return videoId;
+      }
+    }
+    // Handle short URLs or direct IDs
+    if (url.length === 11 && !url.includes('.')) {
+        return url;
+    }
+  } catch (e) {
+     // Handle cases where the input is not a full URL but just the ID
+    if (url.length === 11 && !url.includes('.')) {
+        return url;
+    }
+  }
+  return null;
+}
 
 export async function getVidSyncData(
   prevState: FormState,
@@ -33,20 +59,28 @@ export async function getVidSyncData(
     };
   }
   
-  const videoId = validatedFields.data.videoId.trim();
+  const rawVideoId = validatedFields.data.videoId.trim();
+  const videoId = extractVideoId(rawVideoId);
 
-  try {
-    const result = await processVideoId({ videoId });
-    if (result.staticPreviewUrl && result.videoDownloadUrl) {
-      return {
-        message: 'Success',
-        data: result,
-      };
-    } else {
-      return { message: 'Failed to retrieve video data. Please check the video ID and try again.' };
-    }
-  } catch (error) {
-    console.error('Error in getVidSyncData action:', error);
-    return { message: 'An unexpected server error occurred. Please try again later.' };
+  if (!videoId) {
+    return {
+      message: 'Invalid YouTube URL or Video ID. Please check the input and try again.',
+      errors: { videoId: ['Invalid YouTube URL or Video ID.'] },
+    };
   }
+
+  const thumbnailSizes = [
+      { resolution: 'Max Resolution', url: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg` },
+      { resolution: 'Standard', url: `https://img.youtube.com/vi/${videoId}/sddefault.jpg` },
+      { resolution: 'High', url: `https://img.youtube.com/vi/${videoId}/hqdefault.jpg` },
+      { resolution: 'Medium', url: `https://img.youtube.com/vi/${videoId}/mqdefault.jpg` },
+      { resolution: 'Default', url: `https://img.youtube.com/vi/${videoId}/default.jpg` },
+  ];
+
+  return {
+    message: 'Success',
+    data: {
+      thumbnails: thumbnailSizes,
+    },
+  };
 }

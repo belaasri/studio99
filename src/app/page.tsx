@@ -46,8 +46,7 @@ export default function Home() {
             YouTube Thumbnail Downloader
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-gray-600">
-            Paste any YouTube, Vimeo, or Dailymotion URL to instantly download
-            hd video thumbnail no signup, no ads, 100% free.
+            Paste any YouTube URL to instantly download thumbnails in all available sizes. No signup, no ads, 100% free.
           </p>
           <VidSyncPortal />
         </section>
@@ -75,7 +74,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg font-semibold">Paste the URL and Fetch Thumbnails</h3>
                 <p className="text-sm text-gray-600">
-                  Paste the copied URL into the input box on this page and click &quot;Get Thumbnail&quot; to retrieve all available thumbnail images.
+                  Paste the copied URL into the input box on this page and click &quot;Get Thumbnails&quot; to retrieve all available thumbnail images.
                 </p>
               </CardContent>
             </Card>
