@@ -73,6 +73,25 @@ export default function AboutPage() {
             </Card>
             </section>
         </main>
+        <footer className="w-full border-t bg-white">
+            <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+                <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4">
+                    <NavLink href="/">Home</NavLink>
+                    <NavLink href="/about">About Us</NavLink>
+                    <NavLink href="/privacy-policy">Privacy Policy</NavLink>
+                    <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
+                    <NavLink href="/contact">Contact Us</NavLink>
+                </nav>
+                <div className="mt-8 text-center">
+                <p className="text-sm text-gray-500">
+                    © {new Date().getFullYear()} ThumbnailDown. All rights reserved.
+                </p>
+                <p className="mt-2 text-xs text-gray-500">
+                    This YouTube Thumbnail Downloader tool is provided for educational and research purposes. Users are responsible for ensuring their use of downloaded content complies with applicable copyright laws and platform terms of service.
+                </p>
+                </div>
+            </div>
+        </footer>
         </div>
     );
 }
