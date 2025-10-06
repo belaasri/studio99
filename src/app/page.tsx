@@ -46,7 +46,6 @@ export default function Home() {
         <div className="flex items-center gap-4">
           <nav className="hidden items-center gap-6 md:flex">
             <NavLink href="/">Home</NavLink>
-            <NavLink href="/download-video">Download Video</NavLink>
             <NavLink href="/about">About Us</NavLink>
             <NavLink href="/privacy-policy">Privacy Policy</NavLink>
             <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
@@ -472,7 +471,6 @@ export default function Home() {
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4">
                 <NavLink href="/">Home</NavLink>
-                <NavLink href="/download-video">Download Video</NavLink>
                 <NavLink href="/about">About Us</NavLink>
                 <NavLink href="/privacy-policy">Privacy Policy</NavLink>
                 <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
