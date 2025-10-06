@@ -1,0 +1,16 @@
+[build]
+  command = "next build"
+  publish = ".next"
+
+[functions]
+  directory = ".next/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
+
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
