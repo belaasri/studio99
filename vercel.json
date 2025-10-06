@@ -1,8 +1,2 @@
 
-{
-  "functions": {
-    "src/ai/dev.ts": {
-      "memory": 1024
-    }
-  }
-}
+{}
