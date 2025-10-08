@@ -11,10 +11,18 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import { i18n, type Locale } from '@/i18n-config';
+
+export async function generateStaticParams() {
+    return i18n.locales.map((locale) => ({ lang: locale }));
+}
 
 export const metadata: Metadata = {
   title: 'YouTube Thumbnail Downloader - Download HD Video Thumbnails Free',
   description: 'Download YouTube thumbnails in HD, 4K quality instantly. Free thumbnail grabber tool for YouTube, Vimeo, Instagram. Get high-resolution images now!',
+  alternates: {
+    canonical: '/',
+  },
 };
 
 const YoutubeIcon = () => (
@@ -35,51 +43,12 @@ const NavLink = ({ href, children }: { href: string; children: React.ReactNode }
   </a>
 );
 
-export default function Home() {
+export default function Home({
+    params: { lang },
+  }: {
+    params: { lang: Locale };
+  }) {
   return (
-    <div className="flex min-h-screen w-full flex-col bg-gray-50">
-      <header className="flex h-16 w-full items-center justify-between border-b bg-white px-4 md:px-8">
-        <a href="/youtube-thumbnail-downloader" className="flex items-center gap-2">
-          <YoutubeIcon />
-          <span className="text-xl font-bold">SaveThumb</span>
-        </a>
-        <div className="flex items-center gap-4">
-          <nav className="hidden items-center gap-6 md:flex">
-            <NavLink href="/youtube-thumbnail-downloader">Home</NavLink>
-            <NavLink href="/about">About Us</NavLink>
-            <NavLink href="/privacy-policy">Privacy Policy</NavLink>
-            <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
-            <NavLink href="/contact">Contact Us</NavLink>
-          </nav>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="outline" size="icon">
-                <Globe className="h-[1.2rem] w-[1.2rem]" />
-                <span className="sr-only">Change language</span>
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuItem>English</DropdownMenuItem>
-              <DropdownMenuItem>French</DropdownMenuItem>
-              <DropdownMenuItem>Spanish</DropdownMenuItem>
-              <DropdownMenuItem>German</DropdownMenuItem>
-              <DropdownMenuItem>Italian</DropdownMenuItem>
-              <DropdownMenuItem>Portuguese</DropdownMenuItem>
-              <DropdownMenuItem>Russian</DropdownMenuItem>
-              <DropdownMenuItem>Arabic</DropdownMenuItem>
-              <DropdownMenuItem>Chinese (Simplified)</DropdownMenuItem>
-              <DropdownMenuItem>Japanese</DropdownMenuItem>
-              <DropdownMenuItem>Korean</DropdownMenuItem>
-              <DropdownMenuItem>Hindi</DropdownMenuItem>
-              <DropdownMenuItem>Turkish</DropdownMenuItem>
-              <DropdownMenuItem>Polish</DropdownMenuItem>
-              <DropdownMenuItem>Dutch</DropdownMenuItem>
-              <DropdownMenuItem>Swedish</DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
-      </header>
-
       <main className="flex flex-1 flex-col items-center p-4 text-center md:p-6">
         <section className="w-full max-w-4xl pt-12 pb-6 md:pt-20">
           <h1 className="text-4xl font-bold tracking-tighter md:text-5xl">
@@ -467,25 +436,5 @@ export default function Home() {
             <p className="font-semibold">Start downloading high-quality YouTube thumbnails now! Use our trusted <strong>YouTube thumbnail grabber</strong> to extract professional-grade thumbnail images from any YouTube video. Join thousands of content creators, designers, and marketers who rely on our free tool for their thumbnail download needs.</p>
         </section>
       </main>
-      <footer className="w-full border-t bg-white">
-        <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-            <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4">
-                <NavLink href="/youtube-thumbnail-downloader">Home</NavLink>
-                <NavLink href="/about">About Us</NavLink>
-                <NavLink href="/privacy-policy">Privacy Policy</NavLink>
-                <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
-                <NavLink href="/contact">Contact Us</NavLink>
-            </nav>
-            <div className="mt-8 text-center">
-              <p className="text-sm text-gray-500">
-                © {new Date().getFullYear()} SaveThumb. All rights reserved.
-              </p>
-               <p className="mt-2 text-xs text-gray-500">
-                This YouTube Thumbnail Downloader tool is provided for educational and research purposes. Users are responsible for ensuring their use of downloaded content complies with applicable copyright laws and platform terms of service.
-              </p>
-            </div>
-        </div>
-      </footer>
-    </div>
   );
 }
