@@ -31,13 +31,13 @@ export default function PrivacyPolicyPage() {
     return (
         <div className="flex min-h-screen w-full flex-col bg-gray-50">
             <header className="flex h-16 w-full items-center justify-between border-b bg-white px-4 md:px-8">
-                <a href="/" className="flex items-center gap-2">
+                <a href="/youtube-thumbnail-downloader" className="flex items-center gap-2">
                 <YoutubeIcon />
                 <span className="text-xl font-bold">SaveThumb</span>
                 </a>
                 <div className="flex items-center gap-4">
                     <nav className="hidden items-center gap-6 md:flex">
-                        <NavLink href="/">Home</NavLink>
+                        <NavLink href="/youtube-thumbnail-downloader">Home</NavLink>
                         <NavLink href="/about">About Us</NavLink>
                         <NavLink href="/privacy-policy">Privacy Policy</NavLink>
                         <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
@@ -166,7 +166,7 @@ export default function PrivacyPolicyPage() {
             <footer className="w-full border-t bg-white">
                 <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
                     <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4">
-                        <NavLink href="/">Home</NavLink>
+                        <NavLink href="/youtube-thumbnail-downloader">Home</NavLink>
                         <NavLink href="/about">About Us</NavLink>
                         <NavLink href="/privacy-policy">Privacy Policy</NavLink>
                         <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
