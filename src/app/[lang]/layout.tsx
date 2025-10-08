@@ -1,17 +1,9 @@
 
 import { Button } from '@/components/ui/button';
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuTrigger,
-  } from "@/components/ui/dropdown-menu";
-import { Globe } from 'lucide-react';
 import type { Metadata } from 'next';
 import { i18n, type Locale } from '@/i18n-config';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import path from 'path';
+import { LanguageSwitcher } from '@/components/language-switcher';
 
 
 const YoutubeIcon = () => (
@@ -31,34 +23,6 @@ const NavLink = ({ href, children }: { href: string; children: React.ReactNode }
       {children}
     </Link>
   );
-
-
-  function LanguageSwitcher({ lang, path }: { lang: Locale, path: string }) {
-    const redirectedPathName = (locale: Locale) => {
-        if (!path) return `/${locale}`;
-        const segments = path.split('/');
-        segments[1] = locale;
-        return segments.join('/');
-      };
-
-    return (
-        <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="icon">
-            <Globe className="h-[1.2rem] w-[1.2rem]" />
-            <span className="sr-only">Change language</span>
-        </Button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent align="end">
-            {i18n.locales.map(locale => (
-                <DropdownMenuItem key={locale}>
-                    <Link href={redirectedPathName(locale)}>{locale.toUpperCase()}</Link>
-                </DropdownMenuItem>
-            ))}
-        </DropdownMenuContent>
-    </DropdownMenu>
-    )
-  }
 
 export default function LangLayout({
   children,
@@ -83,8 +47,7 @@ export default function LangLayout({
                     <NavLink href={`/${params.lang}/terms-conditions`}>Terms & Conditions</NavLink>
                     <NavLink href={`/${params.lang}/contact`}>Contact Us</NavLink>
                 </nav>
-                {/* The following component is not yet implemented */}
-                {/* <LanguageSwitcher lang={params.lang} path={usePathname()} /> */}
+                <LanguageSwitcher />
             </div>
         </header>
 
