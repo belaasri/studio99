@@ -13,6 +13,36 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { i18n, type Locale } from "@/i18n-config";
 
+const languageNames: Record<Locale, string> = {
+    en: "English",
+    de: "German",
+    es: "Spanish",
+    fr: "French",
+    ja: "Japanese",
+    ko: "Korean",
+    ar: "Arabic",
+    cs: "Czech",
+    el: "Greek",
+    fa: "Persian",
+    hi: "Hindi",
+    hu: "Hungarian",
+    id: "Indonesian",
+    it: "Italian",
+    ms: "Malay",
+    nl: "Dutch",
+    pl: "Polish",
+    pt: "Portuguese",
+ro: "Romanian",
+    ru: "Russian",
+    sr: "Serbian",
+    sv: "Swedish",
+    th: "Thai",
+    tr: "Turkish",
+    vi: "Vietnamese",
+    zh: "Chinese",
+};
+
+
 export function LanguageSwitcher() {
   const pathName = usePathname();
   const redirectedPathName = (locale: Locale) => {
@@ -33,7 +63,7 @@ export function LanguageSwitcher() {
       <DropdownMenuContent align="end">
         {i18n.locales.map((locale) => (
           <DropdownMenuItem key={locale}>
-            <Link href={redirectedPathName(locale)}>{locale.toUpperCase()}</Link>
+            <Link href={redirectedPathName(locale)}>{languageNames[locale]}</Link>
           </DropdownMenuItem>
         ))}
       </DropdownMenuContent>
