@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'SaveThumb',
+  title: 'YouTube Thumbnail Downloader - HD, 4K & HQ Image Download',
   description: 'Acquire static previews and video content from YouTube.',
 };
 
