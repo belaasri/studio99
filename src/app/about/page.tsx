@@ -33,7 +33,7 @@ export default function AboutPage() {
         <header className="flex h-16 w-full items-center justify-between border-b bg-white px-4 md:px-8">
             <a href="/" className="flex items-center gap-2">
             <YoutubeIcon />
-            <span className="text-xl font-bold">ThumbnailDown</span>
+            <span className="text-xl font-bold">SaveThumb</span>
             </a>
             <div className="flex items-center gap-4">
                 <nav className="hidden items-center gap-6 md:flex">
@@ -76,7 +76,7 @@ export default function AboutPage() {
             <Card>
                 <CardContent className="p-8 text-left">
                 <h1 className="text-3xl font-bold tracking-tighter md:text-4xl">About Us</h1>
-                <p className="mt-4 text-gray-600">Welcome to ThumbnailDown</p>
+                <p className="mt-4 text-gray-600">Welcome to SaveThumb</p>
                 <p className="mt-4 text-gray-600">
                     We are a dedicated team passionate about providing users with easy-to-use tools for downloading thumbnails from various online platforms. Our mission is to offer a simple, fast, and reliable service that helps content creators, designers, and digital marketers access high-quality thumbnail images for their projects.
                 </p>
@@ -120,7 +120,7 @@ export default function AboutPage() {
                 </nav>
                 <div className="mt-8 text-center">
                 <p className="text-sm text-gray-500">
-                    © {new Date().getFullYear()} ThumbnailDown. All rights reserved.
+                    © {new Date().getFullYear()} SaveThumb. All rights reserved.
                 </p>
                 <p className="mt-2 text-xs text-gray-500">
                     This YouTube Thumbnail Downloader tool is provided for educational and research purposes. Users are responsible for ensuring their use of downloaded content complies with applicable copyright laws and platform terms of service.

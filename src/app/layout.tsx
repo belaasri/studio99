@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'VidSync Portal',
+  title: 'SaveThumb',
   description: 'Acquire static previews and video content from YouTube.',
 };
 

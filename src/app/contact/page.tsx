@@ -33,7 +33,7 @@ export default function ContactPage() {
             <header className="flex h-16 w-full items-center justify-between border-b bg-white px-4 md:px-8">
                 <a href="/" className="flex items-center gap-2">
                 <YoutubeIcon />
-                <span className="text-xl font-bold">ThumbnailDown</span>
+                <span className="text-xl font-bold">SaveThumb</span>
                 </a>
                 <div className="flex items-center gap-4">
                     <nav className="hidden items-center gap-6 md:flex">
@@ -153,7 +153,7 @@ export default function ContactPage() {
                     </nav>
                     <div className="mt-8 text-center">
                     <p className="text-sm text-gray-500">
-                        © {new Date().getFullYear()} ThumbnailDown. All rights reserved.
+                        © {new Date().getFullYear()} SaveThumb. All rights reserved.
                     </p>
                     <p className="mt-2 text-xs text-gray-500">
                         This YouTube Thumbnail Downloader tool is provided for educational and research purposes. Users are responsible for ensuring their use of downloaded content complies with applicable copyright laws and platform terms of service.
