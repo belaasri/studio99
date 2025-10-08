@@ -4,7 +4,7 @@ import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
   title: 'YouTube Thumbnail Downloader - HD, 4K & HQ Image Download',
-  description: 'Acquire static previews and video content from YouTube.',
+  description: 'Download YouTube thumbnails instantly in HD, 4K, 1080p and all sizes. Free online tool - no signup, no ads. Just paste video URL and get high-quality thumbnail images in seconds.',
 };
 
 export default function RootLayout({
