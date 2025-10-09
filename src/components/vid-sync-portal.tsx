@@ -58,8 +58,8 @@ function ThumbnailDownloaderFormContent({ data }: { data?: FormState["data"] }) 
   return (
     <div className="w-full max-w-4xl mx-auto">
       <CardContent className="mt-8">
-        <div className="flex w-full items-center space-x-2">
-          <div className="relative flex-grow">
+        <div className="flex flex-col md:flex-row w-full items-center space-y-2 md:space-y-0 md:space-x-2">
+          <div className="relative flex-grow w-full">
             <LinkIcon
               className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground"
               aria-hidden="true"
@@ -70,12 +70,12 @@ function ThumbnailDownloaderFormContent({ data }: { data?: FormState["data"] }) 
               type="text"
               placeholder="Paste YouTube URL here..."
               required
-              className="pl-10 text-base h-12"
+              className="pl-10 text-base h-12 w-full"
               disabled={pending}
             />
           </div>
 
-          <Button type="submit" className="h-12 bg-blue-600 hover:bg-blue-700 text-white" disabled={pending}>
+          <Button type="submit" className="h-12 bg-blue-600 hover:bg-blue-700 text-white w-full md:w-auto" disabled={pending}>
             {pending ? (
               <>
                 <Loader2 className="mr-2 h-5 w-5 animate-spin" />
