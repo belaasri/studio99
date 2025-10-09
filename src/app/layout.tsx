@@ -27,6 +27,7 @@ export default function RootLayout({
   return (
     <html lang={params.lang} className="h-full">
       <head>
+        <meta name="google-site-verification" content="GLkroco-OCtBw0oX36wePw5umDTp2xHlo6j0owHzMVg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
