@@ -14,7 +14,6 @@ import { i18n, type Locale } from "@/i18n-config";
 
 const languageNames: Record<Locale, string> = {
     en: "English",
-    de: "German",
     es: "Spanish",
     fr: "French",
     ja: "Japanese",
