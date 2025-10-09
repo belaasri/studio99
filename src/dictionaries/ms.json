@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "Pemuat Turun Imej Kenit YouTube",
-    "description": "Tampal pautan video YouTube di bawah untuk memuat turun imej kenitnya.",
-    "whyChoose": {
-      "title": "Kenapa Pilih Kami?",
-      "feature": "Ciri",
-      "benefit": "Faedah",
-      "features": {
-        "instant": {
-          "feature": "Muat Turun Segera",
-          "benefit": "Dapatkan imej kenit dalam beberapa saat."
-        },
-        "multiple": {
-          "feature": "Pelbagai Kualiti",
-          "benefit": "Pilih daripada pelbagai kualiti."
-        },
-        "free": {
-          "feature": "Percuma untuk Digunakan",
-          "benefit": "Perkhidmatan kami adalah percuma sepenuhnya."
-        },
-        "allDevices": {
-          "feature": "Berfungsi pada Semua Peranti",
-          "benefit": "Gunakan pada mana-mana peranti."
-        },
-        "safe": {
-          "feature": "Selamat & Terjamin",
-          "benefit": "Muat turun anda selamat."
-        }
-      }
+    "title": "Pemuat Turun Imej Kenit YouTube - Muat Turun Imej Kenit Video YT dalam HD, 4K & HD Penuh (1080p)",
+    "subtitle": "Alat Pengaut & Pengekstrak Imej Kenit YouTube Dalam Talian Percuma",
+    "description": "Muat turun mana-mana imej kenit video YouTube dalam beberapa saat! <b>Pemuat turun imej kenit YouTube percuma</b> kami membolehkan anda menyimpan imej kenit YT dalam pelbagai resolusi termasuk <b>4K, HD Penuh (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180), dan Normal (120x90)</b> - percuma sepenuhnya tanpa tera air, tanpa pendaftaran, dan tanpa iklan.",
+    "whatIs": {
+      "title": "Apakah Pemuat Turun Imej Kenit YouTube?",
+      "p1": "<b>Pemuat Turun Imej Kenit YouTube</b> ialah alat dalam talian percuma yang membolehkan anda mengekstrak, melihat dan memuat turun imej kenit dengan pantas daripada mana-mana video YouTube, termasuk video biasa, YouTube Shorts, video terbenam dan strim langsung. Pengaut imej kenit kami menyokong semua format URL YouTube dan menyediakan akses segera kepada imej kenit berkualiti tinggi dalam pelbagai resolusi.",
+      "p2": "Sama ada anda seorang pencipta kandungan, pereka grafik, pemasar atau pelajar, <b>pemuat turun imej kenit yt</b> kami membantu anda menyimpan imej kenit video YouTube untuk pembentangan, catatan blog, grafik media sosial, inspirasi atau projek reka bentuk - semuanya tanpa sebarang langkah rumit atau pemasangan perisian."
     },
     "howTo": {
-      "title": "Bagaimana untuk Memuat Turun Imej Kenit YouTube?",
-      "method1": {
-        "title": "Kaedah 1: Melalui Pautan",
-        "step1": "Salin pautan video YouTube.",
-        "step2": "Tampal pautan dalam kotak input.",
-        "step3": "Klik butang 'Dapatkan Imej Kenit'.",
-        "step4": "Pilih kualiti yang anda mahu.",
-        "step5": "Klik 'Muat Turun' untuk menyimpan imej."
+      "title": "Cara Memuat Turun Imej Kenit YouTube - 3 Langkah Mudah",
+      "step1": {
+        "title": "Langkah 1: Salin URL Video YouTube",
+        "description": "Buka mana-mana video YouTube dan salin URLnya dari bar alamat penyemak imbas. Alat kami menyokong semua format."
       },
-      "method2": {
-        "title": "Kaedah 2: Melalui Carian",
-        "description": "Cari video terus dari laman web kami.",
-        "step1": "Taip kata kunci anda di bar carian.",
-        "step2": "Pilih video dari hasil carian.",
-        "step3": "Pilih kualiti yang anda mahu.",
-        "step4": "Klik 'Muat Turun'."
+      "step2": {
+        "title": "Langkah 2: Tampal URL dan Dapatkan Imej Kenit",
+        "description": "Tampal pautan YouTube yang disalin ke dalam kotak input kami di atas dan klik \"Dapatkan Imej Kenit\" atau \"Muat Turun Imej Kenit\". Pengekstrak imej kenit kami akan mengesan ID video secara automatik dan mengambil semua saiz imej kenit yang tersedia serta-merta."
+      },
+      "step3": {
+        "title": "Langkah 3: Pratonton dan Muat Turun",
+        "description": "Semak imbas semua resolusi yang tersedia, pratontonnya, dan klik butang Muat Turun di sebelah saiz pilihan anda. Imej akan disimpan terus ke peranti anda dalam format JPG - sedia untuk digunakan serta-merta!"
       }
+    },
+    "resolutions": {
+      "title": "Saiz & Resolusi Imej Kenit YouTube yang Tersedia",
+      "quality": "Kualiti",
+      "resolution": "Resolusi",
+      "filename": "Nama fail",
+      "bestFor": "Terbaik Untuk",
+      "sizes": [
+        {
+          "quality": "<b>4K / Resolusi Maksimum</b>",
+          "resolution": "1920x1080 atau 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Projek profesional, percetakan, reka bentuk berkualiti tinggi"
+        },
+        {
+          "quality": "<b>HD Penuh</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Muat naik YouTube, pengepala laman web, pembentangan"
+        },
+        {
+          "quality": "<b>SD (Definisi Standard)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Catatan blog, media sosial, penggunaan umum"
+        },
+        {
+          "quality": "<b>HQ (Kualiti Tinggi)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Imej kenit, pratonton, rujukan pantas"
+        },
+        {
+          "quality": "<b>MQ (Kualiti Sederhana)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Paparan mudah alih, projek yang dimampatkan"
+        },
+        {
+          "quality": "<b>Biasa/Lalai</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Ikon, pratonton kecil, imej pemegang tempat"
+        }
+      ],
+      "note": "Nota: Tidak semua video mempunyai maxresdefault (1280x720) yang tersedia. Jika video tidak mempunyai imej kenit HD, alat kami akan menapisnya secara automatik dan hanya menunjukkan saiz yang tersedia."
+    },
+    "whyChoose": {
+      "title": "Mengapa Pilih Alat Muat Turun Imej Kenit YouTube Kami?",
+      "features": [
+        {
+          "title": "🚀 Hasil Pantas & Segera",
+          "description": "Muat turun imej kenit YouTube dalam masa kurang dari 1 saat. Tiada menunggu, tiada kelewatan - hanya tampal URL dan dapatkan akses segera kepada semua saiz imej kenit."
+        },
+        {
+          "title": "🎯 Semua Format YouTube Disokong",
+          "description": "Berfungsi dengan setiap jenis URL YouTube: pautan tontonan standard, URL pendek youtu.be, video Shorts, pautan terbenam, dan URL format /v/ warisan."
+        },
+        {
+          "title": "📱 100% Serasi Mudah Alih & Desktop",
+          "description": "Reka bentuk responsif sepenuhnya yang berfungsi dengan sempurna pada semua peranti dan penyemak imbas: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Pelbagai Resolusi Berkualiti Tinggi",
+          "description": "Akses sehingga 6 saiz imej kenit yang berbeza dari 120x90 piksel hingga HD Penuh 1280x720 (dan kadangkala 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Ciri Pratonton Langsung",
+          "description": "Pratonton setiap saiz imej kenit sebelum memuat turun. Lihat dengan tepat apa yang anda dapat dengan pemapar imej terbina dalam kami."
+        },
+        {
+          "title": "💯 Percuma Sepenuhnya Selamanya",
+          "description": "Tiada kos tersembunyi, tiada pelan premium, tiada tempoh percubaan. Pemuat turun imej kenit YouTube 100% percuma dengan muat turun tanpa had."
+        },
+        {
+          "title": "🔒 Tiada Pendaftaran Diperlukan",
+          "description": "Mula memuat turun serta-merta. Tiada pendaftaran, tiada log masuk, tiada e-mel diperlukan. Privasi anda dilindungi."
+        },
+        {
+          "title": "🚫 Sifar Iklan & Pop-Timbul",
+          "description": "Antara muka yang bersih dan profesional tanpa iklan yang menjengkelkan, tetingkap timbul, ubah hala atau penjejak."
+        },
+        {
+          "title": "⚡ Tiada Tera Air",
+          "description": "Muat turun imej kenit YouTube yang tulen dan asli tanpa sebarang tera air, logo atau penjenamaan yang ditambahkan."
+        },
+        {
+          "title": "🛡️ Selamat & Terjamin",
+          "description": "Sambungan yang disulitkan SSL melindungi data anda. Kami tidak menyimpan sebarang URL video atau imej yang dimuat turun."
+        },
+        {
+          "title": "🌐 Berfungsi di Seluruh Dunia",
+          "description": "Akses alat kami dari mana-mana sahaja di dunia. Tiada sekatan geografi atau keperluan VPN."
+        },
+        {
+          "title": "📥 Muat Turun Satu Klik",
+          "description": "Simpan imej kenit terus ke peranti anda dengan satu klik. Tiada menu klik kanan atau proses yang rumit."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Soalan Lazim (FAQ)",
+      "questions": [
+        {
+          "q": "Apakah fungsi Pemuat Turun Imej Kenit YouTube ini?",
+          "a": "Alat percuma kami mengekstrak dan memuat turun imej kenit dengan serta-merta daripada mana-mana video YouTube dalam pelbagai resolusi (4K, HD Penuh, HD, SD). Tiada iklan, tiada pendaftaran, tiada tera air."
+        },
+        {
+          "q": "Adakah pengaut imej kenit YouTube ini benar-benar percuma?",
+          "a": "Ya, 100% percuma selamanya. Tiada kos tersembunyi, tiada pelan premium. Muat turun tanpa had tanpa sekatan."
+        },
+        {
+          "q": "Adakah saya perlu membuat akaun atau mendaftar?",
+          "a": "Tidak! Mula memuat turun serta-merta tanpa sebarang pendaftaran или maklumat peribadi diperlukan."
+        },
+        {
+          "q": "Adakah ini berfungsi pada telefon bimbit?",
+          "a": "Sudah tentu! Pemuat turun imej kenit kami responsif sepenuhnya untuk mudah alih dan berfungsi dengan sempurna pada telefon Android, iPhone dan tablet."
+        },
+        {
+          "q": "Bolehkah saya memuat turun imej kenit YouTube Shorts?",
+          "a": "Ya! Alat kami menyokong sepenuhnya YouTube Shorts. Hanya tampal URL Shorts dan muat turun imej kenit serta-merta."
+        },
+        {
+          "q": "Mengapakah sesetengah video tidak mempunyai imej kenit HD (maxresdefault)?",
+          "a": "YouTube tidak menjana imej kenit maxresdefault (1280x720) untuk semua video, terutamanya yang lebih lama. Alat kami menapis saiz yang tidak tersedia secara automatik."
+        },
+        {
+          "q": "Bolehkah saya memuat turun imej kenit daripada video YouTube peribadi atau tidak tersenarai?",
+          "a": "Imej kenit daripada video peribadi tidak boleh diakses secara umum. Video tidak tersenarai berfungsi dengan baik jika anda mempunyai pautan URL terus."
+        },
+        {
+          "q": "Adakah Pemuat Turun Imej Kenit YouTube ini selamat digunakan?",
+          "a": "Ya, selamat sepenuhnya! Laman web kami menggunakan penyulitan SSL (HTTPS), kami tidak menyimpan sebarang data, dan kami tidak mengumpul maklumat peribadi. Tiada perisian hasad, tiada virus."
+        },
+        {
+          "q": "Adakah anda menyimpan URL YouTube yang saya tampal?",
+          "a": "Tidak! Kami tidak mencatat, menyimpan atau menjejaki mana-mana URL yang anda masukkan. Semua pemprosesan berlaku dalam masa nyata dan tiada apa yang disimpan pada pelayan kami."
+        },
+        {
+          "q": "Adakah sah untuk memuat turun imej kenit YouTube?",
+          "a": "Memuat turun untuk kegunaan peribadi, pendidikan atau tujuan penggunaan saksama secara amnya boleh diterima. Walau bagaimanapun, pengedaran awam, penggunaan komersial atau muat naik semula tanpa kebenaran boleh melanggar hak cipta. Sentiasa hormati hak pencipta."
+        },
+        {
+          "q": "Bolehkah saya menggunakan imej kenit yang dimuat turun untuk video YouTube saya sendiri?",
+          "a": "Tidak, melainkan anda mempunyai kebenaran nyata daripada pencipta asal. Menggunakan imej kenit orang lain untuk video anda melanggar dasar YouTube dan undang-undang hak cipta."
+        }
+      ]
     }
   }
 }
+

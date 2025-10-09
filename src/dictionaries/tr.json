@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "YouTube Küçük Resim İndirici",
-    "description": "Küçük resmini indirmek için aşağıya bir YouTube video bağlantısı yapıştırın.",
-    "whyChoose": {
-      "title": "Neden Bizi Seçmelisiniz?",
-      "feature": "Özellik",
-      "benefit": "Fayda",
-      "features": {
-        "instant": {
-          "feature": "Anında İndirme",
-          "benefit": "Küçük resimleri saniyeler içinde alın."
-        },
-        "multiple": {
-          "feature": "Çoklu Kaliteler",
-          "benefit": "Çeşitli kaliteler arasından seçim yapın."
-        },
-        "free": {
-          "feature": "Kullanımı Ücretsiz",
-          "benefit": "Hizmetimiz tamamen ücretsizdir."
-        },
-        "allDevices": {
-          "feature": "Tüm Cihazlarda Çalışır",
-          "benefit": "Herhangi bir cihazda kullanın."
-        },
-        "safe": {
-          "feature": "Güvenli ve Emniyetli",
-          "benefit": "İndirmeleriniz güvende."
-        }
-      }
+    "title": "YouTube Küçük Resim İndirici - YT Video Küçük Resimlerini HD, 4K ve Full HD (1080p) Olarak İndirin",
+    "subtitle": "Ücretsiz Çevrimiçi YouTube Küçük Resim Yakalayıcı ve Çıkarıcı Aracı",
+    "description": "Herhangi bir YouTube video küçük resmini saniyeler içinde indirin! <b>Ücretsiz YouTube küçük resim indiricimiz</b>, YT küçük resimlerini <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180) ve Normal (120x90)</b> dahil olmak üzere birden çok çözünürlükte kaydetmenize olanak tanır - tamamen ücretsiz, filigransız, kayıtsız ve reklamsız.",
+    "whatIs": {
+      "title": "YouTube Küçük Resim İndirici Nedir?",
+      "p1": "Bir <b>YouTube Küçük Resim İndirici</b>, normal videolar, YouTube Shorts, gömülü videolar ve canlı yayınlar dahil olmak üzere herhangi bir YouTube videosundan küçük resim görüntülerini hızlı bir şekilde çıkarmanıza, görüntülemenize ve indirmenize olanak tanıyan ücretsiz bir çevrimiçi araçtır. Küçük resim yakalayıcımız tüm YouTube URL biçimlerini destekler ve çeşitli çözünürlüklerde yüksek kaliteli küçük resim görüntülerine anında erişim sağlar.",
+      "p2": "İster içerik oluşturucu, grafik tasarımcı, pazarlamacı veya öğrenci olun, <b>yt küçük resim indiricimiz</b> sunumlar, blog gönderileri, sosyal medya grafikleri, ilham veya tasarım projeleri için YouTube video küçük resimlerini kaydetmenize yardımcı olur - hepsi de karmaşık adımlar veya yazılım kurulumu olmadan."
     },
     "howTo": {
-      "title": "YouTube Küçük Resimleri Nasıl İndirilir?",
-      "method1": {
-        "title": "Yöntem 1: Bağlantı ile",
-        "step1": "YouTube video bağlantısını kopyalayın.",
-        "step2": "Bağlantıyı giriş kutusuna yapıştırın.",
-        "step3": "'Küçük Resimleri Al' düğmesine tıklayın.",
-        "step4": "İstediğiniz kaliteyi seçin.",
-        "step5": "Görüntüyü kaydetmek için 'İndir'e tıklayın."
+      "title": "YouTube Küçük Resmi Nasıl İndirilir - 3 Basit Adım",
+      "step1": {
+        "title": "Adım 1: YouTube Video URL'sini Kopyalayın",
+        "description": "Herhangi bir YouTube videosunu açın ve tarayıcı adres çubuğundan URL'sini kopyalayın. Aracımız tüm formatları destekler."
       },
-      "method2": {
-        "title": "Yöntem 2: Arama ile",
-        "description": "Videoları doğrudan sitemizden arayın.",
-        "step1": "Arama çubuğuna anahtar kelimelerinizi yazın.",
-        "step2": "Arama sonuçlarından videoyu seçin.",
-        "step3": "İstediğiniz kaliteyi seçin.",
-        "step4": "'İndir'e tıklayın."
+      "step2": {
+        "title": "Adım 2: URL'yi Yapıştırın ve Küçük Resimleri Alın",
+        "description": "Kopyalanan YouTube bağlantısını yukarıdaki giriş kutumuza yapıştırın ve \"Küçük Resimleri Al\" veya \"Küçük Resmi İndir\" i tıklayın. Küçük resim çıkarıcımız video kimliğini otomatik olarak algılar ve mevcut tüm küçük resim boyutlarını anında getirir."
+      },
+      "step3": {
+        "title": "Adım 3: Önizleyin ve İndirin",
+        "description": "Mevcut tüm çözünürlüklere göz atın, önizleyin ve tercih ettiğiniz boyutun yanındaki İndir düğmesine tıklayın. Görüntü doğrudan cihazınıza JPG formatında kaydedilecektir - hemen kullanıma hazır!"
       }
+    },
+    "resolutions": {
+      "title": "Mevcut YouTube Küçük Resim Boyutları ve Çözünürlükleri",
+      "quality": "Kalite",
+      "resolution": "Çözünürlük",
+      "filename": "Dosya adı",
+      "bestFor": "İçin en iyisi",
+      "sizes": [
+        {
+          "quality": "<b>4K / Maksimum Çözünürlük</b>",
+          "resolution": "1920x1080 veya 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Profesyonel projeler, baskı, yüksek kaliteli tasarımlar"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "YouTube yüklemeleri, web sitesi başlıkları, sunumlar"
+        },
+        {
+          "quality": "<b>SD (Standart Tanım)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Blog gönderileri, sosyal medya, genel kullanım"
+        },
+        {
+          "quality": "<b>HQ (Yüksek Kalite)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Küçük resimler, önizlemeler, hızlı referanslar"
+        },
+        {
+          "quality": "<b>MQ (Orta Kalite)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Mobil ekranlar, sıkıştırılmış projeler"
+        },
+        {
+          "quality": "<b>Normal/Varsayılan</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Simgeler, küçük önizlemeler, yer tutucu resimler"
+        }
+      ],
+      "note": "Not: Tüm videolarda maxresdefault (1280x720) mevcut değildir. Bir videoda HD küçük resimler yoksa, aracımız bunları otomatik olarak filtreler ve yalnızca mevcut boyutları gösterir."
+    },
+    "whyChoose": {
+      "title": "Neden YouTube Küçük Resim İndirme Aracımızı Seçmelisiniz?",
+      "features": [
+        {
+          "title": "🚀 Şimşek Hızında ve Anında Sonuçlar",
+          "description": "YouTube küçük resimlerini 1 saniyeden daha kısa sürede indirin. Bekleme yok, gecikme yok - sadece URL'yi yapıştırın ve tüm küçük resim boyutlarına anında erişin."
+        },
+        {
+          "title": "🎯 Tüm YouTube Formatları Desteklenir",
+          "description": "Her YouTube URL türüyle çalışır: standart izleme bağlantıları, youtu.be kısa URL'leri, Shorts videoları, gömülü bağlantılar ve eski /v/ formatı URL'leri."
+        },
+        {
+          "title": "📱 %100 Mobil ve Masaüstü Uyumlu",
+          "description": "Tüm cihazlarda ve tarayıcılarda kusursuz çalışan tamamen duyarlı tasarım: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Birden Fazla Yüksek Kaliteli Çözünürlük",
+          "description": "120x90 pikselden Full HD 1280x720'ye (ve bazen 4K 1920x1080'e) kadar 6 farklı küçük resim boyutuna erişin."
+        },
+        {
+          "title": "👁️ Canlı Önizleme Özelliği",
+          "description": "İndirmeden önce her küçük resim boyutunu önizleyin. Dahili resim görüntüleyicimizle tam olarak ne elde ettiğinizi görün."
+        },
+        {
+          "title": "💯 Sonsuza Kadar Tamamen Ücretsiz",
+          "description": "Gizli maliyet yok, premium planlar yok, deneme süreleri yok. Sınırsız indirmeli %100 ücretsiz YouTube küçük resim indiricisi."
+        },
+        {
+          "title": "🔒 Kayıt Gerekmez",
+          "description": "Hemen indirmeye başlayın. Kayıt, giriş, e-posta gerekmez. Gizliliğiniz korunur."
+        },
+        {
+          "title": "🚫 Sıfır Reklam ve Pop-up",
+          "description": "Rahatsız edici reklamlar, pop-up'lar, yönlendirmeler veya izleyiciler olmadan temiz, profesyonel arayüz."
+        },
+        {
+          "title": "⚡ Filigran Yok",
+          "description": "Herhangi bir filigran, logo veya marka eklenmeden saf, orijinal YouTube küçük resimlerini indirin."
+        },
+        {
+          "title": "🛡️ Güvenli ve Emniyetli",
+          "description": "SSL şifreli bağlantılar verilerinizi korur. Herhangi bir video URL'sini veya indirilen görüntüyü saklamıyoruz."
+        },
+        {
+          "title": "🌐 Dünya Çapında Çalışır",
+          "description": "Aracımıza dünyanın her yerinden erişin. Coğrafi kısıtlama veya VPN gereksinimi yok."
+        },
+        {
+          "title": "📥 Tek Tıkla İndirme",
+          "description": "Tek bir tıklamayla küçük resimleri doğrudan cihazınıza kaydedin. Sağ tıklama menüleri veya karmaşık işlemler yok."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular (SSS)",
+      "questions": [
+        {
+          "q": "Bu YouTube Küçük Resim İndirici ne işe yarar?",
+          "a": "Ücretsiz aracımız, herhangi bir YouTube videosundan küçük resim görüntülerini birden çok çözünürlükte (4K, Full HD, HD, SD) anında çıkarır ve indirir. Reklam yok, kayıt yok, filigran yok."
+        },
+        {
+          "q": "Bu YouTube küçük resim yakalayıcı gerçekten ücretsiz mi?",
+          "a": "Evet, sonsuza kadar %100 ücretsiz. Gizli maliyet yok, premium planlar yok. Kısıtlama olmaksızın sınırsız indirme."
+        },
+        {
+          "q": "Bir hesap oluşturmam veya kaydolmam gerekiyor mu?",
+          "a": "Hayır! Herhangi bir kayıt veya kişisel bilgi gerekmeden hemen indirmeye başlayın."
+        },
+        {
+          "q": "Bu mobil telefonlarda çalışıyor mu?",
+          "a": "Kesinlikle! Küçük resim indiricimiz tamamen mobil uyumludur ve Android telefonlarda, iPhone'larda ve tabletlerde mükemmel çalışır."
+        },
+        {
+          "q": "YouTube Shorts küçük resimlerini indirebilir miyim?",
+          "a": "Evet! Aracımız YouTube Shorts'u tamamen destekler. Sadece Shorts URL'sini yapıştırın ve küçük resimleri anında indirin."
+        },
+        {
+          "q": "Neden bazı videolarda HD (maxresdefault) küçük resimler yok?",
+          "a": "YouTube, tüm videolar için, özellikle de eskileri için maxresdefault (1280x720) küçük resimler oluşturmaz. Aracımız mevcut olmayan boyutları otomatik olarak filtreler."
+        },
+        {
+          "q": "Özel veya liste dışı YouTube videolarından küçük resim indirebilir miyim?",
+          "a": "Özel videolardan küçük resimler halka açık değildir. Liste dışı videolar, doğrudan URL bağlantınız varsa iyi çalışır."
+        },
+        {
+          "q": "Bu YouTube Küçük Resim İndirici'yi kullanmak güvenli mi?",
+          "a": "Evet, tamamen güvenli! Web sitemiz SSL şifrelemesi (HTTPS) kullanır, herhangi bir veri saklamayız ve kişisel bilgi toplamayız. Kötü amaçlı yazılım yok, virüs yok."
+        },
+        {
+          "q": "Yapıştırdığım YouTube URL'lerini saklıyor musunuz?",
+          "a": "Hayır! Girdiğiniz URL'leri kaydetmiyoruz, saklamıyoruz veya izlemiyoruz. Tüm işlemler gerçek zamanlı olarak gerçekleşir ve sunucularımızda hiçbir şey kaydedilmez."
+        },
+        {
+          "q": "YouTube küçük resimlerini indirmek yasal mı?",
+          "a": "Kişisel kullanım, eğitim veya adil kullanım amaçlarıyla indirmek genellikle kabul edilebilir. Ancak, izinsiz halka açık dağıtım, ticari kullanım veya yeniden yükleme telif hakkını ihlal edebilir. Her zaman içerik oluşturucuların haklarına saygı gösterin."
+        },
+        {
+          "q": "İndirdiğim küçük resimleri kendi YouTube videolarım için kullanabilir miyim?",
+          "a": "Hayır, orijinal içerik oluşturucudan açık izniniz olmadıkça. Başkasının küçük resmini videolarınız için kullanmak, YouTube'un politikalarını ve telif hakkı yasasını ihlal eder."
+        }
+      ]
     }
   }
 }
+

@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "Downloader di miniature di YouTube",
-    "description": "Incolla un link di un video di YouTube qui sotto per scaricarne la miniatura.",
-    "whyChoose": {
-      "title": "Perché sceglierci?",
-      "feature": "Caratteristica",
-      "benefit": "Vantaggio",
-      "features": {
-        "instant": {
-          "feature": "Download istantaneo",
-          "benefit": "Ottieni miniature in pochi secondi."
-        },
-        "multiple": {
-          "feature": "Qualità multiple",
-          "benefit": "Scegli tra varie qualità."
-        },
-        "free": {
-          "feature": "Gratuito",
-          "benefit": "Il nostro servizio è completamente gratuito."
-        },
-        "allDevices": {
-          "feature": "Funziona su tutti i dispositivi",
-          "benefit": "Usalo su qualsiasi dispositivo."
-        },
-        "safe": {
-          "feature": "Sicuro e protetto",
-          "benefit": "I tuoi download sono sicuri."
-        }
-      }
+    "title": "Downloader di miniature di YouTube - Scarica miniature di video di YT in HD, 4K e Full HD (1080p)",
+    "subtitle": "Strumento online gratuito per catturare ed estrarre miniature di YouTube",
+    "description": "Scarica qualsiasi miniatura di video di YouTube in pochi secondi! Il nostro <b>downloader di miniature di YouTube gratuito</b> ti consente di salvare miniature di YT in più risoluzioni, tra cui <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180) e Normale (120x90)</b> - completamente gratuito, senza filigrane, senza registrazione e senza pubblicità.",
+    "whatIs": {
+      "title": "Cos'è un Downloader di miniature di YouTube?",
+      "p1": "Un <b>Downloader di miniature di YouTube</b> è uno strumento online gratuito che ti consente di estrarre, visualizzare e scaricare rapidamente immagini in miniatura da qualsiasi video di YouTube, inclusi video normali, YouTube Shorts, video incorporati e live streaming. Il nostro strumento di cattura miniature supporta tutti i formati di URL di YouTube e fornisce accesso istantaneo a immagini in miniatura di alta qualità in varie risoluzioni.",
+      "p2": "Che tu sia un creatore di contenuti, un grafico, un marketer o uno studente, il nostro <b>downloader di miniature di yt</b> ti aiuta a salvare le miniature dei video di YouTube per presentazioni, post di blog, grafica per social media, ispirazione o progetti di design - tutto senza passaggi complicati o installazione di software."
     },
     "howTo": {
-      "title": "Come scaricare le miniature di YouTube?",
-      "method1": {
-        "title": "Metodo 1: Tramite link",
-        "step1": "Copia il link del video di YouTube.",
-        "step2": "Incolla il link nella casella di input.",
-        "step3": "Fai clic sul pulsante 'Ottieni miniature'.",
-        "step4": "Scegli la qualità che desideri.",
-        "step5": "Fai clic su 'Scarica' per salvare l'immagine."
+      "title": "Come scaricare le miniature di YouTube - 3 semplici passaggi",
+      "step1": {
+        "title": "Passaggio 1: copia l'URL del video di YouTube",
+        "description": "Apri qualsiasi video di YouTube e copia il suo URL dalla barra degli indirizzi del browser. Il nostro strumento supporta tutti i formati."
       },
-      "method2": {
-        "title": "Metodo 2: Tramite ricerca",
-        "description": "Cerca video direttamente dal nostro sito.",
-        "step1": "Digita le tue parole chiave nella barra di ricerca.",
-        "step2": "Seleziona il video dai risultati della ricerca.",
-        "step3": "Scegli la qualità che desideri.",
-        "step4": "Fai clic su 'Scarica'."
+      "step2": {
+        "title": "Passaggio 2: incolla l'URL e ottieni le miniature",
+        "description": "Incolla il link di YouTube copiato nella nostra casella di input qui sopra e fai clic su \"Ottieni miniature\" o \"Scarica miniatura\". Il nostro estrattore di miniature rileverà automaticamente l'ID del video e recupererà istantaneamente tutte le dimensioni di miniatura disponibili."
+      },
+      "step3": {
+        "title": "Passaggio 3: visualizza l'anteprima e scarica",
+        "description": "Sfoglia tutte le risoluzioni disponibili, visualizzale in anteprima e fai clic sul pulsante Scarica accanto alla dimensione che preferisci. L'immagine verrà salvata direttamente sul tuo dispositivo in formato JPG - pronta per l'uso immediato!"
       }
+    },
+    "resolutions": {
+      "title": "Dimensioni e risoluzioni delle miniature di YouTube disponibili",
+      "quality": "Qualità",
+      "resolution": "Risoluzione",
+      "filename": "Nome del file",
+      "bestFor": "Ideale per",
+      "sizes": [
+        {
+          "quality": "<b>4K / Massima risoluzione</b>",
+          "resolution": "1920x1080 o 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Progetti professionali, stampa, design di alta qualità"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Caricamenti su YouTube, intestazioni di siti Web, presentazioni"
+        },
+        {
+          "quality": "<b>SD (Definizione standard)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Post di blog, social media, uso generale"
+        },
+        {
+          "quality": "<b>HQ (Alta qualità)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Miniature, anteprime, riferimenti rapidi"
+        },
+        {
+          "quality": "<b>MQ (Media qualità)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Display mobili, progetti compressi"
+        },
+        {
+          "quality": "<b>Normale/Predefinita</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Icone, piccole anteprime, immagini segnaposto"
+        }
+      ],
+      "note": "Nota: non tutti i video hanno la risoluzione maxresdefault (1280x720) disponibile. Se un video non ha miniature in HD, il nostro strumento le filtra automaticamente e mostra solo le dimensioni disponibili."
+    },
+    "whyChoose": {
+      "title": "Perché scegliere il nostro strumento per scaricare miniature di YouTube?",
+      "features": [
+        {
+          "title": "🚀 Risultati fulminei e istantanei",
+          "description": "Scarica le miniature di YouTube in meno di 1 secondo. Nessuna attesa, nessun ritardo: basta incollare l'URL e ottenere l'accesso istantaneo a tutte le dimensioni delle miniature."
+        },
+        {
+          "title": "🎯 Tutti i formati di YouTube supportati",
+          "description": "Funziona con ogni tipo di URL di YouTube: link di visualizzazione standard, URL brevi di youtu.be, video di Shorts, link incorporati e URL in formato /v/ legacy."
+        },
+        {
+          "title": "📱 100% compatibile con dispositivi mobili e desktop",
+          "description": "Design completamente reattivo che funziona perfettamente su tutti i dispositivi e browser: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Molteplici risoluzioni di alta qualità",
+          "description": "Accedi a fino a 6 diverse dimensioni di miniature da 120x90 pixel fino a Full HD 1280x720 (e talvolta 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Funzione di anteprima dal vivo",
+          "description": "Visualizza in anteprima ogni dimensione della miniatura prima di scaricarla. Guarda esattamente cosa stai ottenendo con il nostro visualizzatore di immagini integrato."
+        },
+        {
+          "title": "💯 Completamente gratuito per sempre",
+          "description": "Nessun costo nascosto, nessun piano premium, nessun periodo di prova. Downloader di miniature di YouTube gratuito al 100% con download illimitati."
+        },
+        {
+          "title": "🔒 Nessuna registrazione richiesta",
+          "description": "Inizia a scaricare immediatamente. Nessuna registrazione, nessun accesso, nessuna e-mail richiesta. La tua privacy è protetta."
+        },
+        {
+          "title": "🚫 Zero pubblicità e pop-up",
+          "description": "Interfaccia pulita e professionale senza fastidiose pubblicità, pop-up, reindirizzamenti o tracker."
+        },
+        {
+          "title": "⚡ Nessuna filigrana",
+          "description": "Scarica miniature di YouTube originali e pulite senza filigrane, loghi o marchi aggiunti."
+        },
+        {
+          "title": "🛡️ Sicuro e protetto",
+          "description": "Le connessioni crittografate SSL proteggono i tuoi dati. Non memorizziamo alcun URL di video o immagini scaricate."
+        },
+        {
+          "title": "🌐 Funziona in tutto il mondo",
+          "description": "Accedi al nostro strumento da qualsiasi parte del mondo. Nessuna restrizione geografica o requisito VPN."
+        },
+        {
+          "title": "📥 Download con un clic",
+          "description": "Salva le miniature direttamente sul tuo dispositivo con un solo clic. Nessun menu contestuale o processi complicati."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Domande frequenti (FAQ)",
+      "questions": [
+        {
+          "q": "Cosa fa questo Downloader di miniature di YouTube?",
+          "a": "Il nostro strumento gratuito estrae e scarica istantaneamente le immagini in miniatura da qualsiasi video di YouTube in più risoluzioni (4K, Full HD, HD, SD). Nessuna pubblicità, nessuna registrazione, nessuna filigrana."
+        },
+        {
+          "q": "Questo strumento per catturare miniature di YouTube è davvero gratuito?",
+          "a": "Sì, 100% gratuito per sempre. Nessun costo nascosto, nessun piano premium. Download illimitati senza restrizioni."
+        },
+        {
+          "q": "Devo creare un account o registrarmi?",
+          "a": "No! Inizia a scaricare immediatamente senza alcuna registrazione o informazione personale richiesta."
+        },
+        {
+          "q": "Funziona sui telefoni cellulari?",
+          "a": "Assolutamente! Il nostro downloader di miniature è completamente reattivo per i dispositivi mobili и работает идеально на телефонах Android, iPhone и планшетах."
+        },
+        {
+          "q": "Posso scaricare le miniature di YouTube Shorts?",
+          "a": "Sì! Il nostro strumento supporta pienamente YouTube Shorts. Basta incollare l'URL dello Short e scaricare le miniature istantaneamente."
+        },
+        {
+          "q": "Perché alcuni video non hanno miniature in HD (maxresdefault)?",
+          "a": "YouTube non genera miniature maxresdefault (1280x720) per tutti i video, in particolare per quelli più vecchi. Il nostro strumento filtra automaticamente le dimensioni non disponibili."
+        },
+        {
+          "q": "Posso scaricare miniature da video di YouTube privati o non in elenco?",
+          "a": "Le miniature dei video privati non sono accessibili al pubblico. I video non in elenco funzionano bene se si dispone del link URL diretto."
+        },
+        {
+          "q": "È sicuro usare questo Downloader di miniature di YouTube?",
+          "a": "Sì, completamente sicuro! Il nostro sito web utilizza la crittografia SSL (HTTPS), non memorizziamo alcun dato e non raccogliamo informazioni personali. Nessun malware, nessun virus."
+        },
+        {
+          "q": "Memorizzate gli URL di YouTube che incollo?",
+          "a": "No! Non registriamo, memorizziamo o tracciamo alcun URL che inserisci. Tutta l'elaborazione avviene in tempo reale e nulla viene salvato sui nostri server."
+        },
+        {
+          "q": "È legale scaricare le miniature di YouTube?",
+          "a": "Lo scaricamento per uso personale, educativo o per scopi di fair use è generalmente accettabile. Tuttavia, la distribuzione pubblica, l'uso commerciale o il ricaricamento senza autorizzazione possono violare il copyright. Rispetta sempre i diritti dei creatori."
+        },
+        {
+          "q": "Posso usare le miniature scaricate per i miei video di YouTube?",
+          "a": "No, a meno che tu non abbia il permesso esplicito del creatore originale. L'uso della miniatura di qualcun altro per i tuoi video viola le norme di YouTube e la legge sul copyright."
+        }
+      ]
     }
   }
 }
+

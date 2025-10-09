@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "Descărcător de miniaturi YouTube",
-    "description": "Lipiți un link video YouTube mai jos pentru a descărca miniatura acestuia.",
-    "whyChoose": {
-      "title": "De ce să ne alegeți?",
-      "feature": "Caracteristică",
-      "benefit": "Beneficiu",
-      "features": {
-        "instant": {
-          "feature": "Descărcare instantanee",
-          "benefit": "Obțineți miniaturi în câteva secunde."
-        },
-        "multiple": {
-          "feature": "Calități multiple",
-          "benefit": "Alegeți din diverse calități."
-        },
-        "free": {
-          "feature": "Gratuit de utilizat",
-          "benefit": "Serviciul nostru este complet gratuit."
-        },
-        "allDevices": {
-          "feature": "Funcționează pe toate dispozitivele",
-          "benefit": "Utilizați pe orice dispozitiv."
-        },
-        "safe": {
-          "feature": "Sigur și securizat",
-          "benefit": "Descărcările dvs. sunt sigure."
-        }
-      }
+    "title": "Descărcător de miniaturi YouTube - Descărcați miniaturi video YT în HD, 4K și Full HD (1080p)",
+    "subtitle": "Instrument online gratuit de preluare și extragere a miniaturilor YouTube",
+    "description": "Descărcați orice miniatură video YouTube în câteva secunde! <b>Descărcătorul nostru gratuit de miniaturi YouTube</b> vă permite să salvați miniaturi YT în mai multe rezoluții, inclusiv <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180) și Normal (120x90)</b> - complet gratuit, fără filigrane, fără înregistrare și fără reclame.",
+    "whatIs": {
+      "title": "Ce este un descărcător de miniaturi YouTube?",
+      "p1": "Un <b>descărcător de miniaturi YouTube</b> este un instrument online gratuit care vă permite să extrageți, să vizualizați și să descărcați rapid imagini de miniaturi de la orice videoclip YouTube, inclusiv videoclipuri obișnuite, YouTube Shorts, videoclipuri încorporate și transmisiuni live. Instrumentul nostru de preluare a miniaturilor acceptă toate formatele de URL YouTube și oferă acces instantaneu la imagini de miniaturi de înaltă calitate în diverse rezoluții.",
+      "p2": "Fie că sunteți creator de conținut, designer grafic, marketer sau student, <b>descărcătorul nostru de miniaturi yt</b> vă ajută să salvați miniaturi video YouTube pentru prezentări, postări pe blog, grafice pentru rețelele sociale, inspirație sau proiecte de design - totul fără pași complicați sau instalare de software."
     },
     "howTo": {
-      "title": "Cum se descarcă miniaturi YouTube?",
-      "method1": {
-        "title": "Metoda 1: Prin link",
-        "step1": "Copiați linkul video YouTube.",
-        "step2": "Lipiți linkul în caseta de introducere.",
-        "step3": "Faceți clic pe butonul 'Obțineți miniaturi'.",
-        "step4": "Alegeți calitatea dorită.",
-        "step5": "Faceți clic pe 'Descărcați' pentru a salva imaginea."
+      "title": "Cum se descarcă o miniatură YouTube - 3 pași simpli",
+      "step1": {
+        "title": "Pasul 1: Copiați URL-ul videoclipului YouTube",
+        "description": "Deschideți orice videoclip YouTube și copiați URL-ul acestuia din bara de adrese a browserului. Instrumentul nostru acceptă toate formatele."
       },
-      "method2": {
-        "title": "Metoda 2: Prin căutare",
-        "description": "Căutați videoclipuri direct de pe site-ul nostru.",
-        "step1": "Introduceți cuvintele cheie în bara de căutare.",
-        "step2": "Selectați videoclipul din rezultatele căutării.",
-        "step3": "Alegeți calitatea dorită.",
-        "step4": "Faceți clic pe 'Descărcați'."
+      "step2": {
+        "title": "Pasul 2: Lipiți URL-ul și obțineți miniaturile",
+        "description": "Lipiți linkul YouTube copiat în caseta noastră de intrare de mai sus și faceți clic pe „Obțineți miniaturi” sau „Descărcați miniatura”. Extractorul nostru de miniaturi va detecta automat ID-ul videoclipului și va prelua instantaneu toate dimensiunile de miniaturi disponibile."
+      },
+      "step3": {
+        "title": "Pasul 3: Previzualizați și descărcați",
+        "description": "Răsfoiți toate rezoluțiile disponibile, previzualizați-le și faceți clic pe butonul de descărcare de lângă dimensiunea preferată. Imaginea va fi salvată direct pe dispozitivul dvs. în format JPG - gata de utilizare imediată!"
       }
+    },
+    "resolutions": {
+      "title": "Dimensiuni și rezoluții disponibile pentru miniaturile YouTube",
+      "quality": "Calitate",
+      "resolution": "Rezoluţie",
+      "filename": "Nume de fișier",
+      "bestFor": "Cel mai bun pentru",
+      "sizes": [
+        {
+          "quality": "<b>4K / Rezoluție maximă</b>",
+          "resolution": "1920x1080 sau 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Proiecte profesionale, tipărire, design de înaltă calitate"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Încărcări pe YouTube, antete de site-uri web, prezentări"
+        },
+        {
+          "quality": "<b>SD (Definiție standard)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Postări pe blog, rețele sociale, uz general"
+        },
+        {
+          "quality": "<b>HQ (Calitate înaltă)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Miniaturi, previzualizări, referințe rapide"
+        },
+        {
+          "quality": "<b>MQ (Calitate medie)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Afișaje mobile, proiecte comprimate"
+        },
+        {
+          "quality": "<b>Normal/Implicit</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Pictograme, previzualizări mici, imagini de substituent"
+        }
+      ],
+      "note": "Notă: Nu toate videoclipurile au disponibilă rezoluția maxresdefault (1280x720). Dacă un videoclip nu are miniaturi HD, instrumentul nostru le filtrează automat și afișează doar dimensiunile disponibile."
+    },
+    "whyChoose": {
+      "title": "De ce să alegeți instrumentul nostru de descărcare a miniaturilor YouTube?",
+      "features": [
+        {
+          "title": "🚀 Rezultate fulgerătoare și instantanee",
+          "description": "Descărcați miniaturi YouTube în mai puțin de 1 secundă. Fără așteptare, fără întârzieri - doar lipiți URL-ul și obțineți acces instantaneu la toate dimensiunile de miniaturi."
+        },
+        {
+          "title": "🎯 Toate formatele YouTube sunt acceptate",
+          "description": "Funcționează cu fiecare tip de URL YouTube: linkuri de vizionare standard, URL-uri scurte youtu.be, videoclipuri Shorts, linkuri încorporate și URL-uri în format /v/ moștenit."
+        },
+        {
+          "title": "📱 100% compatibil cu dispozitivele mobile și desktop",
+          "description": "Design complet receptiv care funcționează impecabil pe toate dispozitivele și browserele: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Mai multe rezoluții de înaltă calitate",
+          "description": "Accesați până la 6 dimensiuni diferite de miniaturi, de la 120x90 pixeli până la Full HD 1280x720 (și uneori 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Funcție de previzualizare live",
+          "description": "Previzualizați fiecare dimensiune de miniatură înainte de a o descărca. Vedeți exact ce obțineți cu vizualizatorul nostru de imagini încorporat."
+        },
+        {
+          "title": "💯 Complet gratuit pentru totdeauna",
+          "description": "Fără costuri ascunse, fără planuri premium, fără perioade de probă. Descărcător de miniaturi YouTube 100% gratuit cu descărcări nelimitate."
+        },
+        {
+          "title": "🔒 Nu este necesară înregistrarea",
+          "description": "Începeți descărcarea imediat. Nu este necesară înregistrarea, autentificarea sau e-mailul. Confidențialitatea dvs. este protejată."
+        },
+        {
+          "title": "🚫 Zero reclame și ferestre pop-up",
+          "description": "Interfață curată și profesională, fără reclame enervante, ferestre pop-up, redirecționări sau trackere."
+        },
+        {
+          "title": "⚡ Fără filigrane",
+          "description": "Descărcați miniaturi YouTube originale și curate, fără filigrane, logo-uri sau mărci adăugate."
+        },
+        {
+          "title": "🛡️ Sigur și securizat",
+          "description": "Conexiunile criptate SSL vă protejează datele. Nu stocăm niciun URL video sau imagini descărcate."
+        },
+        {
+          "title": "🌐 Funcționează în întreaga lume",
+          "description": "Accesați instrumentul nostru de oriunde din lume. Fără restricții geografice sau cerințe VPN."
+        },
+        {
+          "title": "📥 Descărcare cu un singur clic",
+          "description": "Salvați miniaturile direct pe dispozitivul dvs. cu un singur clic. Fără meniuri cu clic dreapta sau procese complicate."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Întrebări frecvente (FAQ)",
+      "questions": [
+        {
+          "q": "Ce face acest descărcător de miniaturi YouTube?",
+          "a": "Instrumentul nostru gratuit extrage și descarcă instantaneu imagini de miniaturi de la orice videoclip YouTube în mai multe rezoluții (4K, Full HD, HD, SD). Fără reclame, fără înregistrare, fără filigrane."
+        },
+        {
+          "q": "Este acest instrument de preluare a miniaturilor YouTube cu adevărat gratuit?",
+          "a": "Da, 100% gratuit pentru totdeauna. Fără costuri ascunse, fără planuri premium. Descărcări nelimitate fără restricții."
+        },
+        {
+          "q": "Trebuie să creez un cont sau să mă înregistrez?",
+          "a": "Nu! Începeți descărcarea imediat, fără nicio înregistrare sau informații personale necesare."
+        },
+        {
+          "q": "Funcționează pe telefoanele mobile?",
+          "a": "Absolut! Descărcătorul nostru de miniaturi este complet receptiv pentru mobil și funcționează perfect pe telefoane Android, iPhone-uri și tablete."
+        },
+        {
+          "q": "Pot descărca miniaturi YouTube Shorts?",
+          "a": "Da! Instrumentul nostru acceptă pe deplin YouTube Shorts. Doar lipiți URL-ul Short și descărcați miniaturile instantaneu."
+        },
+        {
+          "q": "De ce unele videoclipuri nu au miniaturi HD (maxresdefault)?",
+          "a": "YouTube nu generează miniaturi maxresdefault (1280x720) pentru toate videoclipurile, în special pentru cele mai vechi. Instrumentul nostru filtrează automat dimensiunile indisponibile."
+        },
+        {
+          "q": "Pot descărca miniaturi de la videoclipuri YouTube private sau nelistate?",
+          "a": "Miniaturile de la videoclipurile private nu sunt accesibile public. Videoclipurile nelistate funcționează bine dacă aveți linkul URL direct."
+        },
+        {
+          "q": "Este sigur să utilizați acest descărcător de miniaturi YouTube?",
+          "a": "Da, complet sigur! Site-ul nostru utilizează criptare SSL (HTTPS), nu stocăm nicio dată și nu colectăm informații personale. Fără malware, fără viruși."
+        },
+        {
+          "q": "Stocați URL-urile YouTube pe care le lipesc?",
+          "a": "Nu! Nu înregistrăm, nu stocăm și nu urmărim niciun URL pe care îl introduceți. Toată procesarea are loc în timp real și nimic nu este salvat pe serverele noastre."
+        },
+        {
+          "q": "Este legal să descarc miniaturi YouTube?",
+          "a": "Descărcarea pentru uz personal, educațional sau în scopuri de utilizare loială este în general acceptabilă. Cu toate acestea, distribuția publică, utilizarea comercială sau reîncărcarea fără permisiune poate încălca drepturile de autor. Respectați întotdeauna drepturile creatorilor."
+        },
+        {
+          "q": "Pot folosi miniaturile descărcate pentru propriile mele videoclipuri YouTube?",
+          "a": "Nu, decât dacă aveți permisiunea explicită a creatorului original. Utilizarea miniaturii altcuiva pentru videoclipurile dvs. încalcă politicile YouTube și legea drepturilor de autor."
+        }
+      ]
     }
   }
 }
+

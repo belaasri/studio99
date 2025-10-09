@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "Téléchargeur de vignettes YouTube",
-    "description": "Collez un lien de vidéo YouTube ci-dessous pour télécharger sa vignette.",
-    "whyChoose": {
-      "title": "Pourquoi nous choisir ?",
-      "feature": "Fonctionnalité",
-      "benefit": "Avantage",
-      "features": {
-        "instant": {
-          "feature": "Téléchargement instantané",
-          "benefit": "Obtenez des vignettes en quelques secondes."
-        },
-        "multiple": {
-          "feature": "Plusieurs qualités",
-          "benefit": "Choisissez parmi différentes qualités."
-        },
-        "free": {
-          "feature": "Utilisation gratuite",
-          "benefit": "Notre service est entièrement gratuit."
-        },
-        "allDevices": {
-          "feature": "Fonctionne sur tous les appareils",
-          "benefit": "Utilisez-le sur n'importe quel appareil."
-        },
-        "safe": {
-          "feature": "Sûr et sécurisé",
-          "benefit": "Vos téléchargements sont en sécurité."
-        }
-      }
+    "title": "Téléchargeur de vignettes YouTube - Téléchargez les vignettes de vidéos YT en HD, 4K et Full HD (1080p)",
+    "subtitle": "Outil gratuit en ligne pour récupérer et extraire les vignettes YouTube",
+    "description": "Téléchargez n'importe quelle vignette de vidéo YouTube en quelques secondes ! Notre <b>téléchargeur de vignettes YouTube gratuit</b> vous permet d'enregistrer des vignettes YT dans plusieurs résolutions, y compris <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180) et Normal (120x90)</b> - entièrement gratuit, sans filigrane, sans inscription et sans publicité.",
+    "whatIs": {
+      "title": "Qu'est-ce qu'un téléchargeur de vignettes YouTube ?",
+      "p1": "Un <b>téléchargeur de vignettes YouTube</b> est un outil en ligne gratuit qui vous permet d'extraire, de visualiser et de télécharger rapidement des images de vignettes de n'importe quelle vidéo YouTube, y compris les vidéos ordinaires, les YouTube Shorts, les vidéos intégrées et les diffusions en direct. Notre outil de récupération de vignettes prend en charge tous les formats d'URL YouTube et offre un accès instantané à des images de vignettes de haute qualité dans diverses résolutions.",
+      "p2": "Que vous soyez créateur de contenu, graphiste, spécialiste du marketing ou étudiant, notre <b>téléchargeur de vignettes yt</b> vous aide à enregistrer des vignettes de vidéos YouTube pour des présentations, des articles de blog, des graphiques pour les médias sociaux, de l'inspiration ou des projets de conception - le tout sans étapes compliquées ni installation de logiciel."
     },
     "howTo": {
-      "title": "Comment télécharger les vignettes YouTube ?",
-      "method1": {
-        "title": "Méthode 1 : Par lien",
-        "step1": "Copiez le lien de la vidéo YouTube.",
-        "step2": "Collez le lien dans la zone de saisie.",
-        "step3": "Cliquez sur le bouton 'Obtenir les vignettes'.",
-        "step4": "Choisissez la qualité que vous souhaitez.",
-        "step5": "Cliquez sur 'Télécharger' pour enregistrer l'image."
+      "title": "Comment télécharger une vignette YouTube - 3 étapes simples",
+      "step1": {
+        "title": "Étape 1 : Copiez l'URL de la vidéo YouTube",
+        "description": "Ouvrez n'importe quelle vidéo YouTube et copiez son URL depuis la barre d'adresse du navigateur. Notre outil prend en charge tous les formats."
       },
-      "method2": {
-        "title": "Méthode 2 : Par recherche",
-        "description": "Recherchez des vidéos directement sur notre site.",
-        "step1": "Tapez vos mots-clés dans la barre de recherche.",
-        "step2": "Sélectionnez la vidéo dans les résultats de recherche.",
-        "step3": "Choisissez la qualité que vous souhaitez.",
-        "step4": "Cliquez sur 'Télécharger'."
+      "step2": {
+        "title": "Étape 2 : Collez l'URL et obtenez les vignettes",
+        "description": "Collez le lien YouTube copié dans notre champ de saisie ci-dessus et cliquez sur « Obtenir les vignettes » ou « Télécharger la vignette ». Notre extracteur de vignettes détectera automatiquement l'ID de la vidéo et récupérera instantanément toutes les tailles de vignettes disponibles."
+      },
+      "step3": {
+        "title": "Étape 3 : Prévisualisez et téléchargez",
+        "description": "Parcourez toutes les résolutions disponibles, prévisualisez-les et cliquez sur le bouton de téléchargement à côté de votre taille préférée. L'image sera enregistrée directement sur votre appareil au format JPG - prête à être utilisée immédiatement !"
       }
+    },
+    "resolutions": {
+      "title": "Tailles et résolutions de vignettes YouTube disponibles",
+      "quality": "Qualité",
+      "resolution": "Résolution",
+      "filename": "Nom de fichier",
+      "bestFor": "Idéal pour",
+      "sizes": [
+        {
+          "quality": "<b>4K / Résolution maximale</b>",
+          "resolution": "1920x1080 ou 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Projets professionnels, impression, conceptions de haute qualité"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Téléchargements YouTube, en-têtes de site Web, présentations"
+        },
+        {
+          "quality": "<b>SD (Définition standard)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Articles de blog, médias sociaux, usage général"
+        },
+        {
+          "quality": "<b>HQ (Haute qualité)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Vignettes, aperçus, références rapides"
+        },
+        {
+          "quality": "<b>MQ (Qualité moyenne)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Affichages mobiles, projets compressés"
+        },
+        {
+          "quality": "<b>Normal/Par défaut</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Icônes, petits aperçus, images de remplacement"
+        }
+      ],
+      "note": "Remarque : Toutes les vidéos ne disposent pas de maxresdefault (1280x720). Si une vidéo n'a pas de vignettes HD, notre outil les filtre automatiquement et n'affiche que les tailles disponibles."
+    },
+    "whyChoose": {
+      "title": "Pourquoi choisir notre outil de téléchargement de vignettes YouTube ?",
+      "features": [
+        {
+          "title": "🚀 Résultats ultra-rapides et instantanés",
+          "description": "Téléchargez les vignettes YouTube en moins d'une seconde. Pas d'attente, pas de délais - collez simplement l'URL et accédez instantanément à toutes les tailles de vignettes."
+        },
+        {
+          "title": "🎯 Tous les formats YouTube pris en charge",
+          "description": "Fonctionne avec tous les types d'URL YouTube : liens de visionnage standard, URL courtes youtu.be, vidéos Shorts, liens intégrés et anciens formats /v/."
+        },
+        {
+          "title": "📱 100 % compatible mobile et ordinateur",
+          "description": "Conception entièrement réactive qui fonctionne parfaitement sur tous les appareils et navigateurs : Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Plusieurs résolutions de haute qualité",
+          "description": "Accédez à jusqu'à 6 tailles de vignettes différentes, de 120x90 pixels à Full HD 1280x720 (et parfois 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Fonction de prévisualisation en direct",
+          "description": "Prévisualisez chaque taille de vignette avant de la télécharger. Voyez exactement ce que vous obtenez avec notre visionneuse d'images intégrée."
+        },
+        {
+          "title": "💯 Entièrement gratuit pour toujours",
+          "description": "Pas de coûts cachés, pas de forfaits premium, pas de périodes d'essai. Téléchargeur de vignettes YouTube 100 % gratuit avec des téléchargements illimités."
+        },
+        {
+          "title": "🔒 Aucune inscription requise",
+          "description": "Commencez à télécharger immédiatement. Aucune inscription, aucune connexion, aucun e-mail requis. Votre vie privée est protégée."
+        },
+        {
+          "title": "🚫 Zéro publicité et pop-ups",
+          "description": "Interface propre et professionnelle sans publicités gênantes, pop-ups, redirections ou trackers."
+        },
+        {
+          "title": "⚡ Aucun filigrane",
+          "description": "Téléchargez des vignettes YouTube originales et propres sans aucun filigrane, logo ou marque ajouté."
+        },
+        {
+          "title": "🛡️ Sûr et sécurisé",
+          "description": "Les connexions cryptées SSL protègent vos données. Nous ne stockons aucune URL de vidéo ni aucune image téléchargée."
+        },
+        {
+          "title": "🌐 Fonctionne dans le monde entier",
+          "description": "Accédez à notre outil depuis n'importe où dans le monde. Aucune restriction géographique ni exigence de VPN."
+        },
+        {
+          "title": "📥 Téléchargement en un clic",
+          "description": "Enregistrez les vignettes directement sur votre appareil en un seul clic. Pas de menus contextuels ni de processus compliqués."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Foire Aux Questions (FAQ)",
+      "questions": [
+        {
+          "q": "Que fait ce téléchargeur de vignettes YouTube ?",
+          "a": "Notre outil gratuit extrait et télécharge instantanément les images de vignettes de n'importe quelle vidéo YouTube dans plusieurs résolutions (4K, Full HD, HD, SD). Sans publicité, sans inscription, sans filigrane."
+        },
+        {
+          "q": "Ce récupérateur de vignettes YouTube est-il vraiment gratuit ?",
+          "a": "Oui, 100 % gratuit pour toujours. Pas de coûts cachés, pas de forfaits premium. Téléchargements illimités sans restrictions."
+        },
+        {
+          "q": "Dois-je créer un compte ou m'inscrire ?",
+          "a": "Non ! Commencez à télécharger immédiatement sans aucune inscription ni information personnelle requise."
+        },
+        {
+          "q": "Est-ce que cela fonctionne sur les téléphones portables ?",
+          "a": "Absolument ! Notre téléchargeur de vignettes est entièrement adapté aux mobiles et fonctionne parfaitement sur les téléphones Android, les iPhones et les tablettes."
+        },
+        {
+          "q": "Puis-je télécharger les vignettes des YouTube Shorts ?",
+          "a": "Oui ! Notre outil prend entièrement en charge les YouTube Shorts. Collez simplement l'URL du Short et téléchargez les vignettes instantanément."
+        },
+        {
+          "q": "Pourquoi certaines vidéos n'ont-elles pas de vignettes HD (maxresdefault) ?",
+          "a": "YouTube ne génère pas de vignettes maxresdefault (1280x720) pour toutes les vidéos, en particulier les plus anciennes. Notre outil filtre automatiquement les tailles non disponibles."
+        },
+        {
+          "q": "Puis-je télécharger des vignettes de vidéos YouTube privées ou non répertoriées ?",
+          "a": "Les vignettes des vidéos privées ne sont pas accessibles au public. Les vidéos non répertoriées fonctionnent bien si vous avez le lien URL direct."
+        },
+        {
+          "q": "L'utilisation de ce téléchargeur de vignettes YouTube est-elle sûre ?",
+          "a": "Oui, totalement sûr ! Notre site Web utilise le cryptage SSL (HTTPS), nous ne stockons aucune donnée et nous ne collectons aucune information personnelle. Pas de logiciels malveillants, pas de virus."
+        },
+        {
+          "q": "Stockez-vous les URL YouTube que je colle ?",
+          "a": "Non ! Nous ne consignons, ne stockons ni ne suivons aucune URL que vous saisissez. Tout le traitement se fait en temps réel et rien n'est enregistré sur nos serveurs."
+        },
+        {
+          "q": "Est-il légal de télécharger des vignettes YouTube ?",
+          "a": "Le téléchargement pour un usage personnel, éducatif ou équitable est généralement acceptable. Cependant, la distribution publique, l'utilisation commerciale ou le re-téléchargement sans autorisation peut violer le droit d'auteur. Respectez toujours les droits des créateurs."
+        },
+        {
+          "q": "Puis-je utiliser les vignettes téléchargées pour mes propres vidéos YouTube ?",
+          "a": "Non, sauf si vous avez l'autorisation explicite du créateur original. L'utilisation de la vignette de quelqu'un d'autre pour vos vidéos enfreint les politiques de YouTube et la loi sur le droit d'auteur."
+        }
+      ]
     }
   }
 }
+

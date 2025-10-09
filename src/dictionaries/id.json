@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "Pengunduh Gambar Mini YouTube",
-    "description": "Tempel tautan video YouTube di bawah ini untuk mengunduh gambar mininya.",
-    "whyChoose": {
-      "title": "Mengapa Memilih Kami?",
-      "feature": "Fitur",
-      "benefit": "Manfaat",
-      "features": {
-        "instant": {
-          "feature": "Unduhan Instan",
-          "benefit": "Dapatkan gambar mini dalam hitungan detik."
-        },
-        "multiple": {
-          "feature": "Berbagai Kualitas",
-          "benefit": "Pilih dari berbagai kualitas."
-        },
-        "free": {
-          "feature": "Gratis untuk Digunakan",
-          "benefit": "Layanan kami sepenuhnya gratis."
-        },
-        "allDevices": {
-          "feature": "Berfungsi di Semua Perangkat",
-          "benefit": "Gunakan di perangkat apa pun."
-        },
-        "safe": {
-          "feature": "Aman & Terjamin",
-          "benefit": "Unduhan Anda aman."
-        }
-      }
+    "title": "Pengunduh Gambar Mini YouTube - Unduh Gambar Mini Video YT dalam HD, 4K & Full HD (1080p)",
+    "subtitle": "Alat Pengambil & Pengekstrak Gambar Mini YouTube Online Gratis",
+    "description": "Unduh gambar mini video YouTube apa pun dalam hitungan detik! <b>Pengunduh gambar mini YouTube gratis</b> kami memungkinkan Anda menyimpan gambar mini YT dalam berbagai resolusi termasuk <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180), dan Normal (120x90)</b> - sepenuhnya gratis tanpa tanda air, tanpa pendaftaran, dan tanpa iklan.",
+    "whatIs": {
+      "title": "Apa itu Pengunduh Gambar Mini YouTube?",
+      "p1": "<b>Pengunduh Gambar Mini YouTube</b> adalah alat online gratis yang memungkinkan Anda mengekstrak, melihat, dan mengunduh gambar mini dengan cepat dari video YouTube mana pun, termasuk video biasa, YouTube Shorts, video tersemat, dan siaran langsung. Pengambil gambar mini kami mendukung semua format URL YouTube dan menyediakan akses instan ke gambar mini berkualitas tinggi dalam berbagai resolusi.",
+      "p2": "Baik Anda seorang pembuat konten, desainer grafis, pemasar, atau pelajar, <b>pengunduh gambar mini yt</b> kami membantu Anda menyimpan gambar mini video YouTube untuk presentasi, posting blog, grafis media sosial, inspirasi, atau proyek desain - semuanya tanpa langkah rumit atau instalasi perangkat lunak."
     },
     "howTo": {
-      "title": "Bagaimana Cara Mengunduh Gambar Mini YouTube?",
-      "method1": {
-        "title": "Metode 1: Melalui Tautan",
-        "step1": "Salin tautan video YouTube.",
-        "step2": "Tempel tautan di kotak input.",
-        "step3": "Klik tombol 'Dapatkan Gambar Mini'.",
-        "step4": "Pilih kualitas yang Anda inginkan.",
-        "step5": "Klik 'Unduh' untuk menyimpan gambar."
+      "title": "Cara Mengunduh Gambar Mini YouTube - 3 Langkah Sederhana",
+      "step1": {
+        "title": "Langkah 1: Salin URL Video YouTube",
+        "description": "Buka video YouTube apa pun dan salin URL-nya dari bilah alamat browser. Alat kami mendukung semua format."
       },
-      "method2": {
-        "title": "Metode 2: Melalui Pencarian",
-        "description": "Cari video langsung dari situs kami.",
-        "step1": "Ketik kata kunci Anda di bilah pencarian.",
-        "step2": "Pilih video dari hasil pencarian.",
-        "step3": "Pilih kualitas yang Anda inginkan.",
-        "step4": "Klik 'Unduh'."
+      "step2": {
+        "title": "Langkah 2: Tempel URL dan Dapatkan Gambar Mini",
+        "description": "Tempel tautan YouTube yang disalin ke dalam kotak masukan kami di atas dan klik \"Dapatkan Gambar Mini\" atau \"Unduh Gambar Mini\". Pengekstrak gambar mini kami akan secara otomatis mendeteksi ID video dan mengambil semua ukuran gambar mini yang tersedia secara instan."
+      },
+      "step3": {
+        "title": "Langkah 3: Pratinjau dan Unduh",
+        "description": "Jelajahi semua resolusi yang tersedia, pratinjau, dan klik tombol Unduh di sebelah ukuran pilihan Anda. Gambar akan disimpan langsung ke perangkat Anda dalam format JPG - siap untuk segera digunakan!"
       }
+    },
+    "resolutions": {
+      "title": "Ukuran & Resolusi Gambar Mini YouTube yang Tersedia",
+      "quality": "Kualitas",
+      "resolution": "Resolusi",
+      "filename": "Nama file",
+      "bestFor": "Terbaik untuk",
+      "sizes": [
+        {
+          "quality": "<b>4K / Resolusi Maksimum</b>",
+          "resolution": "1920x1080 atau 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Proyek profesional, pencetakan, desain berkualitas tinggi"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Unggahan YouTube, header situs web, presentasi"
+        },
+        {
+          "quality": "<b>SD (Definisi Standar)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Posting blog, media sosial, penggunaan umum"
+        },
+        {
+          "quality": "<b>HQ (Kualitas Tinggi)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Gambar mini, pratinjau, referensi cepat"
+        },
+        {
+          "quality": "<b>MQ (Kualitas Sedang)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Tampilan seluler, proyek terkompresi"
+        },
+        {
+          "quality": "<b>Normal/Default</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Ikon, pratinjau kecil, gambar placeholder"
+        }
+      ],
+      "note": "Catatan: Tidak semua video memiliki maxresdefault (1280x720) yang tersedia. Jika video tidak memiliki gambar mini HD, alat kami secara otomatis menyaringnya dan hanya menampilkan ukuran yang tersedia."
+    },
+    "whyChoose": {
+      "title": "Mengapa Memilih Alat Pengunduh Gambar Mini YouTube Kami?",
+      "features": [
+        {
+          "title": "🚀 Hasil Cepat & Instan",
+          "description": "Unduh gambar mini YouTube dalam waktu kurang dari 1 detik. Tanpa menunggu, tanpa penundaan - cukup tempel URL dan dapatkan akses instan ke semua ukuran gambar mini."
+        },
+        {
+          "title": "🎯 Semua Format YouTube Didukung",
+          "description": "Bekerja dengan setiap jenis URL YouTube: tautan tontonan standar, URL pendek youtu.be, video Shorts, tautan tersemat, dan format URL /v/ warisan."
+        },
+        {
+          "title": "📱 100% Kompatibel dengan Seluler & Desktop",
+          "description": "Desain responsif sepenuhnya yang berfungsi dengan sempurna di semua perangkat dan browser: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Berbagai Resolusi Berkualitas Tinggi",
+          "description": "Akses hingga 6 ukuran gambar mini yang berbeda dari 120x90 piksel hingga Full HD 1280x720 (dan terkadang 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Fitur Pratinjau Langsung",
+          "description": "Pratinjau setiap ukuran gambar mini sebelum mengunduh. Lihat persis apa yang Anda dapatkan dengan penampil gambar bawaan kami."
+        },
+        {
+          "title": "💯 Benar-benar Gratis Selamanya",
+          "description": "Tanpa biaya tersembunyi, tanpa paket premium, tanpa masa percobaan. 100% pengunduh gambar mini YouTube gratis dengan unduhan tak terbatas."
+        },
+        {
+          "title": "🔒 Tidak Perlu Mendaftar",
+          "description": "Mulai mengunduh segera. Tidak perlu registrasi, login, atau email. Privasi Anda terlindungi."
+        },
+        {
+          "title": "🚫 Nol Iklan & Pop-Up",
+          "description": "Antarmuka yang bersih dan profesional tanpa iklan yang mengganggu, pop-up, pengalihan, atau pelacak."
+        },
+        {
+          "title": "⚡ Tanpa Tanda Air",
+          "description": "Unduh gambar mini YouTube asli yang bersih tanpa tambahan tanda air, logo, atau merek apa pun."
+        },
+        {
+          "title": "🛡️ Aman & Terjamin",
+          "description": "Koneksi terenkripsi SSL melindungi data Anda. Kami не храним никаких URL-адресов видео или загруженных изображений."
+        },
+        {
+          "title": "🌐 Bekerja di Seluruh Dunia",
+          "description": "Akses alat kami dari mana saja di dunia. Tidak ada batasan geografis atau persyaratan VPN."
+        },
+        {
+          "title": "📥 Unduh Sekali Klik",
+          "description": "Simpan gambar mini langsung ke perangkat Anda dengan sekali klik. Tidak ada menu klik kanan atau proses yang rumit."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan (FAQ)",
+      "questions": [
+        {
+          "q": "Apa fungsi Pengunduh Gambar Mini YouTube ini?",
+          "a": "Alat gratis kami secara instan mengekstrak dan mengunduh gambar mini dari video YouTube mana pun dalam berbagai resolusi (4K, Full HD, HD, SD). Tanpa iklan, tanpa pendaftaran, tanpa tanda air."
+        },
+        {
+          "q": "Apakah pengambil gambar mini YouTube ini benar-benar gratis?",
+          "a": "Ya, 100% gratis selamanya. Tanpa biaya tersembunyi, tanpa paket premium. Unduhan tak terbatas tanpa batasan."
+        },
+        {
+          "q": "Apakah saya perlu membuat akun atau mendaftar?",
+          "a": "Tidak! Mulai mengunduh segera tanpa registrasi atau informasi pribadi apa pun."
+        },
+        {
+          "q": "Apakah ini berfungsi di ponsel?",
+          "a": "Tentu saja! Pengunduh gambar mini kami sepenuhnya responsif untuk seluler dan berfungsi sempurna di ponsel Android, iPhone, dan tablet."
+        },
+        {
+          "q": "Bisakah saya mengunduh gambar mini YouTube Shorts?",
+          "a": "Ya! Alat kami sepenuhnya mendukung YouTube Shorts. Cukup tempel URL Shorts dan unduh gambar mini secara instan."
+        },
+        {
+          "q": "Mengapa beberapa video tidak memiliki gambar mini HD (maxresdefault)?",
+          "a": "YouTube tidak menghasilkan gambar mini maxresdefault (1280x720) untuk semua video, terutama yang lebih lama. Alat kami secara otomatis menyaring ukuran yang tidak tersedia."
+        },
+        {
+          "q": "Bisakah saya mengunduh gambar mini dari video YouTube pribadi atau tidak terdaftar?",
+          "a": "Gambar mini dari video pribadi tidak dapat diakses publik. Video tidak terdaftar berfungsi dengan baik jika Anda memiliki tautan URL langsung."
+        },
+        {
+          "q": "Apakah Pengunduh Gambar Mini YouTube ini aman digunakan?",
+          "a": "Ya, benar-benar aman! Situs web kami menggunakan enkripsi SSL (HTTPS), kami tidak menyimpan data apa pun, dan kami tidak mengumpulkan informasi pribadi. Tidak ada malware, tidak ada virus."
+        },
+        {
+          "q": "Apakah Anda menyimpan URL YouTube yang saya tempel?",
+          "a": "Tidak! Kami tidak mencatat, menyimpan, или отслеживать любые вводимые вами URL-адреса. Вся обработка происходит в режиме реального времени, и ничего не сохраняется на наших серверах."
+        },
+        {
+          "q": "Apakah legal mengunduh gambar mini YouTube?",
+          "a": "Mengunduh untuk penggunaan pribadi, pendidikan, atau tujuan penggunaan wajar umumnya dapat diterima. Namun, distribusi publik, penggunaan komersial, или повторная загрузка без разрешения может нарушать авторские права. Всегда уважайте права создателей."
+        },
+        {
+          "q": "Bisakah saya menggunakan gambar mini yang diunduh untuk video YouTube saya sendiri?",
+          "a": "Tidak, kecuali Anda memiliki izin eksplisit dari pembuat aslinya. Menggunakan gambar mini orang lain untuk video Anda melanggar kebijakan YouTube dan undang-undang hak cipta."
+        }
+      ]
     }
   }
 }
+

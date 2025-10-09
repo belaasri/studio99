@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "YouTube Thumbnail Downloader",
-    "description": "Paste a YouTube video link below to download its thumbnail.",
-    "whyChoose": {
-      "title": "Why Choose Us?",
-      "feature": "Feature",
-      "benefit": "Benefit",
-      "features": {
-        "instant": {
-          "feature": "Instant Download",
-          "benefit": "Get thumbnails in seconds."
-        },
-        "multiple": {
-          "feature": "Multiple Qualities",
-          "benefit": "Choose from various qualities."
-        },
-        "free": {
-          "feature": "Free to Use",
-          "benefit": "Our service is completely free."
-        },
-        "allDevices": {
-          "feature": "Works on All Devices",
-          "benefit": "Use it on any device."
-        },
-        "safe": {
-          "feature": "Safe & Secure",
-          "benefit": "Your downloads are safe."
-        }
-      }
+    "title": "YouTube Thumbnail Downloader - Download YT Video Thumbnails in HD, 4K & Full HD (1080p)",
+    "subtitle": "Free Online YouTube Thumbnail Grabber & Extractor Tool",
+    "description": "Download any YouTube video thumbnail in seconds! Our <b>free YouTube thumbnail downloader</b> lets you save YT thumbnails in multiple resolutions including <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180), and Normal (120x90)</b> - completely free with no watermarks, no sign-up, and no ads.",
+    "whatIs": {
+      "title": "What is YouTube Thumbnail Downloader?",
+      "p1": "A <b>YouTube Thumbnail Downloader</b> is a free online tool that allows you to quickly extract, view, and download thumbnail images from any YouTube video, including regular videos, YouTube Shorts, embedded videos, and live streams. Our thumbnail grabber supports all YouTube URL formats and provides instant access to high-quality thumbnail images in various resolutions.",
+      "p2": "Whether you're a content creator, graphic designer, marketer, or student, our <b>yt thumbnail downloader</b> helps you save YouTube video thumbnails for presentations, blog posts, social media graphics, inspiration, or design projects - all without any complicated steps or software installation."
     },
     "howTo": {
-      "title": "How to Download YouTube Thumbnails?",
-      "method1": {
-        "title": "Method 1: By Link",
-        "step1": "Copy the YouTube video link.",
-        "step2": "Paste the link in the input box.",
-        "step3": "Click the 'Get Thumbnails' button.",
-        "step4": "Choose the quality you want.",
-        "step5": "Click 'Download' to save the image."
+      "title": "How to Download YouTube Thumbnail - 3 Simple Steps",
+      "step1": {
+        "title": "Step 1: Copy YouTube Video URL",
+        "description": "Open any YouTube video and copy its URL from the browser address bar. Our tool supports all formats."
       },
-      "method2": {
-        "title": "Method 2: By Search",
-        "description": "Search for videos directly from our site.",
-        "step1": "Type your keywords in the search bar.",
-        "step2": "Select the video from the search results.",
-        "step3": "Choose the quality you want.",
-        "step4": "Click 'Download'."
+      "step2": {
+        "title": "Step 2: Paste URL and Get Thumbnails",
+        "description": "Paste the copied YouTube link into our input box above and click “Get Thumbnails” or “Download Thumbnail”. Our thumbnail extractor will automatically detect the video ID and fetch all available thumbnail sizes instantly."
+      },
+      "step3": {
+        "title": "Step 3: Preview and Download",
+        "description": "Browse through all available resolutions, preview them, and click the Download button next to your preferred size. The image will be saved directly to your device in JPG format - ready to use immediately!"
       }
+    },
+    "resolutions": {
+      "title": "Available YouTube Thumbnail Sizes & Resolutions",
+      "quality": "Quality",
+      "resolution": "Resolution",
+      "filename": "Filename",
+      "bestFor": "Best For",
+      "sizes": [
+        {
+          "quality": "<b>4K / Maximum Resolution</b>",
+          "resolution": "1920x1080 or 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Professional projects, printing, high-quality designs"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "YouTube uploads, website headers, presentations"
+        },
+        {
+          "quality": "<b>SD (Standard Definition)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Blog posts, social media, general use"
+        },
+        {
+          "quality": "<b>HQ (High Quality)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Thumbnails, previews, quick references"
+        },
+        {
+          "quality": "<b>MQ (Medium Quality)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Mobile displays, compressed projects"
+        },
+        {
+          "quality": "<b>Normal/Default</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Icons, small previews, placeholder images"
+        }
+      ],
+      "note": "Note: Not all videos have maxresdefault (1280x720) available. If a video doesn't have HD thumbnails, our tool automatically filters them out and shows only available sizes."
+    },
+    "whyChoose": {
+      "title": "Why Choose Our YouTube Thumbnail Download Tool?",
+      "features": [
+        {
+          "title": "🚀 Lightning Fast & Instant Results",
+          "description": "Download YouTube thumbnails in less than 1 second. No waiting, no delays - just paste the URL and get instant access to all thumbnail sizes."
+        },
+        {
+          "title": "🎯 All YouTube Formats Supported",
+          "description": "Works with every YouTube URL type: standard watch links, youtu.be short URLs, Shorts videos, embedded links, and legacy /v/ format URLs."
+        },
+        {
+          "title": "📱 100% Mobile & Desktop Compatible",
+          "description": "Fully responsive design that works flawlessly on all devices and browsers: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Multiple High-Quality Resolutions",
+          "description": "Access up to 6 different thumbnail sizes from 120x90 pixels up to Full HD 1280x720 (and sometimes 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Live Preview Feature",
+          "description": "Preview each thumbnail size before downloading. See exactly what you're getting with our built-in image viewer."
+        },
+        {
+          "title": "💯 Completely Free Forever",
+          "description": "No hidden costs, no premium plans, no trial periods. 100% free YouTube thumbnail downloader with unlimited downloads."
+        },
+        {
+          "title": "🔒 No Sign-Up Required",
+          "description": "Start downloading immediately. No registration, no login, no email required. Your privacy is protected."
+        },
+        {
+          "title": "🚫 Zero Ads & Pop-Ups",
+          "description": "Clean, professional interface with no annoying advertisements, pop-ups, redirects, or trackers."
+        },
+        {
+          "title": "⚡ No Watermarks",
+          "description": "Download pure, original YouTube thumbnails without any watermarks, logos, or branding added."
+        },
+        {
+          "title": "🛡️ Safe & Secure",
+          "description": "SSL-encrypted connections protect your data. We don't store any video URLs or downloaded images."
+        },
+        {
+          "title": "🌐 Works Worldwide",
+          "description": "Access our tool from anywhere in the world. No geographic restrictions or VPN requirements."
+        },
+        {
+          "title": "📥 One-Click Download",
+          "description": "Save thumbnails directly to your device with a single click. No right-click menus or complicated processes."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions (FAQ)",
+      "questions": [
+        {
+          "q": "What does this YouTube Thumbnail Downloader do?",
+          "a": "Our free tool instantly extracts and downloads thumbnail images from any YouTube video in multiple resolutions (4K, Full HD, HD, SD). No ads, no sign-ups, no watermarks."
+        },
+        {
+          "q": "Is this YouTube thumbnail grabber really free?",
+          "a": "Yes, 100% free forever. No hidden costs, no premium plans. Unlimited downloads with no restrictions."
+        },
+        {
+          "q": "Do I need to create an account or sign up?",
+          "a": "No! Start downloading immediately without any registration or personal information required."
+        },
+        {
+          "q": "Does this work on mobile phones?",
+          "a": "Absolutely! Our thumbnail downloader is fully mobile-responsive and works perfectly on Android phones, iPhones, and tablets."
+        },
+        {
+          "q": "Can I download YouTube Shorts thumbnails?",
+          "a": "Yes! Our tool fully supports YouTube Shorts. Just paste the Shorts URL and download thumbnails instantly."
+        },
+        {
+          "q": "Why don't some videos have HD (maxresdefault) thumbnails?",
+          "a": "YouTube doesn't generate maxresdefault (1280x720) thumbnails for all videos, particularly older ones. Our tool automatically filters out unavailable sizes."
+        },
+        {
+          "q": "Can I download thumbnails from private or unlisted YouTube videos?",
+          "a": "Thumbnails from private videos are not publicly accessible. Unlisted videos work fine if you have the direct URL link."
+        },
+        {
+          "q": "Is this YouTube Thumbnail Downloader safe to use?",
+          "a": "Yes, completely safe! Our website uses SSL encryption (HTTPS), we don't store any data, and we don't collect personal information. No malware, no viruses."
+        },
+        {
+          "q": "Do you store the YouTube URLs I paste?",
+          "a": "No! We don't log, store, or track any URLs you enter. All processing happens in real-time and nothing is saved on our servers."
+        },
+        {
+          "q": "Is it legal to download YouTube thumbnails?",
+          "a": "Downloading for personal use, education, or fair use purposes is generally acceptable. However, public distribution, commercial use, or re-uploading without permission may violate copyright. Always respect creators' rights."
+        },
+        {
+          "q": "Can I use downloaded thumbnails for my own YouTube videos?",
+          "a": "No, unless you have explicit permission from the original creator. Using someone else's thumbnail for your videos violates YouTube's policies and copyright law."
+        }
+      ]
     }
   }
 }
+

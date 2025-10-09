@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "Pobieracz miniatur z YouTube",
-    "description": "Wklej poniżej link do filmu na YouTube, aby pobrać jego miniaturę.",
-    "whyChoose": {
-      "title": "Dlaczego warto nas wybrać?",
-      "feature": "Cecha",
-      "benefit": "Korzyść",
-      "features": {
-        "instant": {
-          "feature": "Natychmiastowe pobieranie",
-          "benefit": "Pobierz miniatury w kilka sekund."
-        },
-        "multiple": {
-          "feature": "Wiele jakości",
-          "benefit": "Wybieraj spośród różnych jakości."
-        },
-        "free": {
-          "feature": "Darmowe w użyciu",
-          "benefit": "Nasza usługa jest całkowicie darmowa."
-        },
-        "allDevices": {
-          "feature": "Działa na wszystkich urządzeniach",
-          "benefit": "Używaj na dowolnym urządzeniu."
-        },
-        "safe": {
-          "feature": "Bezpieczne i chronione",
-          "benefit": "Twoje pobrania są bezpieczne."
-        }
-      }
+    "title": "Pobieracz miniatur z YouTube - Pobierz miniatury wideo z YT w HD, 4K i Full HD (1080p)",
+    "subtitle": "Darmowe narzędzie online do pobierania i wyodrębniania miniatur z YouTube",
+    "description": "Pobierz dowolną miniaturę wideo z YouTube w kilka sekund! Nasz <b>darmowy pobieracz miniatur z YouTube</b> pozwala zapisywać miniatury z YT w wielu rozdzielczościach, w tym <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180) i Normal (120x90)</b> - całkowicie za darmo, bez znaków wodnych, bez rejestracji i bez reklam.",
+    "whatIs": {
+      "title": "Czym jest Pobieracz miniatur z YouTube?",
+      "p1": "<b>Pobieracz miniatur z YouTube</b> to darmowe narzędzie online, które pozwala szybko wyodrębniać, przeglądać i pobierać obrazy miniatur z dowolnego filmu na YouTube, w tym zwykłych filmów, YouTube Shorts, filmów osadzonych i transmisji na żywo. Nasz program do pobierania miniatur obsługuje wszystkie formaty adresów URL YouTube i zapewnia natychmiastowy dostęp do wysokiej jakości obrazów miniatur w różnych rozdzielczościach.",
+      "p2": "Niezależnie od tego, czy jesteś twórcą treści, grafikiem, marketerem czy studentem, nasz <b>pobieracz miniatur z yt</b> pomaga zapisywać miniatury filmów z YouTube do prezentacji, postów na blogu, grafik w mediach społecznościowych, inspiracji lub projektów projektowych - wszystko to bez skomplikowanych kroków i instalacji oprogramowania."
     },
     "howTo": {
-      "title": "Jak pobierać miniatury z YouTube?",
-      "method1": {
-        "title": "Metoda 1: Za pomocą linku",
-        "step1": "Skopiuj link do filmu na YouTube.",
-        "step2": "Wklej link w pole tekstowe.",
-        "step3": "Kliknij przycisk 'Pobierz miniatury'.",
-        "step4": "Wybierz żądaną jakość.",
-        "step5": "Kliknij 'Pobierz', aby zapisać obraz."
+      "title": "Jak pobrać miniaturę z YouTube - 3 proste kroki",
+      "step1": {
+        "title": "Krok 1: Skopiuj adres URL filmu z YouTube",
+        "description": "Otwórz dowolny film na YouTube i skopiuj jego adres URL z paska adresu przeglądarki. Nasze narzędzie obsługuje wszystkie formaty."
       },
-      "method2": {
-        "title": "Metoda 2: Za pomocą wyszukiwania",
-        "description": "Szukaj filmów bezpośrednio na naszej stronie.",
-        "step1": "Wpisz słowa kluczowe w pasek wyszukiwania.",
-        "step2": "Wybierz film z wyników wyszukiwania.",
-        "step3": "Wybierz żądaną jakość.",
-        "step4": "Kliknij 'Pobierz'."
+      "step2": {
+        "title": "Krok 2: Wklej adres URL i pobierz miniatury",
+        "description": "Wklej skopiowany link z YouTube do naszego pola wejściowego powyżej i kliknij „Pobierz miniatury” lub „Pobierz miniaturę”. Nasz ekstraktor miniatur automatycznie wykryje identyfikator filmu i natychmiast pobierze wszystkie dostępne rozmiary miniatur."
+      },
+      "step3": {
+        "title": "Krok 3: Podgląd i pobieranie",
+        "description": "Przejrzyj wszystkie dostępne rozdzielczości, zobacz ich podgląd i kliknij przycisk Pobierz obok preferowanego rozmiaru. Obraz zostanie zapisany bezpośrednio na Twoim urządzeniu w formacie JPG - gotowy do natychmiastowego użycia!"
       }
+    },
+    "resolutions": {
+      "title": "Dostępne rozmiary i rozdzielczości miniatur YouTube",
+      "quality": "Jakość",
+      "resolution": "Rozdzielczość",
+      "filename": "Nazwa pliku",
+      "bestFor": "Najlepsze dla",
+      "sizes": [
+        {
+          "quality": "<b>4K / Maksymalna rozdzielczość</b>",
+          "resolution": "1920x1080 lub 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Projekty profesjonalne, druk, wysokiej jakości projekty"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Przesyłanie na YouTube, nagłówki stron internetowych, prezentacje"
+        },
+        {
+          "quality": "<b>SD (Standardowa rozdzielczość)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Posty na blogu, media społecznościowe, ogólne zastosowanie"
+        },
+        {
+          "quality": "<b>HQ (Wysoka jakość)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Miniatury, podglądy, szybkie odniesienia"
+        },
+        {
+          "quality": "<b>MQ (Średnia jakość)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Wyświetlacze mobilne, skompresowane projekty"
+        },
+        {
+          "quality": "<b>Normalna/Domyślna</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Ikony, małe podglądy, obrazy zastępcze"
+        }
+      ],
+      "note": "Uwaga: Nie wszystkie filmy mają dostępną rozdzielczość maxresdefault (1280x720). Jeśli film не имеет миниатюр HD, наш инструмент автоматически отфильтровывает их и показывает только доступные размеры."
+    },
+    "whyChoose": {
+      "title": "Dlaczego warto wybrać nasze narzędzie do pobierania miniatur z YouTube?",
+      "features": [
+        {
+          "title": "🚀 Błyskawiczne i natychmiastowe wyniki",
+          "description": "Pobierz miniatury z YouTube w mniej niż 1 sekundę. Bez czekania, bez opóźnień - po prostu wklej adres URL i uzyskaj natychmiastowy dostęp do wszystkich rozmiarów miniatur."
+        },
+        {
+          "title": "🎯 Obsługiwane wszystkie formaty YouTube",
+          "description": "Działa z każdym typem adresu URL YouTube: standardowymi linkami do oglądania, krótkimi adresami URL youtu.be, filmami Shorts, linkami osadzonymi i starszymi formatami /v/."
+        },
+        {
+          "title": "📱 100% kompatybilny z urządzeniami mobilnymi i stacjonarnymi",
+          "description": "W pełni responsywny projekt, który działa bez zarzutu na wszystkich urządzeniach i przeglądarkach: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Wiele rozdzielczości wysokiej jakości",
+          "description": "Dostęp do 6 różnych rozmiarów miniatur od 120x90 pikseli do Full HD 1280x720 (a czasami 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Funkcja podglądu na żywo",
+          "description": "Przeglądaj każdy rozmiar miniatury przed pobraniem. Zobacz dokładnie, co otrzymujesz, dzięki naszemu wbudowanemu przeglądarce obrazów."
+        },
+        {
+          "title": "💯 Całkowicie za darmo na zawsze",
+          "description": "Brak ukrytych kosztów, brak planów premium, brak okresów próbnych. 100% darmowy pobieracz miniatur z YouTube z nieograniczoną liczbą pobrań."
+        },
+        {
+          "title": "🔒 Nie wymaga rejestracji",
+          "description": "Zacznij pobierać natychmiast. Nie wymaga rejestracji, logowania ani adresu e-mail. Twoja prywatność jest chroniona."
+        },
+        {
+          "title": "🚫 Zero reklam i wyskakujących okienek",
+          "description": "Czysty, profesjonalny interfejs bez irytujących reklam, wyskakujących okienek, przekierowań ani trackerów."
+        },
+        {
+          "title": "⚡ Brak znaków wodnych",
+          "description": "Pobieraj czyste, oryginalne miniatury z YouTube bez żadnych dodanych znaków wodnych, logo ani brandingu."
+        },
+        {
+          "title": "🛡️ Bezpieczne i chronione",
+          "description": "Połączenia szyfrowane SSL chronią Twoje dane. Nie przechowujemy żadnych adresów URL filmów ani pobranych obrazów."
+        },
+        {
+          "title": "🌐 Działa na całym świecie",
+          "description": "Dostęp do naszego narzędzia z dowolnego miejsca na świecie. Brak ograniczeń geograficznych ani wymagań VPN."
+        },
+        {
+          "title": "📥 Pobieranie jednym kliknięciem",
+          "description": "Zapisuj miniatury bezpośrednio na swoim urządzeniu jednym kliknięciem. Brak menu kontekstowych ani skomplikowanych procesów."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Często zadawane pytania (FAQ)",
+      "questions": [
+        {
+          "q": "Co robi ten Pobieracz miniatur z YouTube?",
+          "a": "Nasze darmowe narzędzie natychmiast wyodrębnia i pobiera obrazy miniatur z dowolnego filmu na YouTube w wielu rozdzielczościach (4K, Full HD, HD, SD). Bez reklam, bez rejestracji, bez znaków wodnych."
+        },
+        {
+          "q": "Czy ten program do pobierania miniatur z YouTube jest naprawdę darmowy?",
+          "a": "Tak, w 100% darmowy na zawsze. Brak ukrytych kosztów, brak planów premium. Nieograniczone pobieranie bez ograniczeń."
+        },
+        {
+          "q": "Czy muszę tworzyć konto lub się rejestrować?",
+          "a": "Nie! Zacznij pobierać natychmiast bez żadnej rejestracji ani danych osobowych."
+        },
+        {
+          "q": "Czy to działa na telefonach komórkowych?",
+          "a": "Absolutnie! Nasz pobieracz miniatur jest w pełni responsywny dla urządzeń mobilnych i działa doskonale na telefonach z Androidem, iPhone'ach i tabletach."
+        },
+        {
+          "q": "Czy mogę pobierać miniatury z YouTube Shorts?",
+          "a": "Tak! Nasze narzędzie w pełni obsługuje YouTube Shorts. Po prostu wklej adres URL Short i natychmiast pobierz miniatury."
+        },
+        {
+          "q": "Dlaczego niektóre filmy nie mają miniatur HD (maxresdefault)?",
+          "a": "YouTube nie generuje miniatur maxresdefault (1280x720) dla wszystkich filmów, zwłaszcza starszych. Nasze narzędzie automatycznie filtruje niedostępne rozmiary."
+        },
+        {
+          "q": "Czy mogę pobierać miniatury z prywatnych lub niepublicznych filmów na YouTube?",
+          "a": "Miniatury z filmów prywatnych nie są publicznie dostępne. Filmy niepubliczne działają dobrze, jeśli masz bezpośredni link URL."
+        },
+        {
+          "q": "Czy korzystanie z tego Pobieracza miniatur z YouTube jest bezpieczne?",
+          "a": "Tak, całkowicie bezpieczne! Nasza strona internetowa korzysta z szyfrowania SSL (HTTPS), nie przechowujemy żadnych danych i не собираем личную информацию. Без вредоносных программ, без вирусов."
+        },
+        {
+          "q": "Czy przechowujecie adresy URL YouTube, które wklejam?",
+          "a": "Nie! Nie rejestrujemy, nie przechowujemy ani nie śledzimy żadnych wprowadzanych przez Ciebie adresów URL. Całe przetwarzanie odbywa się w czasie rzeczywistym i nic nie jest zapisywane na naszych serwerach."
+        },
+        {
+          "q": "Czy pobieranie miniatur z YouTube jest legalne?",
+          "a": "Pobieranie do użytku osobistego, edukacyjnego lub w ramach dozwolonego użytku jest ogólnie dopuszczalne. Jednak publiczne rozpowszechnianie, użycie komercyjne lub ponowne przesyłanie bez pozwolenia может нарушать авторские права. Всегда уважайте права создателей."
+        },
+        {
+          "q": "Czy mogę używać pobranych miniatur do moich własnych filmów na YouTube?",
+          "a": "Nie, chyba że masz wyraźną zgodę oryginalnego twórcy. Używanie cudzej miniatury do swoich filmów narusza zasady YouTube i prawo autorskie."
+        }
+      ]
     }
   }
 }
+

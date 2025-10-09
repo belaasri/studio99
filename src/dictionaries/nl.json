@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "YouTube-miniatuurdownloader",
-    "description": "Plak hieronder een YouTube-videolink om de miniatuur te downloaden.",
-    "whyChoose": {
-      "title": "Waarom voor ons kiezen?",
-      "feature": "Functie",
-      "benefit": "Voordeel",
-      "features": {
-        "instant": {
-          "feature": "Direct downloaden",
-          "benefit": "Krijg miniaturen in seconden."
-        },
-        "multiple": {
-          "feature": "Meerdere kwaliteiten",
-          "benefit": "Kies uit verschillende kwaliteiten."
-        },
-        "free": {
-          "feature": "Gratis te gebruiken",
-          "benefit": "Onze service is volledig gratis."
-        },
-        "allDevices": {
-          "feature": "Werkt op alle apparaten",
-          "benefit": "Gebruik het op elk apparaat."
-        },
-        "safe": {
-          "feature": "Veilig & Beveiligd",
-          "benefit": "Uw downloads zijn veilig."
-        }
-      }
+    "title": "YouTube-miniatuurdownloader - Download YT-videominiaturen in HD, 4K & Full HD (1080p)",
+    "subtitle": "Gratis online YouTube-miniatuurgrijper & -extractietool",
+    "description": "Download elke YouTube-videominiatuur in seconden! Onze <b>gratis YouTube-miniatuurdownloader</b> stelt u in staat om YT-miniaturen op te slaan in meerdere resoluties, waaronder <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180) en Normaal (120x90)</b> - volledig gratis, zonder watermerken, zonder aanmelding en zonder advertenties.",
+    "whatIs": {
+      "title": "Wat is een YouTube-miniatuurdownloader?",
+      "p1": "Een <b>YouTube-miniatuurdownloader</b> is een gratis online tool waarmee u snel miniatuurafbeeldingen kunt extraheren, bekijken en downloaden van elke YouTube-video, inclusief reguliere video's, YouTube Shorts, ingesloten video's en livestreams. Onze miniatuurgrijper ondersteunt alle YouTube-URL-formaten en biedt directe toegang tot hoogwaardige miniatuurafbeeldingen in verschillende resoluties.",
+      "p2": "Of u nu een content creator, grafisch ontwerper, marketeer of student bent, onze <b>yt-miniatuurdownloader</b> helpt u bij het opslaan van YouTube-videominiaturen voor presentaties, blogposts, socialemediagraphics, inspiratie of ontwerpprojecten - allemaal zonder ingewikkelde stappen of software-installatie."
     },
     "howTo": {
-      "title": "Hoe download je YouTube-miniaturen?",
-      "method1": {
-        "title": "Methode 1: Via link",
-        "step1": "Kopieer de YouTube-videolink.",
-        "step2": "Plak de link in het invoerveld.",
-        "step3": "Klik op de knop 'Miniaturen ophalen'.",
-        "step4": "Kies de gewenste kwaliteit.",
-        "step5": "Klik op 'Downloaden' om de afbeelding op te slaan."
+      "title": "Hoe download je een YouTube-miniatuur - 3 eenvoudige stappen",
+      "step1": {
+        "title": "Stap 1: Kopieer de YouTube-video-URL",
+        "description": "Open een YouTube-video en kopieer de URL uit de adresbalk van de browser. Onze tool ondersteunt alle formaten."
       },
-      "method2": {
-        "title": "Methode 2: Via zoeken",
-        "description": "Zoek video's rechtstreeks vanaf onze site.",
-        "step1": "Typ uw trefwoorden in de zoekbalk.",
-        "step2": "Selecteer de video uit de zoekresultaten.",
-        "step3": "Kies de gewenste kwaliteit.",
-        "step4": "Klik op 'Downloaden'."
+      "step2": {
+        "title": "Stap 2: Plak de URL en ontvang de miniaturen",
+        "description": "Plak de gekopieerde YouTube-link in ons invoervak hierboven en klik op \"Miniaturen ophalen\" of \"Miniatuur downloaden\". Onze miniatuurextractor detecteert automatisch de video-ID en haalt onmiddellijk alle beschikbare miniatuurformaten op."
+      },
+      "step3": {
+        "title": "Stap 3: Bekijk en download",
+        "description": "Blader door alle beschikbare resoluties, bekijk ze en klik op de Download-knop naast de door u gewenste grootte. De afbeelding wordt direct op uw apparaat opgeslagen in JPG-formaat - klaar voor onmiddellijk gebruik!"
       }
+    },
+    "resolutions": {
+      "title": "Beschikbare YouTube-miniatuurformaten en -resoluties",
+      "quality": "Kwaliteit",
+      "resolution": "Resolutie",
+      "filename": "Bestandsnaam",
+      "bestFor": "Beste voor",
+      "sizes": [
+        {
+          "quality": "<b>4K / Maximale resolutie</b>",
+          "resolution": "1920x1080 of 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Professionele projecten, afdrukken, ontwerpen van hoge kwaliteit"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "YouTube-uploads, website-headers, presentaties"
+        },
+        {
+          "quality": "<b>SD (Standaarddefinitie)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Blogposts, sociale media, algemeen gebruik"
+        },
+        {
+          "quality": "<b>HQ (Hoge kwaliteit)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Miniaturen, voorbeelden, snelle referenties"
+        },
+        {
+          "quality": "<b>MQ (Gemiddelde kwaliteit)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Mobiele displays, gecomprimeerde projecten"
+        },
+        {
+          "quality": "<b>Normaal/Standaard</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Iconen, kleine voorbeelden, plaatsaanduidingen"
+        }
+      ],
+      "note": "Opmerking: Niet alle video's hebben maxresdefault (1280x720) beschikbaar. Als een video geen HD-miniaturen heeft, filtert onze tool ze automatisch uit en toont alleen de beschikbare formaten."
+    },
+    "whyChoose": {
+      "title": "Waarom kiezen voor onze YouTube-miniatuurdownloadtool?",
+      "features": [
+        {
+          "title": "🚀 Bliksemsnelle en onmiddellijke resultaten",
+          "description": "Download YouTube-miniaturen in minder dan 1 seconde. Geen wachttijden, geen vertragingen - plak gewoon de URL en krijg direct toegang tot alle miniatuurformaten."
+        },
+        {
+          "title": "🎯 Alle YouTube-formaten ondersteund",
+          "description": "Werkt met elk type YouTube-URL: standaard kijklinks, youtu.be korte URL's, Shorts-video's, ingesloten links en verouderde /v/-formaat URL's."
+        },
+        {
+          "title": "📱 100% compatibel met mobiel en desktop",
+          "description": "Volledig responsief ontwerp dat feilloos werkt op alle apparaten en browsers: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Meerdere resoluties van hoge kwaliteit",
+          "description": "Toegang tot maximaal 6 verschillende miniatuurformaten van 120x90 pixels tot Full HD 1280x720 (en soms 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Live voorbeeldfunctie",
+          "description": "Bekijk elk miniatuurformaat voordat u het downloadt. Zie precies wat u krijgt met onze ingebouwde afbeeldingsviewer."
+        },
+        {
+          "title": "💯 Voor altijd volledig gratis",
+          "description": "Geen verborgen kosten, geen premium-abonnementen, geen proefperiodes. 100% gratis YouTube-miniatuurdownloader met onbeperkte downloads."
+        },
+        {
+          "title": "🔒 Geen aanmelding vereist",
+          "description": "Begin onmiddellijk met downloaden. Geen registratie, geen login, geen e-mail vereist. Uw privacy is beschermd."
+        },
+        {
+          "title": "🚫 Nul advertenties en pop-ups",
+          "description": "Schone, professionele interface zonder vervelende advertenties, pop-ups, omleidingen of trackers."
+        },
+        {
+          "title": "⚡ Geen watermerken",
+          "description": "Download pure, originele YouTube-miniaturen zonder toegevoegde watermerken, logo's of branding."
+        },
+        {
+          "title": "🛡️ Veilig en beveiligd",
+          "description": "SSL-versleutelde verbindingen beschermen uw gegevens. We slaan geen video-URL's of gedownloade afbeeldingen op."
+        },
+        {
+          "title": "🌐 Werkt wereldwijd",
+          "description": "Toegang tot onze tool van overal ter wereld. Geen geografische beperkingen of VPN-vereisten."
+        },
+        {
+          "title": "📥 Downloaden met één klik",
+          "description": "Sla miniaturen direct op uw apparaat op met een enkele klik. Geen rechtermuisknopmenu's of ingewikkelde processen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde vragen (FAQ)",
+      "questions": [
+        {
+          "q": "Wat doet deze YouTube-miniatuurdownloader?",
+          "a": "Onze gratis tool extraheert en downloadt onmiddellijk miniatuurafbeeldingen van elke YouTube-video in meerdere resoluties (4K, Full HD, HD, SD). Geen advertenties, geen aanmelding, geen watermerken."
+        },
+        {
+          "q": "Is deze YouTube-miniatuurgrijper echt gratis?",
+          "a": "Ja, 100% gratis voor altijd. Geen verborgen kosten, geen premium-abonnementen. Onbeperkte downloads zonder beperkingen."
+        },
+        {
+          "q": "Moet ik een account aanmaken of me aanmelden?",
+          "a": "Nee! Begin onmiddellijk met downloaden zonder enige registratie of persoonlijke informatie."
+        },
+        {
+          "q": "Werkt dit op mobiele telefoons?",
+          "a": "Absoluut! Onze miniatuurdownloader is volledig mobiel-responsief en werkt perfect op Android-telefoons, iPhones en tablets."
+        },
+        {
+          "q": "Kan ik miniaturen van YouTube Shorts downloaden?",
+          "a": "Ja! Onze tool ondersteunt YouTube Shorts volledig. Plak gewoon de Shorts-URL en download de miniaturen onmiddellijk."
+        },
+        {
+          "q": "Waarom hebben sommige video's geen HD-miniaturen (maxresdefault)?",
+          "a": "YouTube genereert niet voor alle video's maxresdefault (1280x720) miniaturen, met name voor oudere video's. Onze tool filtert automatisch niet-beschikbare formaten."
+        },
+        {
+          "q": "Kan ik miniaturen downloaden van privé- of niet-vermelde YouTube-video's?",
+          "a": "Miniaturen van privévideo's zijn niet openbaar toegankelijk. Niet-vermelde video's werken prima als u de directe URL-link hebt."
+        },
+        {
+          "q": "Is deze YouTube-miniatuurdownloader veilig in gebruik?",
+          "a": "Ja, volledig veilig! Onze website maakt gebruik van SSL-codering (HTTPS), we slaan geen gegevens op en we verzamelen geen persoonlijke informatie. Geen malware, geen virussen."
+        },
+        {
+          "q": "Slaat u de YouTube-URL's op die ik plak?",
+          "a": "Nee! We loggen, bewaren of traceren geen URL's die u invoert. Alle verwerking gebeurt in realtime en er wordt niets opgeslagen op onze servers."
+        },
+        {
+          "q": "Is het legaal om YouTube-miniaturen te downloaden?",
+          "a": "Downloaden voor persoonlijk gebruik, educatie of redelijk gebruik is over het algemeen acceptabel. Openbare distributie, commercieel gebruik of opnieuw uploaden zonder toestemming kan echter inbreuk maken op het auteursrecht. Respecteer altijd de rechten van de makers."
+        },
+        {
+          "q": "Kan ik gedownloade miniaturen gebruiken voor mijn eigen YouTube-video's?",
+          "a": "Nee, tenzij u expliciete toestemming hebt van de oorspronkelijke maker. Het gebruik van iemands miniatuur voor uw video's schendt het beleid van YouTube en de auteursrechtwetgeving."
+        }
+      ]
     }
   }
 }
+

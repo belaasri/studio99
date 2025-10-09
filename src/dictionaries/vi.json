@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "Trình tải xuống hình thu nhỏ của YouTube",
-    "description": "Dán một liên kết video YouTube bên dưới để tải xuống hình thu nhỏ của nó.",
-    "whyChoose": {
-      "title": "Tại sao chọn chúng tôi?",
-      "feature": "Tính năng",
-      "benefit": "Lợi ích",
-      "features": {
-        "instant": {
-          "feature": "Tải xuống tức thì",
-          "benefit": "Nhận hình thu nhỏ trong vài giây."
-        },
-        "multiple": {
-          "feature": "Nhiều chất lượng",
-          "benefit": "Chọn từ các chất lượng khác nhau."
-        },
-        "free": {
-          "feature": "Miễn phí sử dụng",
-          "benefit": "Dịch vụ của chúng tôi hoàn toàn miễn phí."
-        },
-        "allDevices": {
-          "feature": "Hoạt động trên mọi thiết bị",
-          "benefit": "Sử dụng trên mọi thiết bị."
-        },
-        "safe": {
-          "feature": "An toàn & Bảo mật",
-          "benefit": "Các bản tải xuống của bạn được an toàn."
-        }
-      }
+    "title": "Trình tải xuống hình thu nhỏ của YouTube - Tải xuống hình thu nhỏ video YT ở định dạng HD, 4K và Full HD (1080p)",
+    "subtitle": "Công cụ lấy và trích xuất hình thu nhỏ YouTube trực tuyến miễn phí",
+    "description": "Tải xuống bất kỳ hình thu nhỏ video YouTube nào trong vài giây! <b>Trình tải xuống hình thu nhỏ YouTube miễn phí</b> của chúng tôi cho phép bạn lưu hình thu nhỏ YT ở nhiều độ phân giải bao gồm <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180) và Bình thường (120x90)</b> - hoàn toàn miễn phí, không có hình mờ, không cần đăng ký và không có quảng cáo.",
+    "whatIs": {
+      "title": "Trình tải xuống hình thu nhỏ của YouTube là gì?",
+      "p1": "<b>Trình tải xuống hình thu nhỏ của YouTube</b> là một công cụ trực tuyến miễn phí cho phép bạn nhanh chóng trích xuất, xem và tải xuống hình ảnh thu nhỏ từ bất kỳ video YouTube nào, bao gồm video thông thường, YouTube Shorts, video nhúng và phát trực tiếp. Công cụ lấy hình thu nhỏ của chúng tôi hỗ trợ tất cả các định dạng URL của YouTube và cung cấp quyền truy cập tức thì vào hình ảnh thu nhỏ chất lượng cao ở nhiều độ phân giải khác nhau.",
+      "p2": "Cho dù bạn là người tạo nội dung, nhà thiết kế đồ họa, nhà tiếp thị hay sinh viên, <b>trình tải xuống hình thu nhỏ yt</b> của chúng tôi sẽ giúp bạn lưu hình thu nhỏ video YouTube cho các bài thuyết trình, bài đăng trên blog, đồ họa truyền thông xã hội, nguồn cảm hứng hoặc các dự án thiết kế - tất cả đều không có các bước phức tạp hoặc cài đặt phần mềm."
     },
     "howTo": {
-      "title": "Làm thế nào để tải xuống hình thu nhỏ của YouTube?",
-      "method1": {
-        "title": "Phương pháp 1: Bằng liên kết",
-        "step1": "Sao chép liên kết video YouTube.",
-        "step2": "Dán liên kết vào hộp nhập liệu.",
-        "step3": "Nhấp vào nút 'Lấy hình thu nhỏ'.",
-        "step4": "Chọn chất lượng bạn muốn.",
-        "step5": "Nhấp vào 'Tải xuống' để lưu hình ảnh."
+      "title": "Cách tải xuống hình thu nhỏ của YouTube - 3 bước đơn giản",
+      "step1": {
+        "title": "Bước 1: Sao chép URL video YouTube",
+        "description": "Mở bất kỳ video YouTube nào và sao chép URL của nó từ thanh địa chỉ của trình duyệt. Công cụ của chúng tôi hỗ trợ tất cả các định dạng."
       },
-      "method2": {
-        "title": "Phương pháp 2: Bằng cách tìm kiếm",
-        "description": "Tìm kiếm video trực tiếp từ trang web của chúng tôi.",
-        "step1": "Nhập từ khóa của bạn vào thanh tìm kiếm.",
-        "step2": "Chọn video từ kết quả tìm kiếm.",
-        "step3": "Chọn chất lượng bạn muốn.",
-        "step4": "Nhấp vào 'Tải xuống'."
+      "step2": {
+        "title": "Bước 2: Dán URL và nhận hình thu nhỏ",
+        "description": "Dán liên kết YouTube đã sao chép vào hộp nhập liệu của chúng tôi ở trên và nhấp vào “Lấy hình thu nhỏ” hoặc “Tải xuống hình thu nhỏ”. Công cụ trích xuất hình thu nhỏ của chúng tôi sẽ tự động phát hiện ID video và tìm nạp tất cả các kích thước hình thu nhỏ có sẵn ngay lập tức."
+      },
+      "step3": {
+        "title": "Bước 3: Xem trước và tải xuống",
+        "description": "Duyệt qua tất cả các độ phân giải có sẵn, xem trước chúng và nhấp vào nút Tải xuống bên cạnh kích thước ưa thích của bạn. Hình ảnh sẽ được lưu trực tiếp vào thiết bị của bạn ở định dạng JPG - sẵn sàng để sử dụng ngay lập tức!"
       }
+    },
+    "resolutions": {
+      "title": "Kích thước và độ phân giải hình thu nhỏ YouTube có sẵn",
+      "quality": "Chất lượng",
+      "resolution": "Nghị quyết",
+      "filename": "Tên tệp",
+      "bestFor": "Tốt nhất cho",
+      "sizes": [
+        {
+          "quality": "<b>4K / Độ phân giải tối đa</b>",
+          "resolution": "1920x1080 hoặc 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Các dự án chuyên nghiệp, in ấn, thiết kế chất lượng cao"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Tải lên YouTube, tiêu đề trang web, bản trình bày"
+        },
+        {
+          "quality": "<b>SD (Độ nét tiêu chuẩn)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Bài đăng trên blog, phương tiện truyền thông xã hội, sử dụng chung"
+        },
+        {
+          "quality": "<b>HQ (Chất lượng cao)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Hình thu nhỏ, bản xem trước, tài liệu tham khảo nhanh"
+        },
+        {
+          "quality": "<b>MQ (Chất lượng trung bình)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Màn hình di động, các dự án nén"
+        },
+        {
+          "quality": "<b>Bình thường/Mặc định</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Biểu tượng, bản xem trước nhỏ, hình ảnh giữ chỗ"
+        }
+      ],
+      "note": "Lưu ý: Không phải tất cả các video đều có sẵn maxresdefault (1280x720). Nếu một video không có hình thu nhỏ HD, công cụ của chúng tôi sẽ tự động lọc chúng ra và chỉ hiển thị các kích thước có sẵn."
+    },
+    "whyChoose": {
+      "title": "Tại sao chọn Công cụ tải xuống hình thu nhỏ YouTube của chúng tôi?",
+      "features": [
+        {
+          "title": "🚀 Kết quả nhanh như chớp và tức thì",
+          "description": "Tải xuống hình thu nhỏ YouTube trong vòng chưa đầy 1 giây. Không phải chờ đợi, không chậm trễ - chỉ cần dán URL và có quyền truy cập ngay vào tất cả các kích thước hình thu nhỏ."
+        },
+        {
+          "title": "🎯 Hỗ trợ tất cả các định dạng YouTube",
+          "description": "Hoạt động với mọi loại URL YouTube: liên kết xem tiêu chuẩn, URL ngắn youtu.be, video Shorts, liên kết nhúng và URL định dạng /v/ cũ."
+        },
+        {
+          "title": "📱 Tương thích 100% với thiết bị di động và máy tính để bàn",
+          "description": "Thiết kế đáp ứng đầy đủ hoạt động hoàn hảo trên tất cả các thiết bị và trình duyệt: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Nhiều độ phân giải chất lượng cao",
+          "description": "Truy cập tối đa 6 kích thước hình thu nhỏ khác nhau từ 120x90 pixel đến Full HD 1280x720 (và đôi khi là 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Tính năng xem trước trực tiếp",
+          "description": "Xem trước từng kích thước hình thu nhỏ trước khi tải xuống. Xem chính xác những gì bạn nhận được với trình xem hình ảnh tích hợp của chúng tôi."
+        },
+        {
+          "title": "💯 Hoàn toàn miễn phí mãi mãi",
+          "description": "Không có chi phí ẩn, không có gói cao cấp, không có thời gian dùng thử. Trình tải xuống hình thu nhỏ YouTube miễn phí 100% với số lần tải xuống không giới hạn."
+        },
+        {
+          "title": "🔒 Không cần đăng ký",
+          "description": "Bắt đầu tải xuống ngay lập tức. Không cần đăng ký, đăng nhập, email. Quyền riêng tư của bạn được bảo vệ."
+        },
+        {
+          "title": "🚫 Không có quảng cáo và cửa sổ bật lên",
+          "description": "Giao diện sạch sẽ, chuyên nghiệp không có quảng cáo gây phiền nhiễu, cửa sổ bật lên, chuyển hướng hoặc trình theo dõi."
+        },
+        {
+          "title": "⚡ Không có hình mờ",
+          "description": "Tải xuống hình thu nhỏ YouTube nguyên bản, sạch sẽ mà không có thêm bất kỳ hình mờ, logo hoặc thương hiệu nào."
+        },
+        {
+          "title": "🛡️ An toàn và bảo mật",
+          "description": "Các kết nối được mã hóa SSL bảo vệ dữ liệu của bạn. Chúng tôi không lưu trữ bất kỳ URL video hoặc hình ảnh đã tải xuống nào."
+        },
+        {
+          "title": "🌐 Hoạt động trên toàn thế giới",
+          "description": "Truy cập công cụ của chúng tôi từ mọi nơi trên thế giới. Không có giới hạn địa lý hoặc yêu cầu VPN."
+        },
+        {
+          "title": "📥 Tải xuống bằng một cú nhấp chuột",
+          "description": "Lưu hình thu nhỏ trực tiếp vào thiết bị của bạn chỉ bằng một cú nhấp chuột. Không có menu nhấp chuột phải hoặc các quy trình phức tạp."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp (FAQ)",
+      "questions": [
+        {
+          "q": "Trình tải xuống hình thu nhỏ YouTube này làm gì?",
+          "a": "Công cụ miễn phí của chúng tôi trích xuất và tải xuống ngay lập tức hình ảnh thu nhỏ từ bất kỳ video YouTube nào ở nhiều độ phân giải (4K, Full HD, HD, SD). Không có quảng cáo, không cần đăng ký, không có hình mờ."
+        },
+        {
+          "q": "Công cụ lấy hình thu nhỏ YouTube này có thực sự miễn phí không?",
+          "a": "Có, miễn phí 100% mãi mãi. Không có chi phí ẩn, không có gói cao cấp. Tải xuống không giới hạn mà không có bất kỳ hạn chế nào."
+        },
+        {
+          "q": "Tôi có cần tạo tài khoản hoặc đăng ký không?",
+          "a": "Không! Bắt đầu tải xuống ngay lập tức mà không cần bất kỳ đăng ký hoặc thông tin cá nhân nào."
+        },
+        {
+          "q": "Cái này có hoạt động trên điện thoại di động không?",
+          "a": "Chắc chắn rồi! Trình tải xuống hình thu nhỏ của chúng tôi hoàn toàn đáp ứng trên thiết bị di động và hoạt động hoàn hảo trên điện thoại Android, iPhone và máy tính bảng."
+        },
+        {
+          "q": "Tôi có thể tải xuống hình thu nhỏ của YouTube Shorts không?",
+          "a": "Có! Công cụ của chúng tôi hỗ trợ đầy đủ YouTube Shorts. Chỉ cần dán URL của Shorts và tải xuống hình thu nhỏ ngay lập tức."
+        },
+        {
+          "q": "Tại sao một số video không có hình thu nhỏ HD (maxresdefault)?",
+          "a": "YouTube không tạo hình thu nhỏ maxresdefault (1280x720) cho tất cả các video, đặc biệt là các video cũ hơn. Công cụ của chúng tôi sẽ tự động lọc ra các kích thước không có sẵn."
+        },
+        {
+          "q": "Tôi có thể tải xuống hình thu nhỏ từ các video YouTube riêng tư hoặc không công khai không?",
+          "a": "Hình thu nhỏ từ các video riêng tư không thể truy cập công khai. Các video không công khai hoạt động tốt nếu bạn có liên kết URL trực tiếp."
+        },
+        {
+          "q": "Sử dụng Trình tải xuống hình thu nhỏ YouTube này có an toàn không?",
+          "a": "Có, hoàn toàn an toàn! Trang web của chúng tôi sử dụng mã hóa SSL (HTTPS), chúng tôi không lưu trữ bất kỳ dữ liệu nào và chúng tôi không thu thập thông tin cá nhân. Không có phần mềm độc hại, không có vi-rút."
+        },
+        {
+          "q": "Bạn có lưu trữ các URL YouTube mà tôi dán không?",
+          "a": "Không! Chúng tôi không ghi nhật ký, lưu trữ hoặc theo dõi bất kỳ URL nào bạn nhập. Tất cả quá trình xử lý đều diễn ra trong thời gian thực và không có gì được lưu trên máy chủ của chúng tôi."
+        },
+        {
+          "q": "Tải xuống hình thu nhỏ của YouTube có hợp pháp không?",
+          "a": "Việc tải xuống để sử dụng cá nhân, giáo dục hoặc sử dụng hợp pháp thường được chấp nhận. Tuy nhiên, việc phân phối công khai, sử dụng cho mục đích thương mại hoặc tải lên lại mà không có sự cho phép có thể vi phạm bản quyền. Luôn tôn trọng quyền của người sáng tạo."
+        },
+        {
+          "q": "Tôi có thể sử dụng hình thu nhỏ đã tải xuống cho các video YouTube của riêng mình không?",
+          "a": "Không, trừ khi bạn có sự cho phép rõ ràng từ người tạo ban đầu. Việc sử dụng hình thu nhỏ của người khác cho video của bạn vi phạm chính sách của YouTube và luật bản quyền."
+        }
+      ]
     }
   }
 }
+

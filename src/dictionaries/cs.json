@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "Stahovač miniatur z YouTube",
-    "description": "Vložte odkaz na video z YouTube níže a stáhněte si jeho miniaturu.",
-    "whyChoose": {
-      "title": "Proč si vybrat nás?",
-      "feature": "Funkce",
-      "benefit": "Výhoda",
-      "features": {
-        "instant": {
-          "feature": "Okamžité stažení",
-          "benefit": "Získejte miniatury během několika sekund."
-        },
-        "multiple": {
-          "feature": "Více kvalit",
-          "benefit": "Vyberte si z různých kvalit."
-        },
-        "free": {
-          "feature": "Zdarma k použití",
-          "benefit": "Naše služba je zcela zdarma."
-        },
-        "allDevices": {
-          "feature": "Funguje na všech zařízeních",
-          "benefit": "Používejte na jakémkoli zařízení."
-        },
-        "safe": {
-          "feature": "Bezpečné a zabezpečené",
-          "benefit": "Vaše stahování je v bezpečí."
-        }
-      }
+    "title": "YouTube Thumbnail Downloader - Stáhněte si miniatury videí z YT v HD, 4K a Full HD (1080p)",
+    "subtitle": "Bezplatný online nástroj pro stahování a extrakci miniatur z YouTube",
+    "description": "Stáhněte si jakoukoli miniaturu videa z YouTube během několika sekund! Náš <b>bezplatný YouTube thumbnail downloader</b> vám umožní ukládat miniatury z YT v různých rozlišeních, včetně <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180) a Normal (120x90)</b> - zcela zdarma, bez vodoznaků, registrace a reklam.",
+    "whatIs": {
+      "title": "Co je YouTube Thumbnail Downloader?",
+      "p1": "<b>YouTube Thumbnail Downloader</b> je bezplatný online nástroj, který vám umožňuje rychle extrahovat, prohlížet a stahovat miniatury z jakéhokoli videa na YouTube, včetně běžných videí, YouTube Shorts, vložených videí a živých přenosů. Náš nástroj pro stahování miniatur podporuje všechny formáty URL YouTube a poskytuje okamžitý přístup k vysoce kvalitním miniaturám v různých rozlišeních.",
+      "p2": "Ať už jste tvůrce obsahu, grafik, marketér nebo student, náš <b>yt thumbnail downloader</b> vám pomůže uložit miniatury videí z YouTube pro prezentace, blogové příspěvky, grafiku pro sociální média, inspiraci nebo designové projekty - to vše bez složitých kroků nebo instalace softwaru."
     },
     "howTo": {
-      "title": "Jak stáhnout miniatury z YouTube?",
-      "method1": {
-        "title": "Metoda 1: Pomocí odkazu",
-        "step1": "Zkopírujte odkaz na video z YouTube.",
-        "step2": "Vložte odkaz do vstupního pole.",
-        "step3": "Klikněte na tlačítko 'Získat miniatury'.",
-        "step4": "Vyberte si požadovanou kvalitu.",
-        "step5": "Klikněte na 'Stáhnout' pro uložení obrázku."
+      "title": "Jak stáhnout miniaturu z YouTube - 3 jednoduché kroky",
+      "step1": {
+        "title": "Krok 1: Zkopírujte URL videa z YouTube",
+        "description": "Otevřete jakékoli video na YouTube a zkopírujte jeho URL z adresního řádku prohlížeče. Náš nástroj podporuje všechny formáty."
       },
-      "method2": {
-        "title": "Metoda 2: Pomocí vyhledávání",
-        "description": "Hledejte videa přímo z našich stránek.",
-        "step1": "Zadejte klíčová slova do vyhledávacího pole.",
-        "step2": "Vyberte video z výsledků vyhledávání.",
-        "step3": "Vyberte si požadovanou kvalitu.",
-        "step4": "Klikněte na 'Stáhnout'."
+      "step2": {
+        "title": "Krok 2: Vložte URL a získejte miniatury",
+        "description": "Vložte zkopírovaný odkaz z YouTube do našeho vstupního pole výše a klikněte na „Získat miniatury“ nebo „Stáhnout miniaturu“. Náš extraktor miniatur automaticky detekuje ID videa a okamžitě načte všechny dostupné velikosti miniatur."
+      },
+      "step3": {
+        "title": "Krok 3: Prohlédněte si a stáhněte",
+        "description": "Projděte si všechna dostupná rozlišení, prohlédněte si je a klikněte na tlačítko Stáhnout vedle preferované velikosti. Obrázek bude uložen přímo do vašeho zařízení ve formátu JPG - připraven k okamžitému použití!"
       }
+    },
+    "resolutions": {
+      "title": "Dostupné velikosti a rozlišení miniatur YouTube",
+      "quality": "Kvalita",
+      "resolution": "Rozlišení",
+      "filename": "Název souboru",
+      "bestFor": "Nejlepší pro",
+      "sizes": [
+        {
+          "quality": "<b>4K / Maximální rozlišení</b>",
+          "resolution": "1920x1080 nebo 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Profesionální projekty, tisk, vysoce kvalitní designy"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Nahrávání na YouTube, hlavičky webových stránek, prezentace"
+        },
+        {
+          "quality": "<b>SD (Standardní rozlišení)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Blogové příspěvky, sociální média, obecné použití"
+        },
+        {
+          "quality": "<b>HQ (Vysoká kvalita)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Miniatury, náhledy, rychlé reference"
+        },
+        {
+          "quality": "<b>MQ (Střední kvalita)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Mobilní displeje, komprimované projekty"
+        },
+        {
+          "quality": "<b>Normální/Výchozí</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Ikony, malé náhledy, zástupné obrázky"
+        }
+      ],
+      "note": "Poznámka: Ne všechna videa mají k dispozici maxresdefault (1280x720). Pokud video nemá HD miniatury, náš nástroj je automaticky odfiltruje a zobrazí pouze dostupné velikosti."
+    },
+    "whyChoose": {
+      "title": "Proč si vybrat náš nástroj pro stahování miniatur z YouTube?",
+      "features": [
+        {
+          "title": "🚀 Bleskově rychlé a okamžité výsledky",
+          "description": "Stáhněte si miniatury z YouTube za méně než 1 sekundu. Žádné čekání, žádné zpoždění - stačí vložit URL a získat okamžitý přístup ke všem velikostem miniatur."
+        },
+        {
+          "title": "🎯 Podporovány všechny formáty YouTube",
+          "description": "Funguje s každým typem URL YouTube: standardní odkazy na sledování, krátké URL youtu.be, videa Shorts, vložené odkazy a starší formáty /v/."
+        },
+        {
+          "title": "📱 100% kompatibilní s mobilními zařízeními a počítači",
+          "description": "Plně responzivní design, který bezchybně funguje na všech zařízeních a prohlížečích: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Více vysoce kvalitních rozlišení",
+          "description": "Přístup až k 6 různým velikostem miniatur od 120x90 pixelů až po Full HD 1280x720 (a někdy 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Funkce živého náhledu",
+          "description": "Prohlédněte si každou velikost miniatury před stažením. S naším vestavěným prohlížečem obrázků uvidíte přesně, co dostanete."
+        },
+        {
+          "title": "💯 Zcela zdarma navždy",
+          "description": "Žádné skryté náklady, žádné prémiové plány, žádné zkušební doby. 100% bezplatný stahovač miniatur z YouTube s neomezenými stahováními."
+        },
+        {
+          "title": "🔒 Nevyžaduje se žádná registrace",
+          "description": "Začněte stahovat okamžitě. Není nutná žádná registrace, přihlášení ani e-mail. Vaše soukromí je chráněno."
+        },
+        {
+          "title": "🚫 Žádné reklamy a vyskakovací okna",
+          "description": "Čisté, profesionální rozhraní bez otravných reklam, vyskakovacích oken, přesměrování nebo sledovacích nástrojů."
+        },
+        {
+          "title": "⚡ Žádné vodoznaky",
+          "description": "Stáhněte si čisté, originální miniatury z YouTube bez jakýchkoli přidaných vodoznaků, log nebo značek."
+        },
+        {
+          "title": "🛡️ Bezpečné a zabezpečené",
+          "description": "Připojení šifrovaná pomocí SSL chrání vaše data. Neukládáme žádné URL videí ani stažené obrázky."
+        },
+        {
+          "title": "🌐 Funguje po celém světě",
+          "description": "Přistupujte k našemu nástroji odkudkoli na světě. Žádná geografická omezení ani požadavky na VPN."
+        },
+        {
+          "title": "📥 Stažení jedním kliknutím",
+          "description": "Uložte miniatury přímo do svého zařízení jedním kliknutím. Žádné kontextové nabídky ani složité procesy."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Často kladené otázky (FAQ)",
+      "questions": [
+        {
+          "q": "Co dělá tento YouTube Thumbnail Downloader?",
+          "a": "Náš bezplatný nástroj okamžitě extrahuje a stahuje miniatury z jakéhokoli videa na YouTube v různých rozlišeních (4K, Full HD, HD, SD). Žádné reklamy, žádná registrace, žádné vodoznaky."
+        },
+        {
+          "q": "Je tento nástroj pro stahování miniatur opravdu zdarma?",
+          "a": "Ano, 100% zdarma navždy. Žádné skryté náklady ani prémiové plány. Neomezená stahování bez omezení."
+        },
+        {
+          "q": "Musím si vytvořit účet nebo se zaregistrovat?",
+          "a": "Ne! Začněte stahovat okamžitě bez jakékoli registrace nebo osobních údajů."
+        },
+        {
+          "q": "Funguje to na mobilních telefonech?",
+          "a": "Absolutně! Náš stahovač miniatur je plně responzivní pro mobilní zařízení a perfektně funguje na telefonech s Androidem, iPhonech a tabletech."
+        },
+        {
+          "q": "Mohu stahovat miniatury z YouTube Shorts?",
+          "a": "Ano! Náš nástroj plně podporuje YouTube Shorts. Stačí vložit URL Short a okamžitě si stáhnout miniatury."
+        },
+        {
+          "q": "Proč některá videa nemají HD (maxresdefault) miniatury?",
+          "a": "YouTube negeneruje miniatury v rozlišení maxresdefault (1280x720) pro všechna videa, zejména pro starší. Náš nástroj automaticky filtruje nedostupné velikosti."
+        },
+        {
+          "q": "Mohu stahovat miniatury ze soukromých nebo neveřejných videí?",
+          "a": "Miniatury ze soukromých videí nejsou veřejně přístupné. Neveřejná videa fungují, pokud máte přímý odkaz URL."
+        },
+        {
+          "q": "Je používání YouTube Thumbnail Downloaderu bezpečné?",
+          "a": "Ano, naprosto bezpečné! Náš web používá šifrování SSL (HTTPS), neukládáme žádná data a neshromažďujeme osobní údaje. Žádný malware, žádné viry."
+        },
+        {
+          "q": "Ukládáte URL, která vkládám?",
+          "a": "Ne! Nezaznamenáváme ani neukládáme žádné URL, které zadáte. Veškeré zpracování probíhá v reálném čase a na našich serverech se nic neukládá."
+        },
+        {
+          "q": "Je legální stahovat miniatury z YouTube?",
+          "a": "Stahování pro osobní potřebu, vzdělávání nebo spravedlivé použití je obecně přijatelné. Veřejné šíření, komerční použití nebo opětovné nahrávání bez povolení však může porušovat autorská práva. Vždy respektujte práva tvůrců."
+        },
+        {
+          "q": "Mohu stažené miniatury použít pro svá vlastní videa na YouTube?",
+          "a": "Ne, pokud nemáte výslovné povolení od původního tvůrce. Použití cizí miniatury pro vaše videa porušuje zásady YouTube a autorský zákon."
+        }
+      ]
     }
   }
 }
+

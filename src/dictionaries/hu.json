@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "YouTube bélyegkép letöltő",
-    "description": "Illesszen be egy YouTube videó linket alább a bélyegkép letöltéséhez.",
-    "whyChoose": {
-      "title": "Miért válasszon minket?",
-      "feature": "Funkció",
-      "benefit": "Előny",
-      "features": {
-        "instant": {
-          "feature": "Azonnali letöltés",
-          "benefit": "Szerezzen bélyegképeket másodpercek alatt."
-        },
-        "multiple": {
-          "feature": "Több minőség",
-          "benefit": "Válasszon a különböző minőségek közül."
-        },
-        "free": {
-          "feature": "Ingyenesen használható",
-          "benefit": "Szolgáltatásunk teljesen ingyenes."
-        },
-        "allDevices": {
-          "feature": "Minden eszközön működik",
-          "benefit": "Használja bármilyen eszközön."
-        },
-        "safe": {
-          "feature": "Biztonságos és védett",
-          "benefit": "A letöltései biztonságban vannak."
-        }
-      }
+    "title": "YouTube bélyegkép letöltő - Tölts le YT videó bélyegképeket HD, 4K és Full HD (1080p) felbontásban",
+    "subtitle": "Ingyenes online YouTube bélyegkép letöltő és kinyerő eszköz",
+    "description": "Tölts le bármilyen YouTube videó bélyegképet másodpercek alatt! Az <b>ingyenes YouTube bélyegkép letöltőnk</b> lehetővé teszi, hogy YT bélyegképeket ments el több felbontásban, beleértve a <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180) és Normál (120x90)</b> felbontásokat - teljesen ingyenesen, vízjelek, regisztráció és hirdetések nélkül.",
+    "whatIs": {
+      "title": "Mi az a YouTube bélyegkép letöltő?",
+      "p1": "A <b>YouTube bélyegkép letöltő</b> egy ingyenes online eszköz, amely lehetővé teszi, hogy gyorsan kinyerj, megtekints és letölts bélyegképeket bármely YouTube videóról, beleértve a normál videókat, a YouTube Shorts-ot, a beágyazott videókat és az élő közvetítéseket. A bélyegkép-megragadónk támogatja az összes YouTube URL formátumot, és azonnali hozzáférést biztosít a kiváló minőségű bélyegképekhez különböző felbontásokban.",
+      "p2": "Legyél akár tartalomkészítő, grafikus, marketinges vagy diák, a <b>yt bélyegkép letöltőnk</b> segít elmenteni a YouTube videó bélyegképeket prezentációkhoz, blogbejegyzésekhez, közösségi média grafikákhoz, inspirációhoz vagy tervezési projektekhez - mindezt bonyolult lépések vagy szoftvertelepítés nélkül."
     },
     "howTo": {
-      "title": "Hogyan töltsünk le YouTube bélyegképeket?",
-      "method1": {
-        "title": "1. módszer: Link segítségével",
-        "step1": "Másolja ki a YouTube videó linkjét.",
-        "step2": "Illessze be a linket a beviteli mezőbe.",
-        "step3": "Kattintson a 'Bélyegképek lekérése' gombra.",
-        "step4": "Válassza ki a kívánt minőséget.",
-        "step5": "Kattintson a 'Letöltés' gombra a kép mentéséhez."
+      "title": "Hogyan töltsünk le YouTube bélyegképet - 3 egyszerű lépés",
+      "step1": {
+        "title": "1. lépés: Másold ki a YouTube videó URL-jét",
+        "description": "Nyiss meg bármilyen YouTube videót, és másold ki az URL-jét a böngésző címsorából. Eszközünk minden formátumot támogat."
       },
-      "method2": {
-        "title": "2. módszer: Keresés segítségével",
-        "description": "Keressen videókat közvetlenül az oldalunkról.",
-        "step1": "Írja be a kulcsszavakat a keresőmezőbe.",
-        "step2": "Válassza ki a videót a keresési eredmények közül.",
-        "step3": "Válassza ki a kívánt minőséget.",
-        "step4": "Kattintson a 'Letöltés' gombra."
+      "step2": {
+        "title": "2. lépés: Illessze be az URL-t és szerezze be a bélyegképeket",
+        "description": "Illessze be a másolt YouTube linket a fenti beviteli mezőbe, és kattintson a „Bélyegképek beszerzése” vagy a „Bélyegkép letöltése” gombra. Bélyegkép-kinyerőnk automatikusan felismeri a videó azonosítóját, és azonnal letölti az összes elérhető bélyegképméretet."
+      },
+      "step3": {
+        "title": "3. lépés: Előnézet és letöltés",
+        "description": "Böngésszen az összes elérhető felbontás között, tekintse meg őket előnézetben, és kattintson a Letöltés gombra a preferált méret mellett. A kép közvetlenül az eszközére mentődik JPG formátumban - azonnal használatra kész!"
       }
+    },
+    "resolutions": {
+      "title": "Elérhető YouTube bélyegképméretek és felbontások",
+      "quality": "Minőség",
+      "resolution": "Felbontás",
+      "filename": "Fájlnév",
+      "bestFor": "Legjobb",
+      "sizes": [
+        {
+          "quality": "<b>4K / Maximális felbontás</b>",
+          "resolution": "1920x1080 vagy 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Professzionális projektek, nyomtatás, kiváló minőségű tervek"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "YouTube feltöltések, weboldal fejlécek, prezentációk"
+        },
+        {
+          "quality": "<b>SD (Standard felbontás)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Blogbejegyzések, közösségi média, általános használat"
+        },
+        {
+          "quality": "<b>HQ (Magas minőség)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Bélyegképek, előnézetek, gyors referenciák"
+        },
+        {
+          "quality": "<b>MQ (Közepes minőség)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Mobil kijelzők, tömörített projektek"
+        },
+        {
+          "quality": "<b>Normál/Alapértelmezett</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Ikonok, kis előnézetek, helyőrző képek"
+        }
+      ],
+      "note": "Megjegyzés: Nem minden videó rendelkezik maxresdefault (1280x720) felbontással. Ha egy videónak nincsenek HD bélyegképei, eszközünk automatikusan kiszűri azokat, és csak az elérhető méreteket jeleníti meg."
+    },
+    "whyChoose": {
+      "title": "Miért válassza a YouTube bélyegkép letöltő eszközünket?",
+      "features": [
+        {
+          "title": "🚀 Villámgyors és azonnali eredmények",
+          "description": "Töltse le a YouTube bélyegképeket kevesebb mint 1 másodperc alatt. Nincs várakozás, nincs késedelem - csak illessze be az URL-t, és azonnal hozzáférhet az összes bélyegképmérethez."
+        },
+        {
+          "title": "🎯 Minden YouTube formátum támogatott",
+          "description": "Működik minden YouTube URL-típussal: szabványos nézési linkekkel, youtu.be rövid URL-ekkel, Shorts videókkal, beágyazott linkekkel és régebbi /v/ formátumú URL-ekkel."
+        },
+        {
+          "title": "📱 100%-ban mobil- és asztali kompatibilis",
+          "description": "Teljesen reszponzív dizájn, amely hibátlanul működik minden eszközön és böngészőben: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Több kiváló minőségű felbontás",
+          "description": "Hozzáférhet akár 6 különböző bélyegképmérethez 120x90 pixeltől a Full HD 1280x720-ig (és néha 4K 1920x1080-ig)."
+        },
+        {
+          "title": "👁️ Élő előnézet funkció",
+          "description": "Tekintse meg az egyes bélyegképméreteket letöltés előtt. A beépített képnézegetőnkkel pontosan láthatja, mit kap."
+        },
+        {
+          "title": "💯 Teljesen ingyenes örökre",
+          "description": "Nincsenek rejtett költségek, nincsenek prémium csomagok, nincsenek próbaidőszakok. 100%-ban ingyenes YouTube bélyegkép letöltő korlátlan letöltéssel."
+        },
+        {
+          "title": "🔒 Nincs szükség regisztrációra",
+          "description": "Azonnal kezdje meg a letöltést. Nincs szükség regisztrációra, bejelentkezésre vagy e-mail címre. Az Ön adatainak védelme biztosított."
+        },
+        {
+          "title": "🚫 Nulla hirdetés és felugró ablak",
+          "description": "Tiszta, professzionális felület zavaró hirdetések, felugró ablakok, átirányítások vagy nyomkövetők nélkül."
+        },
+        {
+          "title": "⚡ Nincs vízjel",
+          "description": "Töltsön le tiszta, eredeti YouTube bélyegképeket hozzáadott vízjelek, logók vagy márkajelzések nélkül."
+        },
+        {
+          "title": "🛡️ Biztonságos és védett",
+          "description": "Az SSL-titkosítású kapcsolatok védik az adatait. Nem tárolunk semmilyen videó URL-t vagy letöltött képet."
+        },
+        {
+          "title": "🌐 Világszerte működik",
+          "description": "Bárhonnan a világból hozzáférhet eszközünkhöz. Nincsenek földrajzi korlátozások vagy VPN-követelmények."
+        },
+        {
+          "title": "📥 Egykattintásos letöltés",
+          "description": "Mentse el a bélyegképeket közvetlenül az eszközére egyetlen kattintással. Nincsenek jobbklikk menük vagy bonyolult folyamatok."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Gyakran Ismételt Kérdések (GYIK)",
+      "questions": [
+        {
+          "q": "Mit csinál ez a YouTube bélyegkép letöltő?",
+          "a": "Ingyenes eszközünk azonnal kinyeri és letölti a bélyegképeket bármely YouTube videóról több felbontásban (4K, Full HD, HD, SD). Nincsenek hirdetések, nincs regisztráció, nincsenek vízjelek."
+        },
+        {
+          "q": "Ez a YouTube bélyegkép-megragadó tényleg ingyenes?",
+          "a": "Igen, 100%-ban ingyenes örökre. Nincsenek rejtett költségek, nincsenek prémium csomagok. Korlátlan letöltés korlátozások nélkül."
+        },
+        {
+          "q": "Szükséges fiókot létrehoznom vagy regisztrálnom?",
+          "a": "Nem! Azonnal kezdje meg a letöltést bármilyen regisztráció vagy személyes adat megadása nélkül."
+        },
+        {
+          "q": "Működik ez mobiltelefonokon?",
+          "a": "Abszolút! Bélyegkép letöltőnk teljesen mobilbarát, és tökéletesen működik Android telefonokon, iPhone-okon és táblagépeken."
+        },
+        {
+          "q": "Letölthetem a YouTube Shorts bélyegképeket?",
+          "a": "Igen! Eszközünk teljes mértékben támogatja a YouTube Shorts-t. Csak illessze be a Shorts URL-jét, és azonnal töltse le a bélyegképeket."
+        },
+        {
+          "q": "Miért nincsenek egyes videóknak HD (maxresdefault) bélyegképei?",
+          "a": "A YouTube nem generál maxresdefault (1280x720) bélyegképeket minden videóhoz, különösen a régebbiekhez. Eszközünk automatikusan kiszűri a nem elérhető méreteket."
+        },
+        {
+          "q": "Letölthetek bélyegképeket privát vagy nem listázott YouTube videókból?",
+          "a": "A privát videók bélyegképei nem érhetők el nyilvánosan. A nem listázott videók jól működnek, ha rendelkezik a közvetlen URL-linkkel."
+        },
+        {
+          "q": "Biztonságos a YouTube bélyegkép letöltő használata?",
+          "a": "Igen, teljesen biztonságos! Webhelyünk SSL titkosítást (HTTPS) használ, nem tárolunk adatokat, és nem gyűjtünk személyes információkat. Nincs rosszindulatú program, nincs vírus."
+        },
+        {
+          "q": "Tároljátok a beillesztett YouTube URL-eket?",
+          "a": "Nem! Nem naplózzuk, tároljuk vagy követjük nyomon az Ön által megadott URL-eket. Minden feldolgozás valós időben történik, és semmi sem mentődik a szervereinkre."
+        },
+        {
+          "q": "Legális a YouTube bélyegképek letöltése?",
+          "a": "A személyes használatra, oktatásra vagy méltányos felhasználásra történő letöltés általában elfogadható. A nyilvános terjesztés, a kereskedelmi felhasználás vagy az engedély nélküli újbóli feltöltés azonban sértheti a szerzői jogokat. Mindig tartsa tiszteletben az alkotók jogait."
+        },
+        {
+          "q": "Használhatom a letöltött bélyegképeket a saját YouTube videóimhoz?",
+          "a": "Nem, hacsak nincs kifejezett engedélye az eredeti alkotótól. Más bélyegképének használata a saját videóihoz sérti a YouTube irányelveit és a szerzői jogi törvényt."
+        }
+      ]
     }
   }
 }
+

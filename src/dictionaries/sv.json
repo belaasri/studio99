@@ -1,52 +1,177 @@
+
 {
   "home": {
-    "title": "YouTube miniatyrnedladdare",
-    "description": "Klistra in en YouTube-videolänk nedan för att ladda ner dess miniatyr.",
-    "whyChoose": {
-      "title": "Varför välja oss?",
-      "feature": "Funktion",
-      "benefit": "Fördel",
-      "features": {
-        "instant": {
-          "feature": "Omedelbar nedladdning",
-          "benefit": "Få miniatyrer på några sekunder."
-        },
-        "multiple": {
-          "feature": "Flera kvaliteter",
-          "benefit": "Välj mellan olika kvaliteter."
-        },
-        "free": {
-          "feature": "Gratis att använda",
-          "benefit": "Vår tjänst är helt gratis."
-        },
-        "allDevices": {
-          "feature": "Fungerar på alla enheter",
-          "benefit": "Använd den på vilken enhet som helst."
-        },
-        "safe": {
-          "feature": "Säker & trygg",
-          "benefit": "Dina nedladdningar är säkra."
-        }
-      }
+    "title": "YouTube miniatyrnedladdare - Ladda ner YT-videominiatyrer i HD, 4K och Full HD (1080p)",
+    "subtitle": "Gratis onlineverktyg för att hämta och extrahera YouTube-miniatyrer",
+    "description": "Ladda ner vilken YouTube-videominiatyr som helst på några sekunder! Vår <b>gratis YouTube miniatyrnedladdare</b> låter dig spara YT-miniatyrer i flera upplösningar, inklusive <b>4K, Full HD (1920x1080), HD (1280x720), SD (640x480), HQ (480x360), MQ (320x180) och Normal (120x90)</b> - helt gratis, utan vattenstämplar, utan registrering och utan annonser.",
+    "whatIs": {
+      "title": "Vad är en YouTube miniatyrnedladdare?",
+      "p1": "En <b>YouTube miniatyrnedladdare</b> är ett gratis onlineverktyg som låter dig snabbt extrahera, visa och ladda ner miniatyrbilder från vilken YouTube-video som helst, inklusive vanliga videor, YouTube Shorts, inbäddade videor och livestreams. Vår miniatyrhämtare stöder alla YouTube-URL-format och ger omedelbar tillgång till högkvalitativa miniatyrbilder i olika upplösningar.",
+      "p2": "Oavsett om du är en innehållsskapare, grafisk designer, marknadsförare eller student, hjälper vår <b>yt miniatyrnedladdare</b> dig att spara YouTube-videominiatyrer för presentationer, blogginlägg, sociala medier-grafik, inspiration eller designprojekt - allt utan komplicerade steg eller programinstallation."
     },
     "howTo": {
-      "title": "Hur laddar man ner YouTube-miniatyrer?",
-      "method1": {
-        "title": "Metod 1: Via länk",
-        "step1": "Kopiera YouTube-videolänken.",
-        "step2": "Klistra in länken i inmatningsrutan.",
-        "step3": "Klicka på knappen 'Hämta miniatyrer'.",
-        "step4": "Välj den kvalitet du vill ha.",
-        "step5": "Klicka på 'Ladda ner' för att spara bilden."
+      "title": "Hur man laddar ner en YouTube-miniatyr - 3 enkla steg",
+      "step1": {
+        "title": "Steg 1: Kopiera YouTube-videons URL",
+        "description": "Öppna vilken YouTube-video som helst och kopiera dess URL från webbläsarens adressfält. Vårt verktyg stöder alla format."
       },
-      "method2": {
-        "title": "Metod 2: Via sökning",
-        "description": "Sök efter videor direkt från vår webbplats.",
-        "step1": "Skriv in dina sökord i sökfältet.",
-        "step2": "Välj videon från sökresultaten.",
-        "step3": "Välj den kvalitet du vill ha.",
-        "step4": "Klicka på 'Ladda ner'."
+      "step2": {
+        "title": "Steg 2: Klistra in URL och hämta miniatyrer",
+        "description": "Klistra in den kopierade YouTube-länken i vår inmatningsruta ovan och klicka på ”Hämta miniatyrer” eller ”Ladda ner miniatyr”. Vår miniatyrextraktor kommer automatiskt att upptäcka video-ID och hämta alla tillgängliga miniatyrstorlekar omedelbart."
+      },
+      "step3": {
+        "title": "Steg 3: Förhandsgranska och ladda ner",
+        "description": "Bläddra igenom alla tillgängliga upplösningar, förhandsgranska dem och klicka på nedladdningsknappen bredvid din föredragna storlek. Bilden sparas direkt på din enhet i JPG-format - redo att användas omedelbart!"
       }
+    },
+    "resolutions": {
+      "title": "Tillgängliga YouTube-miniatyrstorlekar och -upplösningar",
+      "quality": "Kvalitet",
+      "resolution": "Upplösning",
+      "filename": "Filnamn",
+      "bestFor": "Bäst för",
+      "sizes": [
+        {
+          "quality": "<b>4K / Maximal upplösning</b>",
+          "resolution": "1920x1080 eller 1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "Professionella projekt, utskrift, högkvalitativa designer"
+        },
+        {
+          "quality": "<b>Full HD</b>",
+          "resolution": "1280x720",
+          "filename": "maxresdefault.jpg",
+          "bestFor": "YouTube-uppladdningar, webbplatsrubriker, presentationer"
+        },
+        {
+          "quality": "<b>SD (Standard Definition)</b>",
+          "resolution": "640x480",
+          "filename": "sddefault.jpg",
+          "bestFor": "Blogginlägg, sociala medier, allmänt bruk"
+        },
+        {
+          "quality": "<b>HQ (Hög kvalitet)</b>",
+          "resolution": "480x360",
+          "filename": "hqdefault.jpg",
+          "bestFor": "Miniatyrer, förhandsvisningar, snabba referenser"
+        },
+        {
+          "quality": "<b>MQ (Medelkvalitet)</b>",
+          "resolution": "320x180",
+          "filename": "mqdefault.jpg",
+          "bestFor": "Mobilskärmar, komprimerade projekt"
+        },
+        {
+          "quality": "<b>Normal/Standard</b>",
+          "resolution": "120x90",
+          "filename": "default.jpg",
+          "bestFor": "Ikoner, små förhandsvisningar, platshållarbilder"
+        }
+      ],
+      "note": "Obs: Inte alla videor har maxresdefault (1280x720) tillgängligt. Om en video inte har HD-miniatyrer filtrerar vårt verktyg automatiskt bort dem och visar endast tillgängliga storlekar."
+    },
+    "whyChoose": {
+      "title": "Varför välja vårt verktyg för att ladda ner YouTube-miniatyrer?",
+      "features": [
+        {
+          "title": "🚀 Blixtsnabba och omedelbara resultat",
+          "description": "Ladda ner YouTube-miniatyrer på mindre än 1 sekund. Ingen väntan, inga förseningar - klistra bara in URL:en och få omedelbar tillgång till alla miniatyrstorlekar."
+        },
+        {
+          "title": "🎯 Alla YouTube-format stöds",
+          "description": "Fungerar med alla typer av YouTube-URL:er: standardvisningslänkar, korta youtu.be-URL:er, Shorts-videor, inbäddade länkar och äldre /v/-format-URL:er."
+        },
+        {
+          "title": "📱 100 % kompatibel med mobil och dator",
+          "description": "Fullt responsiv design som fungerar felfritt på alla enheter och webbläsare: Chrome, Firefox, Safari, Edge, Opera."
+        },
+        {
+          "title": "🎨 Flera högupplösta upplösningar",
+          "description": "Få tillgång till upp till 6 olika miniatyrstorlekar från 120x90 pixlar upp till Full HD 1280x720 (och ibland 4K 1920x1080)."
+        },
+        {
+          "title": "👁️ Live förhandsgranskningsfunktion",
+          "description": "Förhandsgranska varje miniatyrstorlek innan du laddar ner. Se exakt vad du får med vår inbyggda bildvisare."
+        },
+        {
+          "title": "💯 Helt gratis för alltid",
+          "description": "Inga dolda kostnader, inga premiumplaner, inga provperioder. 100 % gratis YouTube-miniatyrnedladdare med obegränsade nedladdningar."
+        },
+        {
+          "title": "🔒 Ingen registrering krävs",
+          "description": "Börja ladda ner omedelbart. Ingen registrering, ingen inloggning, ingen e-post krävs. Din integritet är skyddad."
+        },
+        {
+          "title": "🚫 Noll annonser och popup-fönster",
+          "description": "Rent, professionellt gränssnitt utan irriterande annonser, popup-fönster, omdirigeringar eller spårare."
+        },
+        {
+          "title": "⚡ Inga vattenstämplar",
+          "description": "Ladda ner rena, ursprungliga YouTube-miniatyrer utan några tillagda vattenstämplar, logotyper eller varumärken."
+        },
+        {
+          "title": "🛡️ Säkert och tryggt",
+          "description": "SSL-krypterade anslutningar skyddar dina data. Vi lagrar inga video-URL:er eller nedladdade bilder."
+        },
+        {
+          "title": "🌐 Fungerar över hela världen",
+          "description": "Få tillgång till vårt verktyg från var som helst i världen. Inga geografiska begränsningar eller VPN-krav."
+        },
+        {
+          "title": "📥 Nedladdning med ett klick",
+          "description": "Spara miniatyrer direkt på din enhet med ett enda klick. Inga högerklicksmenyer eller komplicerade processer."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Vanliga frågor (FAQ)",
+      "questions": [
+        {
+          "q": "Vad gör denna YouTube miniatyrnedladdare?",
+          "a": "Vårt gratisverktyg extraherar och laddar omedelbart ner miniatyrbilder från vilken YouTube-video som helst i flera upplösningar (4K, Full HD, HD, SD). Inga annonser, ingen registrering, inga vattenstämplar."
+        },
+        {
+          "q": "Är denna YouTube miniatyrhämtare verkligen gratis?",
+          "a": "Ja, 100 % gratis för alltid. Inga dolda kostnader, inga premiumplaner. Obegränsade nedladdningar utan begränsningar."
+        },
+        {
+          "q": "Behöver jag skapa ett konto eller registrera mig?",
+          "a": "Nej! Börja ladda ner omedelbart utan någon registrering eller personlig information."
+        },
+        {
+          "q": "Fungerar det här på mobiltelefoner?",
+          "a": "Absolut! Vår miniatyrnedladdare är helt mobilanpassad och fungerar perfekt på Android-telefoner, iPhones och surfplattor."
+        },
+        {
+          "q": "Kan jag ladda ner YouTube Shorts-miniatyrer?",
+          "a": "Ja! Vårt verktyg stöder YouTube Shorts fullt ut. Klistra bara in Shorts-URL:en och ladda ner miniatyrerna omedelbart."
+        },
+        {
+          "q": "Varför har vissa videor inte HD (maxresdefault)-miniatyrer?",
+          "a": "YouTube genererar inte maxresdefault (1280x720)-miniatyrer för alla videor, särskilt äldre. Vårt verktyg filtrerar automatiskt bort otillgängliga storlekar."
+        },
+        {
+          "q": "Kan jag ladda ner miniatyrer från privata eller olistade YouTube-videor?",
+          "a": "Miniatyrer från privata videor är inte offentligt tillgängliga. Olistade videor fungerar bra om du har den direkta URL-länken."
+        },
+        {
+          "q": "Är denna YouTube miniatyrnedladdare säker att använda?",
+          "a": "Ja, helt säker! Vår webbplats använder SSL-kryptering (HTTPS), vi lagrar inga data och vi samlar inte in personlig information. Ingen skadlig kod, inga virus."
+        },
+        {
+          "q": "Lagrar ni de YouTube-URL:er jag klistrar in?",
+          "a": "Nej! Vi loggar, lagrar eller spårar inga URL:er du anger. All bearbetning sker i realtid och ingenting sparas på våra servrar."
+        },
+        {
+          "q": "Är det lagligt att ladda ner YouTube-miniatyrer?",
+          "a": "Att ladda ner för personligt bruk, utbildning eller rättvis användning är generellt sett acceptabelt. Offentlig distribution, kommersiell användning eller återuppladdning utan tillstånd kan dock bryta mot upphovsrätten. Respektera alltid skaparnas rättigheter."
+        },
+        {
+          "q": "Kan jag använda nedladdade miniatyrer för mina egna YouTube-videor?",
+          "a": "Nej, om du inte har uttryckligt tillstånd från den ursprungliga skaparen. Att använda någon annans miniatyr för dina videor bryter mot YouTubes policyer och upphovsrättslagen."
+        }
+      ]
     }
   }
 }
+
