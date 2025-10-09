@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "YouTube Küçük Resim İndirici",
+    "description": "Küçük resmini indirmek için aşağıya bir YouTube video bağlantısı yapıştırın.",
+    "whyChoose": {
+      "title": "Neden Bizi Seçmelisiniz?",
+      "feature": "Özellik",
+      "benefit": "Fayda",
+      "features": {
+        "instant": {
+          "feature": "Anında İndirme",
+          "benefit": "Küçük resimleri saniyeler içinde alın."
+        },
+        "multiple": {
+          "feature": "Çoklu Kaliteler",
+          "benefit": "Çeşitli kaliteler arasından seçim yapın."
+        },
+        "free": {
+          "feature": "Kullanımı Ücretsiz",
+          "benefit": "Hizmetimiz tamamen ücretsizdir."
+        },
+        "allDevices": {
+          "feature": "Tüm Cihazlarda Çalışır",
+          "benefit": "Herhangi bir cihazda kullanın."
+        },
+        "safe": {
+          "feature": "Güvenli ve Emniyetli",
+          "benefit": "İndirmeleriniz güvende."
+        }
+      }
+    },
+    "howTo": {
+      "title": "YouTube Küçük Resimleri Nasıl İndirilir?",
+      "method1": {
+        "title": "Yöntem 1: Bağlantı ile",
+        "step1": "YouTube video bağlantısını kopyalayın.",
+        "step2": "Bağlantıyı giriş kutusuna yapıştırın.",
+        "step3": "'Küçük Resimleri Al' düğmesine tıklayın.",
+        "step4": "İstediğiniz kaliteyi seçin.",
+        "step5": "Görüntüyü kaydetmek için 'İndir'e tıklayın."
+      },
+      "method2": {
+        "title": "Yöntem 2: Arama ile",
+        "description": "Videoları doğrudan sitemizden arayın.",
+        "step1": "Arama çubuğuna anahtar kelimelerinizi yazın.",
+        "step2": "Arama sonuçlarından videoyu seçin.",
+        "step3": "İstediğiniz kaliteyi seçin.",
+        "step4": "'İndir'e tıklayın."
+      }
+    }
+  }
+}

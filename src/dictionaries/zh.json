@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "YouTube 缩略图下载器",
+    "description": "在下方粘贴 YouTube 视频链接以下载其缩略图。",
+    "whyChoose": {
+      "title": "为什么选择我们？",
+      "feature": "功能",
+      "benefit": "好处",
+      "features": {
+        "instant": {
+          "feature": "即时下载",
+          "benefit": "在几秒钟内获取缩略图。"
+        },
+        "multiple": {
+          "feature": "多种质量",
+          "benefit": "从各种质量中选择。"
+        },
+        "free": {
+          "feature": "免费使用",
+          "benefit": "我们的服务完全免费。"
+        },
+        "allDevices": {
+          "feature": "适用于所有设备",
+          "benefit": "在任何设备上使用。"
+        },
+        "safe": {
+          "feature": "安全可靠",
+          "benefit": "您的下载是安全的。"
+        }
+      }
+    },
+    "howTo": {
+      "title": "如何下载 YouTube 缩略图？",
+      "method1": {
+        "title": "方法1：通过链接",
+        "step1": "复制 YouTube 视频链接。",
+        "step2": "将链接粘贴到输入框中。",
+        "step3": "单击“获取缩略图”按钮。",
+        "step4": "选择您想要的质量。",
+        "step5": "单击“下载”以保存图像。"
+      },
+      "method2": {
+        "title": "方法2：通过搜索",
+        "description": "直接从我们的网站搜索视频。",
+        "step1": "在搜索栏中输入您的关键字。",
+        "step2": "从搜索结果中选择视频。",
+        "step3": "选择您想要的质量。",
+        "step4": "单击“下载”。"
+      }
+    }
+  }
+}

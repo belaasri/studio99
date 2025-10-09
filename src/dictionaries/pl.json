@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "Pobieracz miniatur z YouTube",
+    "description": "Wklej poniżej link do filmu na YouTube, aby pobrać jego miniaturę.",
+    "whyChoose": {
+      "title": "Dlaczego warto nas wybrać?",
+      "feature": "Cecha",
+      "benefit": "Korzyść",
+      "features": {
+        "instant": {
+          "feature": "Natychmiastowe pobieranie",
+          "benefit": "Pobierz miniatury w kilka sekund."
+        },
+        "multiple": {
+          "feature": "Wiele jakości",
+          "benefit": "Wybieraj spośród różnych jakości."
+        },
+        "free": {
+          "feature": "Darmowe w użyciu",
+          "benefit": "Nasza usługa jest całkowicie darmowa."
+        },
+        "allDevices": {
+          "feature": "Działa na wszystkich urządzeniach",
+          "benefit": "Używaj na dowolnym urządzeniu."
+        },
+        "safe": {
+          "feature": "Bezpieczne i chronione",
+          "benefit": "Twoje pobrania są bezpieczne."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Jak pobierać miniatury z YouTube?",
+      "method1": {
+        "title": "Metoda 1: Za pomocą linku",
+        "step1": "Skopiuj link do filmu na YouTube.",
+        "step2": "Wklej link w pole tekstowe.",
+        "step3": "Kliknij przycisk 'Pobierz miniatury'.",
+        "step4": "Wybierz żądaną jakość.",
+        "step5": "Kliknij 'Pobierz', aby zapisać obraz."
+      },
+      "method2": {
+        "title": "Metoda 2: Za pomocą wyszukiwania",
+        "description": "Szukaj filmów bezpośrednio na naszej stronie.",
+        "step1": "Wpisz słowa kluczowe w pasek wyszukiwania.",
+        "step2": "Wybierz film z wyników wyszukiwania.",
+        "step3": "Wybierz żądaną jakość.",
+        "step4": "Kliknij 'Pobierz'."
+      }
+    }
+  }
+}

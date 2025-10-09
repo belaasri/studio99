@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "Téléchargeur de vignettes YouTube",
+    "description": "Collez un lien de vidéo YouTube ci-dessous pour télécharger sa vignette.",
+    "whyChoose": {
+      "title": "Pourquoi nous choisir ?",
+      "feature": "Fonctionnalité",
+      "benefit": "Avantage",
+      "features": {
+        "instant": {
+          "feature": "Téléchargement instantané",
+          "benefit": "Obtenez des vignettes en quelques secondes."
+        },
+        "multiple": {
+          "feature": "Plusieurs qualités",
+          "benefit": "Choisissez parmi différentes qualités."
+        },
+        "free": {
+          "feature": "Utilisation gratuite",
+          "benefit": "Notre service est entièrement gratuit."
+        },
+        "allDevices": {
+          "feature": "Fonctionne sur tous les appareils",
+          "benefit": "Utilisez-le sur n'importe quel appareil."
+        },
+        "safe": {
+          "feature": "Sûr et sécurisé",
+          "benefit": "Vos téléchargements sont en sécurité."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Comment télécharger les vignettes YouTube ?",
+      "method1": {
+        "title": "Méthode 1 : Par lien",
+        "step1": "Copiez le lien de la vidéo YouTube.",
+        "step2": "Collez le lien dans la zone de saisie.",
+        "step3": "Cliquez sur le bouton 'Obtenir les vignettes'.",
+        "step4": "Choisissez la qualité que vous souhaitez.",
+        "step5": "Cliquez sur 'Télécharger' pour enregistrer l'image."
+      },
+      "method2": {
+        "title": "Méthode 2 : Par recherche",
+        "description": "Recherchez des vidéos directement sur notre site.",
+        "step1": "Tapez vos mots-clés dans la barre de recherche.",
+        "step2": "Sélectionnez la vidéo dans les résultats de recherche.",
+        "step3": "Choisissez la qualité que vous souhaitez.",
+        "step4": "Cliquez sur 'Télécharger'."
+      }
+    }
+  }
+}

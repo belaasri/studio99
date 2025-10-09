@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "Downloader de Miniaturas do YouTube",
+    "description": "Cole um link de vídeo do YouTube abaixo para baixar sua miniatura.",
+    "whyChoose": {
+      "title": "Por que nos escolher?",
+      "feature": "Recurso",
+      "benefit": "Benefício",
+      "features": {
+        "instant": {
+          "feature": "Download Instantâneo",
+          "benefit": "Obtenha miniaturas em segundos."
+        },
+        "multiple": {
+          "feature": "Múltiplas Qualidades",
+          "benefit": "Escolha entre várias qualidades."
+        },
+        "free": {
+          "feature": "Grátis para Usar",
+          "benefit": "Nosso serviço é totalmente gratuito."
+        },
+        "allDevices": {
+          "feature": "Funciona em todos os dispositivos",
+          "benefit": "Use em qualquer dispositivo."
+        },
+        "safe": {
+          "feature": "Seguro e Protegido",
+          "benefit": "Seus downloads são seguros."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Como baixar miniaturas do YouTube?",
+      "method1": {
+        "title": "Método 1: Por Link",
+        "step1": "Copie o link do vídeo do YouTube.",
+        "step2": "Cole o link na caixa de entrada.",
+        "step3": "Clique no botão 'Obter Miniaturas'.",
+        "step4": "Escolha a qualidade que deseja.",
+        "step5": "Clique em 'Baixar' para salvar a imagem."
+      },
+      "method2": {
+        "title": "Método 2: Por Busca",
+        "description": "Procure vídeos diretamente em nosso site.",
+        "step1": "Digite suas palavras-chave na barra de pesquisa.",
+        "step2": "Selecione o vídeo nos resultados da pesquisa.",
+        "step3": "Escolha a qualidade que deseja.",
+        "step4": "Clique em 'Baixar'."
+      }
+    }
+  }
+}

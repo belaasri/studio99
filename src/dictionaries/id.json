@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "Pengunduh Gambar Mini YouTube",
+    "description": "Tempel tautan video YouTube di bawah ini untuk mengunduh gambar mininya.",
+    "whyChoose": {
+      "title": "Mengapa Memilih Kami?",
+      "feature": "Fitur",
+      "benefit": "Manfaat",
+      "features": {
+        "instant": {
+          "feature": "Unduhan Instan",
+          "benefit": "Dapatkan gambar mini dalam hitungan detik."
+        },
+        "multiple": {
+          "feature": "Berbagai Kualitas",
+          "benefit": "Pilih dari berbagai kualitas."
+        },
+        "free": {
+          "feature": "Gratis untuk Digunakan",
+          "benefit": "Layanan kami sepenuhnya gratis."
+        },
+        "allDevices": {
+          "feature": "Berfungsi di Semua Perangkat",
+          "benefit": "Gunakan di perangkat apa pun."
+        },
+        "safe": {
+          "feature": "Aman & Terjamin",
+          "benefit": "Unduhan Anda aman."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Bagaimana Cara Mengunduh Gambar Mini YouTube?",
+      "method1": {
+        "title": "Metode 1: Melalui Tautan",
+        "step1": "Salin tautan video YouTube.",
+        "step2": "Tempel tautan di kotak input.",
+        "step3": "Klik tombol 'Dapatkan Gambar Mini'.",
+        "step4": "Pilih kualitas yang Anda inginkan.",
+        "step5": "Klik 'Unduh' untuk menyimpan gambar."
+      },
+      "method2": {
+        "title": "Metode 2: Melalui Pencarian",
+        "description": "Cari video langsung dari situs kami.",
+        "step1": "Ketik kata kunci Anda di bilah pencarian.",
+        "step2": "Pilih video dari hasil pencarian.",
+        "step3": "Pilih kualitas yang Anda inginkan.",
+        "step4": "Klik 'Unduh'."
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "Descărcător de miniaturi YouTube",
+    "description": "Lipiți un link video YouTube mai jos pentru a descărca miniatura acestuia.",
+    "whyChoose": {
+      "title": "De ce să ne alegeți?",
+      "feature": "Caracteristică",
+      "benefit": "Beneficiu",
+      "features": {
+        "instant": {
+          "feature": "Descărcare instantanee",
+          "benefit": "Obțineți miniaturi în câteva secunde."
+        },
+        "multiple": {
+          "feature": "Calități multiple",
+          "benefit": "Alegeți din diverse calități."
+        },
+        "free": {
+          "feature": "Gratuit de utilizat",
+          "benefit": "Serviciul nostru este complet gratuit."
+        },
+        "allDevices": {
+          "feature": "Funcționează pe toate dispozitivele",
+          "benefit": "Utilizați pe orice dispozitiv."
+        },
+        "safe": {
+          "feature": "Sigur și securizat",
+          "benefit": "Descărcările dvs. sunt sigure."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Cum se descarcă miniaturi YouTube?",
+      "method1": {
+        "title": "Metoda 1: Prin link",
+        "step1": "Copiați linkul video YouTube.",
+        "step2": "Lipiți linkul în caseta de introducere.",
+        "step3": "Faceți clic pe butonul 'Obțineți miniaturi'.",
+        "step4": "Alegeți calitatea dorită.",
+        "step5": "Faceți clic pe 'Descărcați' pentru a salva imaginea."
+      },
+      "method2": {
+        "title": "Metoda 2: Prin căutare",
+        "description": "Căutați videoclipuri direct de pe site-ul nostru.",
+        "step1": "Introduceți cuvintele cheie în bara de căutare.",
+        "step2": "Selectați videoclipul din rezultatele căutării.",
+        "step3": "Alegeți calitatea dorită.",
+        "step4": "Faceți clic pe 'Descărcați'."
+      }
+    }
+  }
+}

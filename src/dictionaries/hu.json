@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "YouTube bélyegkép letöltő",
+    "description": "Illesszen be egy YouTube videó linket alább a bélyegkép letöltéséhez.",
+    "whyChoose": {
+      "title": "Miért válasszon minket?",
+      "feature": "Funkció",
+      "benefit": "Előny",
+      "features": {
+        "instant": {
+          "feature": "Azonnali letöltés",
+          "benefit": "Szerezzen bélyegképeket másodpercek alatt."
+        },
+        "multiple": {
+          "feature": "Több minőség",
+          "benefit": "Válasszon a különböző minőségek közül."
+        },
+        "free": {
+          "feature": "Ingyenesen használható",
+          "benefit": "Szolgáltatásunk teljesen ingyenes."
+        },
+        "allDevices": {
+          "feature": "Minden eszközön működik",
+          "benefit": "Használja bármilyen eszközön."
+        },
+        "safe": {
+          "feature": "Biztonságos és védett",
+          "benefit": "A letöltései biztonságban vannak."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Hogyan töltsünk le YouTube bélyegképeket?",
+      "method1": {
+        "title": "1. módszer: Link segítségével",
+        "step1": "Másolja ki a YouTube videó linkjét.",
+        "step2": "Illessze be a linket a beviteli mezőbe.",
+        "step3": "Kattintson a 'Bélyegképek lekérése' gombra.",
+        "step4": "Válassza ki a kívánt minőséget.",
+        "step5": "Kattintson a 'Letöltés' gombra a kép mentéséhez."
+      },
+      "method2": {
+        "title": "2. módszer: Keresés segítségével",
+        "description": "Keressen videókat közvetlenül az oldalunkról.",
+        "step1": "Írja be a kulcsszavakat a keresőmezőbe.",
+        "step2": "Válassza ki a videót a keresési eredmények közül.",
+        "step3": "Válassza ki a kívánt minőséget.",
+        "step4": "Kattintson a 'Letöltés' gombra."
+      }
+    }
+  }
+}

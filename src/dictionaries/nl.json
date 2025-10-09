@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "YouTube-miniatuurdownloader",
+    "description": "Plak hieronder een YouTube-videolink om de miniatuur te downloaden.",
+    "whyChoose": {
+      "title": "Waarom voor ons kiezen?",
+      "feature": "Functie",
+      "benefit": "Voordeel",
+      "features": {
+        "instant": {
+          "feature": "Direct downloaden",
+          "benefit": "Krijg miniaturen in seconden."
+        },
+        "multiple": {
+          "feature": "Meerdere kwaliteiten",
+          "benefit": "Kies uit verschillende kwaliteiten."
+        },
+        "free": {
+          "feature": "Gratis te gebruiken",
+          "benefit": "Onze service is volledig gratis."
+        },
+        "allDevices": {
+          "feature": "Werkt op alle apparaten",
+          "benefit": "Gebruik het op elk apparaat."
+        },
+        "safe": {
+          "feature": "Veilig & Beveiligd",
+          "benefit": "Uw downloads zijn veilig."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Hoe download je YouTube-miniaturen?",
+      "method1": {
+        "title": "Methode 1: Via link",
+        "step1": "Kopieer de YouTube-videolink.",
+        "step2": "Plak de link in het invoerveld.",
+        "step3": "Klik op de knop 'Miniaturen ophalen'.",
+        "step4": "Kies de gewenste kwaliteit.",
+        "step5": "Klik op 'Downloaden' om de afbeelding op te slaan."
+      },
+      "method2": {
+        "title": "Methode 2: Via zoeken",
+        "description": "Zoek video's rechtstreeks vanaf onze site.",
+        "step1": "Typ uw trefwoorden in de zoekbalk.",
+        "step2": "Selecteer de video uit de zoekresultaten.",
+        "step3": "Kies de gewenste kwaliteit.",
+        "step4": "Klik op 'Downloaden'."
+      }
+    }
+  }
+}

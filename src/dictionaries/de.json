@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "YouTube Thumbnail Downloader",
+    "description": "Fügen Sie unten einen YouTube-Videolink ein, um das Thumbnail herunterzuladen.",
+    "whyChoose": {
+      "title": "Warum uns wählen?",
+      "feature": "Merkmal",
+      "benefit": "Vorteil",
+      "features": {
+        "instant": {
+          "feature": "Sofortiger Download",
+          "benefit": "Erhalten Sie Thumbnails in Sekunden."
+        },
+        "multiple": {
+          "feature": "Mehrere Qualitäten",
+          "benefit": "Wählen Sie aus verschiedenen Qualitäten."
+        },
+        "free": {
+          "feature": "Kostenlose Nutzung",
+          "benefit": "Unser Service ist völlig kostenlos."
+        },
+        "allDevices": {
+          "feature": "Funktioniert auf allen Geräten",
+          "benefit": "Verwenden Sie es auf jedem Gerät."
+        },
+        "safe": {
+          "feature": "Sicher & Geschützt",
+          "benefit": "Ihre Downloads sind sicher."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Wie lädt man YouTube-Thumbnails herunter?",
+      "method1": {
+        "title": "Methode 1: Über Link",
+        "step1": "Kopieren Sie den YouTube-Videolink.",
+        "step2": "Fügen Sie den Link in das Eingabefeld ein.",
+        "step3": "Klicken Sie auf die Schaltfläche 'Thumbnails abrufen'.",
+        "step4": "Wählen Sie die gewünschte Qualität.",
+        "step5": "Klicken Sie auf 'Herunterladen', um das Bild zu speichern."
+      },
+      "method2": {
+        "title": "Methode 2: Über die Suche",
+        "description": "Suchen Sie Videos direkt von unserer Seite.",
+        "step1": "Geben Sie Ihre Schlüsselwörter in die Suchleiste ein.",
+        "step2": "Wählen Sie das Video aus den Suchergebnissen aus.",
+        "step3": "Wählen Sie die gewünschte Qualität.",
+        "step4": "Klicken Sie auf 'Herunterladen'."
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "Trình tải xuống hình thu nhỏ của YouTube",
+    "description": "Dán một liên kết video YouTube bên dưới để tải xuống hình thu nhỏ của nó.",
+    "whyChoose": {
+      "title": "Tại sao chọn chúng tôi?",
+      "feature": "Tính năng",
+      "benefit": "Lợi ích",
+      "features": {
+        "instant": {
+          "feature": "Tải xuống tức thì",
+          "benefit": "Nhận hình thu nhỏ trong vài giây."
+        },
+        "multiple": {
+          "feature": "Nhiều chất lượng",
+          "benefit": "Chọn từ các chất lượng khác nhau."
+        },
+        "free": {
+          "feature": "Miễn phí sử dụng",
+          "benefit": "Dịch vụ của chúng tôi hoàn toàn miễn phí."
+        },
+        "allDevices": {
+          "feature": "Hoạt động trên mọi thiết bị",
+          "benefit": "Sử dụng trên mọi thiết bị."
+        },
+        "safe": {
+          "feature": "An toàn & Bảo mật",
+          "benefit": "Các bản tải xuống của bạn được an toàn."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Làm thế nào để tải xuống hình thu nhỏ của YouTube?",
+      "method1": {
+        "title": "Phương pháp 1: Bằng liên kết",
+        "step1": "Sao chép liên kết video YouTube.",
+        "step2": "Dán liên kết vào hộp nhập liệu.",
+        "step3": "Nhấp vào nút 'Lấy hình thu nhỏ'.",
+        "step4": "Chọn chất lượng bạn muốn.",
+        "step5": "Nhấp vào 'Tải xuống' để lưu hình ảnh."
+      },
+      "method2": {
+        "title": "Phương pháp 2: Bằng cách tìm kiếm",
+        "description": "Tìm kiếm video trực tiếp từ trang web của chúng tôi.",
+        "step1": "Nhập từ khóa của bạn vào thanh tìm kiếm.",
+        "step2": "Chọn video từ kết quả tìm kiếm.",
+        "step3": "Chọn chất lượng bạn muốn.",
+        "step4": "Nhấp vào 'Tải xuống'."
+      }
+    }
+  }
+}

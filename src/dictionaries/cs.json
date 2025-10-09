@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "Stahovač miniatur z YouTube",
+    "description": "Vložte odkaz na video z YouTube níže a stáhněte si jeho miniaturu.",
+    "whyChoose": {
+      "title": "Proč si vybrat nás?",
+      "feature": "Funkce",
+      "benefit": "Výhoda",
+      "features": {
+        "instant": {
+          "feature": "Okamžité stažení",
+          "benefit": "Získejte miniatury během několika sekund."
+        },
+        "multiple": {
+          "feature": "Více kvalit",
+          "benefit": "Vyberte si z různých kvalit."
+        },
+        "free": {
+          "feature": "Zdarma k použití",
+          "benefit": "Naše služba je zcela zdarma."
+        },
+        "allDevices": {
+          "feature": "Funguje na všech zařízeních",
+          "benefit": "Používejte na jakémkoli zařízení."
+        },
+        "safe": {
+          "feature": "Bezpečné a zabezpečené",
+          "benefit": "Vaše stahování je v bezpečí."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Jak stáhnout miniatury z YouTube?",
+      "method1": {
+        "title": "Metoda 1: Pomocí odkazu",
+        "step1": "Zkopírujte odkaz na video z YouTube.",
+        "step2": "Vložte odkaz do vstupního pole.",
+        "step3": "Klikněte na tlačítko 'Získat miniatury'.",
+        "step4": "Vyberte si požadovanou kvalitu.",
+        "step5": "Klikněte na 'Stáhnout' pro uložení obrázku."
+      },
+      "method2": {
+        "title": "Metoda 2: Pomocí vyhledávání",
+        "description": "Hledejte videa přímo z našich stránek.",
+        "step1": "Zadejte klíčová slova do vyhledávacího pole.",
+        "step2": "Vyberte video z výsledků vyhledávání.",
+        "step3": "Vyberte si požadovanou kvalitu.",
+        "step4": "Klikněte na 'Stáhnout'."
+      }
+    }
+  }
+}

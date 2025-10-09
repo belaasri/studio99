@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "YouTube miniatyrnedladdare",
+    "description": "Klistra in en YouTube-videolänk nedan för att ladda ner dess miniatyr.",
+    "whyChoose": {
+      "title": "Varför välja oss?",
+      "feature": "Funktion",
+      "benefit": "Fördel",
+      "features": {
+        "instant": {
+          "feature": "Omedelbar nedladdning",
+          "benefit": "Få miniatyrer på några sekunder."
+        },
+        "multiple": {
+          "feature": "Flera kvaliteter",
+          "benefit": "Välj mellan olika kvaliteter."
+        },
+        "free": {
+          "feature": "Gratis att använda",
+          "benefit": "Vår tjänst är helt gratis."
+        },
+        "allDevices": {
+          "feature": "Fungerar på alla enheter",
+          "benefit": "Använd den på vilken enhet som helst."
+        },
+        "safe": {
+          "feature": "Säker & trygg",
+          "benefit": "Dina nedladdningar är säkra."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Hur laddar man ner YouTube-miniatyrer?",
+      "method1": {
+        "title": "Metod 1: Via länk",
+        "step1": "Kopiera YouTube-videolänken.",
+        "step2": "Klistra in länken i inmatningsrutan.",
+        "step3": "Klicka på knappen 'Hämta miniatyrer'.",
+        "step4": "Välj den kvalitet du vill ha.",
+        "step5": "Klicka på 'Ladda ner' för att spara bilden."
+      },
+      "method2": {
+        "title": "Metod 2: Via sökning",
+        "description": "Sök efter videor direkt från vår webbplats.",
+        "step1": "Skriv in dina sökord i sökfältet.",
+        "step2": "Välj videon från sökresultaten.",
+        "step3": "Välj den kvalitet du vill ha.",
+        "step4": "Klicka på 'Ladda ner'."
+      }
+    }
+  }
+}

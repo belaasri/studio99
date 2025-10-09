@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "Pemuat Turun Imej Kenit YouTube",
+    "description": "Tampal pautan video YouTube di bawah untuk memuat turun imej kenitnya.",
+    "whyChoose": {
+      "title": "Kenapa Pilih Kami?",
+      "feature": "Ciri",
+      "benefit": "Faedah",
+      "features": {
+        "instant": {
+          "feature": "Muat Turun Segera",
+          "benefit": "Dapatkan imej kenit dalam beberapa saat."
+        },
+        "multiple": {
+          "feature": "Pelbagai Kualiti",
+          "benefit": "Pilih daripada pelbagai kualiti."
+        },
+        "free": {
+          "feature": "Percuma untuk Digunakan",
+          "benefit": "Perkhidmatan kami adalah percuma sepenuhnya."
+        },
+        "allDevices": {
+          "feature": "Berfungsi pada Semua Peranti",
+          "benefit": "Gunakan pada mana-mana peranti."
+        },
+        "safe": {
+          "feature": "Selamat & Terjamin",
+          "benefit": "Muat turun anda selamat."
+        }
+      }
+    },
+    "howTo": {
+      "title": "Bagaimana untuk Memuat Turun Imej Kenit YouTube?",
+      "method1": {
+        "title": "Kaedah 1: Melalui Pautan",
+        "step1": "Salin pautan video YouTube.",
+        "step2": "Tampal pautan dalam kotak input.",
+        "step3": "Klik butang 'Dapatkan Imej Kenit'.",
+        "step4": "Pilih kualiti yang anda mahu.",
+        "step5": "Klik 'Muat Turun' untuk menyimpan imej."
+      },
+      "method2": {
+        "title": "Kaedah 2: Melalui Carian",
+        "description": "Cari video terus dari laman web kami.",
+        "step1": "Taip kata kunci anda di bar carian.",
+        "step2": "Pilih video dari hasil carian.",
+        "step3": "Pilih kualiti yang anda mahu.",
+        "step4": "Klik 'Muat Turun'."
+      }
+    }
+  }
+}
