@@ -1,0 +1,52 @@
+{
+  "home": {
+    "title": "YouTube Thumbnail Downloader",
+    "description": "Paste a YouTube video link below to download its thumbnail.",
+    "whyChoose": {
+      "title": "Why Choose Us?",
+      "feature": "Feature",
+      "benefit": "Benefit",
+      "features": {
+        "instant": {
+          "feature": "Instant Download",
+          "benefit": "Get thumbnails in seconds."
+        },
+        "multiple": {
+          "feature": "Multiple Qualities",
+          "benefit": "Choose from various qualities."
+        },
+        "free": {
+          "feature": "Free to Use",
+          "benefit": "Our service is completely free."
+        },
+        "allDevices": {
+          "feature": "Works on All Devices",
+          "benefit": "Use it on any device."
+        },
+        "safe": {
+          "feature": "Safe & Secure",
+          "benefit": "Your downloads are safe."
+        }
+      }
+    },
+    "howTo": {
+      "title": "How to Download YouTube Thumbnails?",
+      "method1": {
+        "title": "Method 1: By Link",
+        "step1": "Copy the YouTube video link.",
+        "step2": "Paste the link in the input box.",
+        "step3": "Click the 'Get Thumbnails' button.",
+        "step4": "Choose the quality you want.",
+        "step5": "Click 'Download' to save the image."
+      },
+      "method2": {
+        "title": "Method 2: By Search",
+        "description": "Search for videos directly from our site.",
+        "step1": "Type your keywords in the search bar.",
+        "step2": "Select the video from the search results.",
+        "step3": "Choose the quality you want.",
+        "step4": "Click 'Download'."
+      }
+    }
+  }
+}
