@@ -10,7 +10,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { Globe } from "lucide-react";
 import { usePathname } from "next/navigation";
-import Link from "next/link";
 import { i18n, type Locale } from "@/i18n-config";
 
 const languageNames: Record<Locale, string> = {
@@ -32,7 +31,7 @@ const languageNames: Record<Locale, string> = {
     nl: "Dutch",
     pl: "Polish",
     pt: "Portuguese",
-ro: "Romanian",
+    ro: "Romanian",
     ru: "Russian",
     sr: "Serbian",
     sv: "Swedish",
@@ -62,8 +61,8 @@ export function LanguageSwitcher() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         {i18n.locales.map((locale) => (
-          <DropdownMenuItem key={locale}>
-            <Link href={redirectedPathName(locale)}>{languageNames[locale]}</Link>
+          <DropdownMenuItem key={locale} asChild>
+            <a href={redirectedPathName(locale)}>{languageNames[locale]}</a>
           </DropdownMenuItem>
         ))}
       </DropdownMenuContent>
