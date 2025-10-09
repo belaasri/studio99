@@ -42,17 +42,17 @@ function ThumbnailDownloaderFormContent({ data }: { data?: FormState["data"] }) 
   };
 
   const thumbnailDetails = [
-    { label: "Max Resolution", resolution: "1280x720", key: "Max Resolution" },
-    { label: "Standard Definition", resolution: "640x480", key: "Standard" },
-    { label: "High Quality", resolution: "480x360", key: "High" },
-    { label: "Medium Quality", resolution: "320x180", key: "Medium" },
-    { label: "Default", resolution: "120x90", key: "Default" },
+    { label: "Max Resolution", resolution: "1280x720", key: "Max Resolution", widthClass: "max-w-4xl" },
+    { label: "Standard Definition", resolution: "640x480", key: "Standard", widthClass: "max-w-2xl" },
+    { label: "High Quality", resolution: "480x360", key: "High", widthClass: "max-w-lg" },
+    { label: "Medium Quality", resolution: "320x180", key: "Medium", widthClass: "max-w-sm" },
+    { label: "Default", resolution: "120x90", key: "Default", widthClass: "max-w-xs" },
   ]
 
   const thumbnails = data?.thumbnails ? thumbnailDetails.map(detail => {
     const thumbnailData = data.thumbnails.find(t => t.resolution === detail.key);
     return thumbnailData ? { ...detail, url: thumbnailData.url } : null;
-  }).filter(Boolean) as ({ label: string, resolution: string, key: string, url: string }[]) : [];
+  }).filter(Boolean) as ({ label: string, resolution: string, key: string, url: string, widthClass: string }[]) : [];
 
 
   return (
@@ -96,31 +96,33 @@ function ThumbnailDownloaderFormContent({ data }: { data?: FormState["data"] }) 
           <Separator className="my-6" />
           <CardFooter className="flex flex-col items-center gap-8 p-0">
             {pending && (
-               <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-               {[...Array(3)].map((_, i) => (
-                 <div key={i} className="w-full space-y-2 flex flex-col items-center">
+               <div className="w-full flex flex-col items-center gap-8">
+                <div className="w-full max-w-4xl space-y-2 flex flex-col items-center">
                    <Skeleton className="h-6 w-1/2" />
                    <Skeleton className="aspect-video w-full" />
                    <Skeleton className="h-10 w-3/4" />
-                 </div>
-               ))}
+                </div>
+                <div className="w-full max-w-2xl space-y-2 flex flex-col items-center">
+                   <Skeleton className="h-6 w-1/2" />
+                   <Skeleton className="aspect-video w-full" />
+                   <Skeleton className="h-10 w-3/4" />
+                </div>
              </div>
             )}
             {!pending && thumbnails.length > 0 && (
-                <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {thumbnails.slice(0, 3).map((thumbnail) => (
-                  <div key={thumbnail.key} className="w-full space-y-2 text-center">
+                <div className="w-full flex flex-col items-center gap-8">
+                {thumbnails.map((thumbnail) => (
+                  <div key={thumbnail.key} className={`w-full ${thumbnail.widthClass} space-y-2 text-center`}>
                     <h3 className="text-lg font-semibold">
-                      {thumbnail.label}
+                      {thumbnail.label} <span className="text-sm text-muted-foreground">({thumbnail.resolution})</span>
                     </h3>
-                     <p className="text-sm text-muted-foreground">({thumbnail.resolution})</p>
                     <div className="relative aspect-video w-full overflow-hidden rounded-lg border shadow-md">
                       <Image
                         src={thumbnail.url}
                         alt={`YouTube Thumbnail ${thumbnail.label} ${thumbnail.resolution}`}
                         fill
                         className="object-cover"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        sizes={`(max-width: 768px) 100vw, ${thumbnail.widthClass}`}
                       />
                     </div>
                     <Button variant="outline" size="sm" onClick={() => handleDownload(thumbnail.url, thumbnail.resolution)}>
