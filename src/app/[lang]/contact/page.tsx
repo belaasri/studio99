@@ -21,8 +21,22 @@ export default function ContactPage({
   }: {
     params: { lang: Locale };
   }) {
+
+    const webPageSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: 'Contact Us',
+        url: `https://www.savethumb.com/${lang}/contact`,
+        description: 'Get in touch with the SaveThumb team. We are here to help with any questions or feedback.',
+      };
+
+
     return (
         <main className="flex flex-1 flex-col items-center p-4 md:p-6">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+            />
             <section className="w-full max-w-4xl py-12 md:py-20">
             <Card>
                 <CardContent className="p-8 text-left">

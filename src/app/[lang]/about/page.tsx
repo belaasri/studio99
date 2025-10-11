@@ -21,8 +21,21 @@ export default function AboutPage({
   }: {
     params: { lang: Locale };
   }) {
+
+    const webPageSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: 'About Us',
+        url: `https://www.savethumb.com/${lang}/about`,
+        description: 'Learn more about SaveThumb, our mission, and the team behind the best YouTube thumbnail downloader.',
+      };
+
     return (
         <main className="flex flex-1 flex-col items-center p-4 md:p-6">
+             <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+            />
             <section className="w-full max-w-4xl py-12 md:py-20">
             <Card>
                 <CardContent className="p-8 text-left">

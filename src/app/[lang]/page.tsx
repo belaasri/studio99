@@ -11,8 +11,73 @@ export default async function Home({
   const dictionary = await getDictionary(lang);
   const content = dictionary.home;
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: content.faq.questions.map((item: any) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a.replace(/<[^>]*>?/gm, ''), // Remove HTML tags for schema
+      },
+    })),
+  };
+
+  const softwareSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'YouTube Thumbnail Downloader',
+    operatingSystem: 'Web-based',
+    applicationCategory: 'MultimediaApplication',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+    },
+    description: content.subtitle,
+    featureList: content.whyChoose.features.map((feature: any) => feature.title),
+  };
+
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'SaveThumb',
+    url: `https://www.savethumb.com/${lang}`,
+    logo: `https://www.savethumb.com/logo.png`, // You should create this logo
+  };
+
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'SaveThumb',
+    url: 'https://www.savethumb.com',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `https://www.savethumb.com/${lang}?q={search_term_string}`,
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
   return (
       <main className="flex flex-1 flex-col items-center p-4 text-center md:p-6">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+
         <section className="w-full max-w-4xl pt-12 pb-6 md:pt-20">
           <h1 className="text-4xl font-bold tracking-tighter md:text-5xl" dangerouslySetInnerHTML={{ __html: content.title }} />
           <h2 className="mx-auto mt-4 max-w-3xl text-lg text-gray-600" dangerouslySetInnerHTML={{ __html: content.subtitle }} />
